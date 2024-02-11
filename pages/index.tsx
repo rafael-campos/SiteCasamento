@@ -1,34 +1,22 @@
-import { Typography, Button } from 'antd';
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
 import { useEffect } from 'react';
-
-const { Title, Text } = Typography;
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   useEffect(() => {
-    // Código do lado do cliente aqui, se necessário
-
-    return () => {
-      // Limpeza, se necessário
-    };
+    return () => {};
   }, []);
 
   return (
-    <div className=" flex items-center justify-center min-h-screen ">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100">
       <div className="mx-auto">
         <div className="container bg-white p-8 border border-yellow-50 text-center">
-          <Title level={1}>Mirelle</Title>
-          <Title level={2}>Rafael</Title>
-          <Text>24/08/24</Text>
+          <h1 className="text-4xl font-bold mb-2">Mirelle & Rafael</h1>
+          <h2 className="text-2xl mb-2">24/08/24</h2>
+          <p className="mb-4">Bem-vindo ao nosso site de casamento! Estamos muito felizes e contamos com a presença de todos no nosso grande dia!</p>
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Confirme sua Presença
+          </button>
         </div>
-      </div>
-
-
-
-    
+      </div>  
     </div>
   );
 }
