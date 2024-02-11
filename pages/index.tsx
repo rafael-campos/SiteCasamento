@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-2">Rafael </h1>
           <h2 className="text-2xl mb-2">24/08/24</h2>
           <p className="mb-4">Bem-vindo ao nosso site de casamento! Estamos muito felizes <br/> e contamos com a presença de todos no nosso grande dia!</p>
-          <button className="bg-blue-500 hover:bg-bg-red text-white font-bold py-2 px-4 rounded">
+          <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
             Te Amo Muito Amor
           </button>
         </div>
