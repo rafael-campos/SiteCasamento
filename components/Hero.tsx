@@ -10,7 +10,7 @@ export default function Hero() {
             Junte-se a nós para celebrar o nosso casamento!
           </p>
           <p className="text-black font-andika text-justify mt-2">
-            Data: 24 de agosto de 2024
+            Data: 24 de agosto de 20245
           </p>
           <div className="mt-8">
             <button className="inline-block bg-serenity text-white mt-3 py-1 px-6 rounded-lg font-medium text-lg cursor-pointer shadow-md hover:bg-serenity-dark transition-colors">
