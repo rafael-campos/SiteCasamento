@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           <Link href="#galeria" passHref><span className="text-gray-600 hover:text-gray-800 transition-all duration-300 cursor-pointer">Galeria</span></Link>
         </div>
         <div className="w-1/3 flex justify-center">
-          <Link href="/" passHref><img src="/path/to/your/logo.png" alt="Logo do Casamento" className="h-8" /></Link>
+          <Link href="/" passHref><img src="/images/logo.png" alt="Logo do Casamento" className="h-8" /></Link>
         </div>
         <div className="flex justify-end w-1/3 space-x-4">
           <Link href="#lista-de-presentes" passHref><span className="text-gray-600 hover:text-gray-800 transition-all duration-300 cursor-pointer">Lista de Presentes</span></Link>
