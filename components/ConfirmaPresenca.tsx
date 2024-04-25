@@ -6,7 +6,7 @@ export default function ConfirmarPresenca() {
                     <div id="envelope" >
                         <div id="card">
                             <div id="text">
-                                Happy <br/> Valentines <br/> Day
+                                Confirme <br/> Sua <br/> Presença
                             </div>
                             <div id='heart'>
 
