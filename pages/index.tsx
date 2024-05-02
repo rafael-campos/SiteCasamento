@@ -7,6 +7,7 @@ import Banner from '@/components/Banner';
 import ConfirmarPresenca from '@/components/ConfirmaPresenca';
 import Informacoes from '@/components/Informacoes';
 import ListaDePresentes from '@/components/ListaDePresente';
+import Rsvp from '@/components/Rsvp';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Banner/>
       <Informacoes />
       <ConfirmarPresenca/>
+      <Rsvp/>
       <ListaDePresentes/>
 
     </div>
