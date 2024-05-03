@@ -32,44 +32,43 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     });
 
     return (
-        <div>
-            <p className='text-center text-2xl font-bold'>Contagem Regressiva</p>
-            <div className='flex gap-2 justify-center mt-2'>
-                <div className='bg-white text-black   w-24 h-20  '>
-                    <div className='h-7 w-full bg-blue-200'>
-                        <p className='text-center font-bold text-lg'> Dias</p>
+        <div className='text-center text-2xl font-bold'>
+            <p>Contagem Regressiva</p>
+            <div className='flex flex-wrap gap-2 justify-center mt-2'>
+                <div className='bg-white text-black w-24 h-20 md:w-32 md:h-24'>
+                    <div className='h-7 md:h-10 w-full bg-blue-200'>
+                        <p className='font-bold text-lg md:text-xl'>Dias</p>
                     </div>
-                    <div className='flex justify-center items-center h-12 text-3xl font-bold'>
+                    <div className='flex justify-center items-center h-12 md:h-14 text-3xl md:text-4xl font-bold'>
                         {timeLeft.days}
                     </div>
                 </div>
-                <div className='bg-white text-black   w-24 h-20  '>
-                    <div className='h-7 w-full bg-blue-200'>
-                        <p className='text-center font-bold text-lg'>Horas</p>
+                <div className='bg-white text-black w-24 h-20 md:w-32 md:h-24'>
+                    <div className='h-7 md:h-10 w-full bg-blue-200'>
+                        <p className='font-bold text-lg md:text-xl'>Horas</p>
                     </div>
-                    <div className='flex justify-center items-center h-12 text-3xl font-bold'>
+                    <div className='flex justify-center items-center h-12 md:h-14 text-3xl md:text-4xl font-bold'>
                         {timeLeft.hours}
                     </div>
                 </div>
-                <div className='bg-white text-black   w-24 h-20  '>
-                    <div className='h-7 w-full bg-blue-200'>
-                        <p className='text-center font-bold text-lg'>Minutos</p>
+                <div className='bg-white text-black w-24 h-20 md:w-32 md:h-24'>
+                    <div className='h-7 md:h-10 w-full bg-blue-200'>
+                        <p className='font-bold text-lg md:text-xl'>Minutos</p>
                     </div>
-                    <div className='flex justify-center items-center h-12 text-3xl font-bold'>
+                    <div className='flex justify-center items-center h-12 md:h-14 text-3xl md:text-4xl font-bold'>
                         {timeLeft.minutes}
                     </div>
                 </div>
-                <div className='bg-white text-black   w-24 h-20  '>
-                    <div className='h-7 w-full bg-blue-200'>
-                        <p className='text-center font-bold text-lg'>Segundos</p>
+                <div className='bg-white text-black w-24 h-20 md:w-32 md:h-24'>
+                    <div className='h-7 md:h-10 w-full bg-blue-200'>
+                        <p className='font-bold text-lg md:text-xl'>Segundos</p>
                     </div>
-                    <div className='flex justify-center items-center h-12 text-3xl font-bold'>
+                    <div className='flex justify-center items-center h-12 md:h-14 text-3xl md:text-4xl font-bold'>
                         {timeLeft.seconds}
                     </div>
                 </div>
             </div>
         </div>
-
     );
 };
 

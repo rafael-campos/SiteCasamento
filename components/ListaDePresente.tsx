@@ -84,11 +84,14 @@ const ListaDePresentes: React.FC = () => {
                   <p className="text-gray-600 text-sm">{presente.descricao}</p>
                 </div>
                 <Link href={`/${presente.id}`} passHref>
-                  <span className="text-lg font-bold text-gray-800 p-2 pr-10">{presente.preco}</span>
-                  <button className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 my-2 px-6 rounded-lg font-medium text-md cursor-pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors" onClick={() => window.open(`/${presente.id}`, '_blank')}>
-                    Presentear
-                  </button>
+                  <div className="flex justify-between items-center">
+                    <span className="text-lg font-bold text-gray-800 p-2 pr-10">{presente.preco}</span>
+                    <button className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 my-2 px-6 rounded-lg font-medium text-md cursor-pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors">
+                      Presentear
+                    </button>
+                  </div>
                 </Link>
+
 
               </div>
             </motion.div>
