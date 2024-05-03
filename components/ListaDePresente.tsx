@@ -1,10 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link'; // Importe o Link do Next.js
+import Link from 'next/link';
 
 // Interface para definir a estrutura de cada presente
 interface Presente {
-  id: string; // Adicione a propriedade id
+  id: string;
   imagem: string;
   nome: string;
   descricao: string;
@@ -12,7 +12,7 @@ interface Presente {
 }
 
 const ListaDePresentes: React.FC = () => {
-  // Framer Motion variants (unchanged from previous version)
+  // Framer Motion variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -22,6 +22,7 @@ const ListaDePresentes: React.FC = () => {
       },
     },
   };
+
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 },
@@ -57,6 +58,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Um jantar inesquecível em um restaurante renomado.',
       preco: 'R$ 800,00',
     },
+    // Adicione mais presentes conforme necessário
   ];
 
   return (
@@ -69,27 +71,26 @@ const ListaDePresentes: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">Lista de Presentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {presentes.map((presente, index) => (
-            <motion.div key={index} variants={itemVariants}>
-              <Link href={`/${presente.id}`} passHref> {/* Link para a página do presente */}
-                <div className="bg-white rounded-lg shadow-md overflow-hidden relative cursor-pointer">
-                  {/* Relative para posicionar o preço */}
-                  <img 
-                    src={presente.imagem} 
-                    alt={presente.nome} 
-                    className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300 ease-out" 
-                  />
-                  <div className="p-4">
-                    <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
-                    <p className="text-gray-600 text-sm">{presente.descricao}</p>
-                  </div>
-
-                  {/* Preço posicionado no canto superior direito */}
-                  <span className="absolute top-2 right-2 bg-gray-800 text-white text-sm px-2 py-1 rounded-md">
-                    {presente.preco}
-                  </span>
+          {presentes.map((presente) => (
+            <motion.div key={presente.id} variants={itemVariants} className="flex flex-col h-full">
+              <div className="bg-white rounded-lg shadow-md overflow-hidden relative flex flex-col justify-between h-full">
+                <img
+                  src={presente.imagem}
+                  alt={presente.nome}
+                  className="w-full h-48   object-cover"
+                />
+                <div className="p-4 flex-grow">
+                  <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
+                  <p className="text-gray-600 text-sm">{presente.descricao}</p>
                 </div>
-              </Link> 
+                <Link href={`/${presente.id}`} passHref>
+                  <span className="text-lg font-bold text-gray-800 p-2 pr-10">{presente.preco}</span>
+                  <button className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 my-2 px-6 rounded-lg font-medium text-md cursor-pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors" onClick={() => window.open(`/${presente.id}`, '_blank')}>
+                    Presentear
+                  </button>
+                </Link>
+
+              </div>
             </motion.div>
           ))}
         </div>
