@@ -39,14 +39,14 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '2',
-      imagem: '/images/presentes/paris.webp',
+      imagem: '/images/presentes/jantar.webp',
       nome: 'Viagem Romântica para Paris',
       descricao: 'Contribua para a lua de mel dos sonhos do casal na cidade do amor.',
       preco: 'R$ 10.000,00',
     },
     {
       id: '3',
-      imagem: '/images/presentes/adega.webp',
+      imagem: '/images/presentes/jantar.webp',
       nome: 'Adega Climatizada',
       descricao: 'Para os amantes de vinho, uma adega climatizada para armazenar suas garrafas favoritas.',
       preco: 'R$ 2.500,00',
@@ -77,7 +77,7 @@ const ListaDePresentes: React.FC = () => {
                 <img
                   src={presente.imagem}
                   alt={presente.nome}
-                  className="w-full h-48   object-cover"
+                  className="w-full h-48  p-2 object-cover"
                 />
                 <div className="p-4 flex-grow">
                   <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
