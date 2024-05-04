@@ -32,10 +32,10 @@ const ListaDePresentes: React.FC = () => {
   const presentes: Presente[] = [
     {
       id: '1',
-      imagem: '/images/presentes/jantar.webp',
-      nome: 'Jogo de Jantar de Porcelana',
-      descricao: 'Um elegante jogo de jantar para 12 pessoas, perfeito para ocasiões especiais.',
-      preco: 'R$ 1.200,00',
+      imagem: '/images/presentes/microondas.webp',
+      nome: 'Microndas',
+      descricao: 'Não tem como hoje em dia ficar sem Micro-ondas não é mesmo?',
+      preco: 'R$ 667,00',
     },
     {
       id: '2',

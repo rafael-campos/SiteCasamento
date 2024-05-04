@@ -20,10 +20,10 @@ const presentes: Presente[] = [
     // ... seus outros presentes ...
     {
         id: '1',
-        imagem: '/images/presentes/jantar.webp',
-        nome: 'Jogo de Jantar de Porcelana',
-        descricao: 'Um elegante jogo de jantar para 12 pessoas, perfeito para ocasiões especiais.',
-        preco: 'R$ 11,00',
+        imagem: '/images/presentes/microondas.webp',
+        nome: 'Microondas',
+        descricao: 'Não tem como hoje em dia ficar sem Micro-ondas não é mesmo?',
+        preco: 'R$ 667,00',
         codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210microondas520400005303986540511.005802BR5922Rafael Henrique Campos6008Brasilia62090505ovucr63042700', // Código Pix para o presente específico
     },
     // ... seus outros presentes ...
