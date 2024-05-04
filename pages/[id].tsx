@@ -3,7 +3,6 @@ import { FaHeart, FaCopy, FaGift } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import Navbar from '@/components/Navbar';
 import QRCode from 'react-qr-code';
-import Link from 'next/link';
 
 // Interface para definir a estrutura de cada presente
 interface Presente {
@@ -12,7 +11,8 @@ interface Presente {
     nome: string;
     descricao: string;
     preco: string;
-    codigoPix: string; // Adicionado código Pix para cada presente
+    codigoPix: string;
+    linkProduto: string; // Adicionado link do produto para cada presente
 }
 
 // Dados fictícios dos presentes
@@ -24,26 +24,29 @@ const presentes: Presente[] = [
         nome: 'Microondas',
         descricao: 'Não tem como hoje em dia ficar sem Micro-ondas não é mesmo?',
         preco: 'R$ 667,00',
-        codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210microondas520400005303986540511.005802BR5922Rafael Henrique Campos6008Brasilia62090505ovucr63042700', // Código Pix para o presente específico
+        codigoPix: '00020126890014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250227Presenteando um microondas 5204000053039865406667.005802BR5922Rafael Henrique Campos6008Brasilia620905052drin63049C84',
+        linkProduto: 'https://www.magazineluiza.com.br/micro-ondas-electrolux-34-litros-meo44/p/eg3ff4ba14/ed/mond/?=&seller_id=carrefouroficial&utm_source=zoom&utm_medium=cpc&utm_content=-un_magalu-ce_b2c-cp&partner_id=62175&bigclid=eyJvZmZlcklkIjoxNjMyMjQ0MDUsInNrdSI6ImVnM2ZmNGJhMTQiLCJncm91cElkIjoiZWczZmY0YmExNCIsImxvZyI6IjAzLzA1LzIwMjQgMDk6MDMifQ&utm_term=3cb9c1cf671a4ce29b8458403f2ce64a&utm_campaign=3cb9c1cf671a4ce29b8458403f2ce64a'
     },
     // ... seus outros presentes ...
 ];
 
 const PresentePage: React.FC = () => {
     const router = useRouter();
-    const { id } = router.query; // Extrai o ID da URL
+    const { id } = router.query;
     const [copied, setCopied] = useState(false);
 
-    // Encontra o presente com o ID correspondente
     const presente = presentes.find((p) => p.id === id);
 
-    // Função para copiar o código Pix
     const copyPixCode = () => {
         if (presente) {
             navigator.clipboard.writeText(presente.codigoPix);
             setCopied(true);
-            setTimeout(() => setCopied(false), 2000); // Reset copied status after 2 seconds
+            setTimeout(() => setCopied(false), 2000);
         }
+    };
+
+    const openLinkInNewTab = (url: string) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
     };
 
     if (!presente) {
@@ -56,27 +59,23 @@ const PresentePage: React.FC = () => {
 
             <div className="bg-gray-100 py-20">
                 <div className="container mx-auto px-4">
-                    {/* Título e ícone de coração */}
                     <div className="flex justify-center items-center mb-10">
                         <h2 className="text-3xl font-bold text-gray-800 mr-4">{presente.nome}</h2>
                         <FaHeart className="text-2xl text-red-500" />
                     </div>
 
-                    {/* Layout de duas colunas */}
                     <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-                        {/* Coluna da esquerda: Imagem, descrição e valor */}
                         <div className="md:w-1/2 text-center">
                             <img
                                 src={presente.imagem}
                                 alt={presente.nome}
-                                className="rounded-lg  mb-4 mx-auto"
+                                className="rounded-lg mb-4 mx-auto"
                                 style={{ maxWidth: '300px', height: 'auto' }}
                             />
                             <p className="text-gray-600 text-sm">{presente.descricao}</p>
                             <p className="text-2xl font-bold text-gray-800 mt-4">{presente.preco}</p>
                         </div>
 
-                        {/* Coluna da direita: QR Code e botão de copiar */}
                         <div className="md:w-1/2 text-center flex flex-col items-center">
                             <h3 className="text-xl font-bold text-gray-800 mb-4">Contribua com o nosso sonho!</h3>
                             <p className="text-gray-600 text-sm mb-4">
@@ -96,11 +95,9 @@ const PresentePage: React.FC = () => {
                                 <FaCopy className="mr-2" />
                                 {copied ? 'Copiado!' : 'Copiar Pix'}
                             </button>
-
                         </div>
                     </div>
 
-                    {/* Seção de endereço para envio de presentes */}
                     <div className="mt-16 bg-white rounded-lg shadow-md p-8 text-center">
                         <h3 className="text-xl font-bold text-gray-800 mb-4">Endereço para Envio de Presentes</h3>
                         <p className="text-gray-600 text-sm">
@@ -112,12 +109,10 @@ const PresentePage: React.FC = () => {
                             São João del Rei, MG
                         </address>
                         <FaGift className="text-4xl text-blue-600 mx-auto my-4" />
-                        <a href="https://www.magazineluiza.com.br/aparelho-de-jantar-e-cha-20-pecas-biona-de-ceramica-redondo-branco-e-azul-claro-donna/p/143282000/ud/apja/" target="_blank" rel="noopener noreferrer" className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-6 rounded-lg font-medium text-lg cursor-pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors">
+                        <button onClick={() => openLinkInNewTab(presente.linkProduto)} className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-6 rounded-lg font-medium text-lg cursor-pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors">
                             Ver Produto na Loja
-                        </a>
+                        </button>
                     </div>
-
-
                 </div>
             </div>
         </div>
