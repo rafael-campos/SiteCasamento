@@ -8,21 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'elegante': ['Great Vibes', 'cursive'],
-        'caligrafia': ['Alex Brush', 'cursive'],
-        'corpo': ['Lato', 'sans-serif'],
-        'classico': ['Playfair Display', 'serif'],
-        'complementar': ['Raleway', 'sans-serif'],
-      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'home': "url('../public/images/capa.webp')",
       },
     },
   },
   plugins: [],
 }
-
 export default config

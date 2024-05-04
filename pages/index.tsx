@@ -1,34 +1,51 @@
-
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
+import React from 'react';
+// Importe os componentes necessários
 import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner';
-import ConfirmarPresenca from '@/components/ConfirmaPresenca';
 import Informacoes from '@/components/Informacoes';
-import ListaDePresentes from '@/components/ListaDePresente';
 import Rsvp from '@/components/Rsvp';
 import Padrinhos from '@/components/Padrinhos';
 import Footer from '@/components/Footer';
 
-
-const inter = Inter({ subsets: ['latin'] })
+import ListaDePresentes from '@/components/ListaDePresente';
+import ConfirmarPresenca from '@/components/ConfirmaPresenca';
+import Galeria from '@/components/Galeria';
 
 export default function Home() {
   return (
     <div>
       <Navbar />
 
-      <Banner/>
-    
-      <Informacoes />
-      <ConfirmarPresenca/>
-      <Rsvp/>
-      <Padrinhos/>
-      <ListaDePresentes/>
-      <Footer/>
-   
+      {/* Seções com IDs correspondentes aos hrefs do Navbar */}
+      <section id="inicio">
+        <Banner />
+      </section>
 
+      <section id="informacoes">
+        <Informacoes />
+      </section>
+
+      <section id="confirmar-presenca">
+        <ConfirmarPresenca />
+      </section>
+
+      <section id="galeria">
+        <Galeria />
+      </section>
+
+      <section id="rsvp">
+        <Rsvp />
+      </section>
+
+      <section id="padrinhos">
+        <Padrinhos />
+      </section>
+
+      <section id="lista-de-presentes">
+        <ListaDePresentes />
+      </section>
+
+      <Footer />
     </div>
   );
 }
