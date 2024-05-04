@@ -32,7 +32,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     });
 
     return (
-        <div className='text-center text-2xl font-bold'>
+        <div className='text-center text-2xl font-bold mb-20'>
             <p>Contagem Regressiva</p>
             <div className='flex flex-wrap gap-2 justify-center mt-2'>
                 <div className='bg-white text-black w-24 h-20 md:w-32 md:h-24'>

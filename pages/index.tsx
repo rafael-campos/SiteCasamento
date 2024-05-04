@@ -9,6 +9,7 @@ import Informacoes from '@/components/Informacoes';
 import ListaDePresentes from '@/components/ListaDePresente';
 import Rsvp from '@/components/Rsvp';
 import Padrinhos from '@/components/Padrinhos';
+import Footer from '@/components/Footer';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +26,7 @@ export default function Home() {
       <Rsvp/>
       <Padrinhos/>
       <ListaDePresentes/>
+      <Footer/>
    
 
     </div>

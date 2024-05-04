@@ -73,7 +73,7 @@ const ListaDePresentes: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {presentes.map((presente) => (
             <motion.div key={presente.id} variants={itemVariants} className="flex flex-col h-full">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden relative flex flex-col justify-between h-full">
+              <div className="bg-white rounded-3xl shadow-md overflow-hidden relative flex flex-col justify-between h-full p-4">
                 <img
                   src={presente.imagem}
                   alt={presente.nome}
