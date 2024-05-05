@@ -27,6 +27,24 @@ const presentes: Presente[] = [
         codigoPix: '00020126890014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250227Presenteando um microondas 5204000053039865406667.005802BR5922Rafael Henrique Campos6008Brasilia620905052drin63049C84',
         linkProduto: 'https://www.magazineluiza.com.br/micro-ondas-electrolux-34-litros-meo44/p/eg3ff4ba14/ed/mond/?=&seller_id=carrefouroficial&utm_source=zoom&utm_medium=cpc&utm_content=-un_magalu-ce_b2c-cp&partner_id=62175&bigclid=eyJvZmZlcklkIjoxNjMyMjQ0MDUsInNrdSI6ImVnM2ZmNGJhMTQiLCJncm91cElkIjoiZWczZmY0YmExNCIsImxvZyI6IjAzLzA1LzIwMjQgMDk6MDMifQ&utm_term=3cb9c1cf671a4ce29b8458403f2ce64a&utm_campaign=3cb9c1cf671a4ce29b8458403f2ce64a'
     },
+    {
+        id: '2',
+        imagem: '/images/presentes/aspirador.webp',
+        nome: 'Aspirador de Pó',
+        descricao: 'Presenteie com esse aspirador de pó',
+        preco: 'R$ 142,49',
+        codigoPix: '00020126930014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250231Estou enviado o aspirador dr po5204000053039865406142.495802BR5922Rafael Henrique Campos6008Brasilia62090505m1kef63040A10',
+        linkProduto: 'https://www.pontofrio.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-15003643/p/15003651?utm_medium=cpc&utm_source=GP_PLA&IdSku=15003651&idLojista=16&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gclid=CjwKCAjw3NyxBhBmEiwAyofDYS3_j4kyi1CPg6ENCUSRKW4bovK4nlMff1NVOYGGPg_uA6J5w9qkVBoCr5AQAvD_BwE'
+    },
+    {
+        id: '3',
+        imagem: '/images/presentes/sanduicheira.webp',
+        nome: 'Misteira',
+        descricao: 'Presenteie com essa sanduicheira ',
+        preco: 'R$ 129,00',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219Enviando a misteira5204000053039865406129.005802BR5922Rafael Henrique Campos6008Brasilia62090505siowv63043199',
+        linkProduto: 'https://www.amazon.com.br/Brit%C3%A2nia-SANDUICHEIRA-GRILL-PRESS-BGR27I/dp/B09WWY48B7/ref=asc_df_B09WWY48B7/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=5768162328902286780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-1689628867581&psc=1&mcid=6811c2f452653d3781966c110612a833'
+    },
     // ... seus outros presentes ...
 ];
 
