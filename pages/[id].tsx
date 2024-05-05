@@ -45,6 +45,16 @@ const presentes: Presente[] = [
         codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219Enviando a misteira5204000053039865406129.005802BR5922Rafael Henrique Campos6008Brasilia62090505siowv63043199',
         linkProduto: 'https://www.amazon.com.br/Brit%C3%A2nia-SANDUICHEIRA-GRILL-PRESS-BGR27I/dp/B09WWY48B7/ref=asc_df_B09WWY48B7/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=5768162328902286780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-1689628867581&psc=1&mcid=6811c2f452653d3781966c110612a833'
     },
+    {
+        id: '4',
+        imagem: '/images/presentes/airflyer.webp',
+        nome: 'Airflyer',
+        descricao: 'Presenteie com essa airflyer',
+        preco: 'R$ 269,00',
+        codigoPix: '00020126830014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250221Enviando ima airflyer5204000053039865406269.005802BR5922Rafael Henrique Campos6008Brasilia62090505pa23r63045BCA',
+        linkProduto: 'https://www.casasbahia.com.br/fritadeira-eletrica-sem-oleo-air-fryer-mondial-af-30-family-inox-iv-35l-preta-55010765/p/55010765?utm_medium=cpc&utm_source=GP_PLA&IdSku=55010765&idLojista=10037&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo_apostas&gad_source=4&gclid=CjwKCAjw3NyxBhBmEiwAyofDYc1oTAYDz3eS5d7OVFvhCrpWdr_cdtn25CTXPmbNMS59WHtI0_L5TxoCUVQQAvD_BwE'
+    },
+    
     // ... seus outros presentes ...
 ];
 

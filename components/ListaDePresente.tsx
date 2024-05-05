@@ -53,10 +53,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '4',
-      imagem: '/images/presentes/jantar.webp',
-      nome: 'Experiência Gastronômica',
-      descricao: 'Um jantar inesquecível em um restaurante renomado.',
-      preco: 'R$ 800,00',
+      imagem: '/images/presentes/airflyer.webp',
+      nome: 'Airflyer',
+      descricao: 'Presenteie com essa Airflyer.',
+      preco: 'R$ 269,00',
     },
     // Adicione mais presentes conforme necessário
   ];
