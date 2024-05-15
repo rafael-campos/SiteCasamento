@@ -58,6 +58,34 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Presenteie com essa Airflyer.',
       preco: 'R$ 269,00',
     },
+    {
+      id: '5',
+      imagem: '/images/presentes/airflyer.webp',
+      nome: 'Airflyer',
+      descricao: 'Presenteie com essa Airflyer.',
+      preco: 'R$ 269,00',
+    },
+    {
+      id: '66',
+      imagem: '/images/presentes/airflyer.webp',
+      nome: 'Airflyer',
+      descricao: 'Presenteie com essa Airflyer.',
+      preco: 'R$ 269,00',
+    },
+    {
+      id: '7',
+      imagem: '/images/presentes/airflyer.webp',
+      nome: 'Airflyer',
+      descricao: 'Presenteie com essa Airflyer.',
+      preco: 'R$ 269,00',
+    },
+    {
+      id: '8',
+      imagem: '/images/presentes/airflyer.webp',
+      nome: 'Airflyer',
+      descricao: 'Presenteie com essa Airflyer.',
+      preco: 'R$ 269,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
