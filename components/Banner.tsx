@@ -4,7 +4,7 @@ import CountdownTimer from "./CountdownTimer";
 export default function Banner() {
     return (
         <div className="w-full min-h-screen bg-home bg-cover bg-center mt-12">
-            <div className=" w-full min-h-screen flex justify-center items-center">
+            <div className="bg-black/70 w-full min-h-screen flex justify-center items-center">
                 <div className="text-center">
                     <div className="inline-block">
                         <Image src='/images/logo.webp' width={460} height={460} alt="imagem da moldura" />
