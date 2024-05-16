@@ -10,6 +10,8 @@ import Footer from '@/components/Footer';
 import ListaDePresentes from '@/components/ListaDePresente';
 import ConfirmarPresenca from '@/components/ConfirmaPresenca';
 import Galeria from '@/components/Galeria';
+import Historia from '@/components/Historia';
+import MandarMensagem from '@/components/MandarMensagem';
 
 export default function Home() {
   return (
@@ -21,20 +23,26 @@ export default function Home() {
         <Banner />
       </section>
 
-      <section id="informacoes">
-        <Informacoes />
+      <section id="historia">
+        <Historia />
       </section>
 
+      {/* 
       <section id="confirmar-presenca">
         <ConfirmarPresenca />
       </section>
-
+*/}
       <section id="galeria">
         <Galeria />
       </section>
-
+      {/* 
       <section id="rsvp">
         <Rsvp />
+      </section>
+*/}
+
+      <section id="informacoes">
+        <Informacoes />
       </section>
 
       <section id="padrinhos">
@@ -43,6 +51,10 @@ export default function Home() {
 
       <section id="lista-de-presentes">
         <ListaDePresentes />
+      </section>
+
+      <section id="mensagem">
+        <MandarMensagem />
       </section>
 
       <Footer />

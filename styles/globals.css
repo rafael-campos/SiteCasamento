@@ -4,6 +4,29 @@
 @tailwind components;
 @tailwind utilities;
 
+.timeline-container {
+  padding: 4rem 0;
+}
+
+.timeline-item {
+  padding-left: 4rem; /* Espaçamento para a linha central */
+}
+
+.timeline-item.md\:flex-row-reverse {
+  padding-left: 0;
+  padding-right: 4rem;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    padding-left: 2rem;
+  }
+
+  .timeline-item.md\:flex-row-reverse {
+    padding-left: 0;
+    padding-right: 2rem;
+  }
+}
 /* Adicione estas classes ao seu arquivo de estilos CSS */
 #valentines{
   position: relative;
@@ -147,4 +170,7 @@
   50%{
     transform: scaleX(.85);
   }
+
+
+  
 }
