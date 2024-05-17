@@ -12,10 +12,9 @@ interface Mensagem {
 
 export default function MandarMensagem() {
   const [nome, setNome] = useState("");
-  const [email, setEmail] = useState(""); // Adicionado campo de email
+  const [email, setEmail] = useState("");
   const [mensagem, setMensagem] = useState("");
   const [mensagens, setMensagens] = useState<Mensagem[]>([
-    // Mensagens iniciais para exemplo
     { id: 1, nome: "Marcela e Rogerio", mensagem: "Que a união de vocês seja repleta de amor e felicidade! Desejamos toda a sorte do mundo nesse novo capítulo." },
     { id: 2, nome: "Amanda e Caio", mensagem: "Estamos muito felizes em celebrar este dia tão especial com vocês. Que a vida a dois seja um caminho de alegria, cumplicidade e muito amor!" },
   ]);
@@ -39,28 +38,27 @@ export default function MandarMensagem() {
   };
 
   return (
-    <div className="bg-gray-100 py-20">
+    <div className="bg-gray-100 py-20 min-h-screen flex flex-col justify-center">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl text-center font-dancing font-bold text-blue-900 mb-10">
           Deixe seu Recado de Carinho!
         </h2>
 
-        <div className="w-full md:w-2/3 mx-auto">
-          {/* Formulário */}
+        <div className="w-full md:w-2/3 mx-auto bg-white p-8 rounded-lg shadow-lg">
           <Form layout="vertical" onFinish={handleSubmit}>
             <Form.Item
               label={<p className="font-dancing text-blue-900 text-2xl font-bold">Nome</p>}
               name="nome"
               rules={[{ required: true, message: "Por favor, digite seu nome!" }]}
             >
-              <Input value={nome} onChange={(e) => setNome(e.target.value)} />
+              <Input value={nome} onChange={(e) => setNome(e.target.value)} className="h-12" />
             </Form.Item>
 
             <Form.Item
               label={<p className="font-dancing text-blue-900 text-2xl font-bold">Email (opcional)</p>}
               name="email"
             >
-              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="h-12" />
             </Form.Item>
 
             <Form.Item
@@ -71,11 +69,11 @@ export default function MandarMensagem() {
               <TextArea rows={4} value={mensagem} onChange={(e) => setMensagem(e.target.value)} />
             </Form.Item>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center mt-6">
               <Button
                 type="primary"
                 htmlType="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-dancing text-xl font-bold py-2 px-6 rounded-lg"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-dancing text-xl font-bold py-4 px-5 rounded-lg my-auto"
               >
                 Enviar Recado
               </Button>
@@ -83,13 +81,12 @@ export default function MandarMensagem() {
           </Form>
         </div>
 
-        {/* Mural de Mensagens */}
         <div className="flex flex-wrap justify-center gap-6 mt-12">
           <AnimatePresence>
             {mensagens.map((mensagem) => (
               <motion.div
                 key={mensagem.id}
-                className="bg-yellow-100 p-4 rounded-lg shadow-md w-full sm:w-96 relative border-l-4 border-blue-500"
+                className="bg-yellow-100 p-6 rounded-lg shadow-md w-full sm:w-96 relative border-l-4 border-blue-500"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.8 }}
