@@ -32,30 +32,27 @@ const Historia: React.FC = () => {
             className="bg-white p-8 rounded-lg shadow-lg"
           >
             <p className="text-lg text-gray-800 leading-relaxed">
-              Nossa história começou em um dia ensolarado de primavera, em um café aconchegante no coração da cidade. 
-              O destino, sempre brincalhão, cruzou nossos caminhos em um encontro casual que se transformou em horas de conversa, 
-              risadas e uma inegável conexão. Descobrimos paixões em comum, sonhos semelhantes e a certeza de que algo especial 
-              estava florescendo.
+              Tudo começou com uma conversa online, uma semana antes do nosso primeiro encontro presencial.
+              A internet nos uniu e, desde então, compartilhamos muitos interesses e risadas.
+              A simplicidade desses momentos iniciais foi o que nos aproximou.
             </p>
 
             <p className="mt-4 text-lg text-gray-800 leading-relaxed">
-              Os dias que se seguiram foram preenchidos por momentos mágicos: passeios no parque, jantares à luz de velas, 
-              viagens inesquecíveis que gravaram memórias eternas em nossos corações. Cada abraço, cada olhar, cada sorriso 
-              solidificava o amor que crescia a cada dia.
+              Nosso relacionamento cresceu a partir de encontros casuais e descobertas mútuas.
+              O pedido de namoro, feito em 15 de dezembro de 2021, foi um passo natural na nossa jornada juntos.
             </p>
 
             <p className="mt-4 text-lg text-gray-800 leading-relaxed">
-              Em um cenário mágico, sob a luz do luar, Rafael, com o coração transbordando de amor, fez o pedido que mudou 
-              nossas vidas para sempre. E Mirelle, com a mesma intensidade, disse sim! A partir daquele momento, 
-              a promessa de um futuro juntos se tornou a força que nos impulsiona a construir uma vida a dois repleta 
-              de amor, cumplicidade e felicidade. 
+              O noivado veio um ano depois, em 23 de dezembro de 2022, marcando o início de um novo capítulo.
+              Foi um momento íntimo e significativo, que selou nosso compromisso um com o outro.
             </p>
 
             <p className="mt-4 text-lg text-gray-800 leading-relaxed">
-              Agora, estamos aqui, prontos para celebrar este novo capítulo em nossas vidas. E temos a alegria de convidar 
-              você para compartilhar conosco a realização deste sonho. 
+              Agora, estamos planejando nosso futuro, construindo uma vida juntos com base em amor e companheirismo.
+              É com alegria que convidamos você a se juntar a nós nessa celebração.
             </p>
           </motion.div>
+
         </div>
       </div>
     </div>
