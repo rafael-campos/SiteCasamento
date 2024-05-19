@@ -20,12 +20,12 @@ const presentes: Presente[] = [
     // ... seus outros presentes ...
     {
         id: '1',
-        imagem: '/images/presentes/microondas.webp',
-        nome: 'Microondas',
-        descricao: 'Não tem como hoje em dia ficar sem Micro-ondas não é mesmo?',
-        preco: 'R$ 667,00',
-        codigoPix: '00020126890014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250227Presenteando um microondas 5204000053039865406667.005802BR5922Rafael Henrique Campos6008Brasilia620905052drin63049C84',
-        linkProduto: 'https://www.magazineluiza.com.br/micro-ondas-electrolux-34-litros-meo44/p/eg3ff4ba14/ed/mond/?=&seller_id=carrefouroficial&utm_source=zoom&utm_medium=cpc&utm_content=-un_magalu-ce_b2c-cp&partner_id=62175&bigclid=eyJvZmZlcklkIjoxNjMyMjQ0MDUsInNrdSI6ImVnM2ZmNGJhMTQiLCJncm91cElkIjoiZWczZmY0YmExNCIsImxvZyI6IjAzLzA1LzIwMjQgMDk6MDMifQ&utm_term=3cb9c1cf671a4ce29b8458403f2ce64a&utm_campaign=3cb9c1cf671a4ce29b8458403f2ce64a'
+        imagem: '/images/presentes/frigideira.webp',
+        nome: 'Frigideira antiaderente',
+        descricao: 'Pra ajudar agente a nao agarrar comida',
+        preco: 'R$ 172,00',
+        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Frigideira 5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia62090505xpjkq630472B3x',
+        linkProduto: 'https://www.magazineluiza.com.br/frigideira-antiaderente-ceramica-cobre-com-tampa-maxchef/p/fdhc2g5406/ud/udfg/?partner_id=64068&utm_source=pdp&utm_medi'
     },
     {
         id: '2',
@@ -53,6 +53,42 @@ const presentes: Presente[] = [
         preco: 'R$ 269,00',
         codigoPix: '00020126830014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250221Enviando ima airflyer5204000053039865406269.005802BR5922Rafael Henrique Campos6008Brasilia62090505pa23r63045BCA',
         linkProduto: 'https://www.casasbahia.com.br/fritadeira-eletrica-sem-oleo-air-fryer-mondial-af-30-family-inox-iv-35l-preta-55010765/p/55010765?utm_medium=cpc&utm_source=GP_PLA&IdSku=55010765&idLojista=10037&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo_apostas&gad_source=4&gclid=CjwKCAjw3NyxBhBmEiwAyofDYc1oTAYDz3eS5d7OVFvhCrpWdr_cdtn25CTXPmbNMS59WHtI0_L5TxoCUVQQAvD_BwE'
+    },
+    {
+        id: '5',
+        imagem: '/images/presentes/copo.webp',
+        nome: 'Copos redondos',
+        descricao: 'Para brindar com os noivos',
+        preco: 'R$ 59,90',
+        codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205copos520400005303986540559.905802BR5922Rafael Henrique Campos6008Brasilia620905052t6nj6304C1BD',
+        linkProduto: 'https://www.amazon.com.br/dp/B0CPM571Y5?ref=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&ref_=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&language=pt-BR'
+    },
+    {
+        id: '6',
+        imagem: '/images/presentes/potes.webp',
+        nome: 'Potes Hermeticos',
+        descricao: 'Para os noivos guardarem salada',
+        preco: 'R$ 172,00',
+        codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205Potes5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905058di5p630494CE',
+        linkProduto: 'https://www.amazon.com.br/dp/B07QJXQHQ3?ref=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&ref_=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&language=pt-BR'
+    },
+    {
+        id: '7',
+        imagem: '/images/presentes/panela.webp',
+        nome: 'Panela 3em1',
+        descricao: 'Panela',
+        preco: 'R$ 78,99',
+        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505l3xi96304D457',
+        linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1'
+    },
+    {
+        id: '8',
+        imagem: '/images/presentes/multiprocessador.webp',
+        nome: 'Multirocessador',
+        descricao: 'Multiprocessador ',
+        preco: 'R$ 145,12',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        linkProduto: 'https://www.amazon.com.br/dp/B0876XRYGT?ref=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&ref_=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&language=pt-BR'
     },
     
     // ... seus outros presentes ...

@@ -32,10 +32,10 @@ const ListaDePresentes: React.FC = () => {
   const presentes: Presente[] = [
     {
       id: '1',
-      imagem: '/images/presentes/microondas.webp',
-      nome: 'Microndas',
-      descricao: 'Não tem como hoje em dia ficar sem Micro-ondas não é mesmo?',
-      preco: 'R$ 667,00',
+      imagem: '/images/presentes/frigideira.webp',
+      nome: 'Frigideira ',
+      descricao: 'Frigideira para nao agarrar nosso almoço',
+      preco: 'R$ 172,00',
     },
     {
       id: '2',
@@ -60,31 +60,31 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '5',
-      imagem: '/images/presentes/airflyer.webp',
-      nome: 'Airflyer',
-      descricao: 'Presenteie com essa Airflyer.',
-      preco: 'R$ 269,00',
+      imagem: '/images/presentes/copo.webp',
+      nome: 'Copos para brindar com os noivs',
+      descricao: 'Presenteie com esses copos.',
+      preco: 'R$ 59,90',
     },
     {
-      id: '66',
-      imagem: '/images/presentes/airflyer.webp',
-      nome: 'Airflyer',
-      descricao: 'Presenteie com essa Airflyer.',
-      preco: 'R$ 269,00',
+      id: '6',
+      imagem: '/images/presentes/potes.webp',
+      nome: 'Potes Hemeticos ',
+      descricao: 'Presenteie com esses potes hermeticos.',
+      preco: 'R$ 172,00',
     },
     {
       id: '7',
-      imagem: '/images/presentes/airflyer.webp',
-      nome: 'Airflyer',
-      descricao: 'Presenteie com essa Airflyer.',
-      preco: 'R$ 269,00',
+      imagem: '/images/presentes/panela.webp',
+      nome: 'Panela',
+      descricao: 'Panela 3em1.',
+      preco: 'R$ 78,99,00',
     },
     {
       id: '8',
-      imagem: '/images/presentes/airflyer.webp',
-      nome: 'Airflyer',
-      descricao: 'Presenteie com essa Airflyer.',
-      preco: 'R$ 269,00',
+      imagem: '/images/presentes/multiprocessador.webp',
+      nome: 'Multiprocessador',
+      descricao: 'Presenteie com esse Multiprocessador.',
+      preco: 'R$ 145,12',
     },
     // Adicione mais presentes conforme necessário
   ];
@@ -105,7 +105,7 @@ const ListaDePresentes: React.FC = () => {
                 <img
                   src={presente.imagem}
                   alt={presente.nome}
-                  className="w-full h-48  p-2 object-cover"
+                  className="w-full h-56 p-2 object-cover"
                 />
                 <div className="p-4 flex-grow">
                   <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
