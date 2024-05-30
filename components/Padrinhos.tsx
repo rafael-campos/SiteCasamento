@@ -5,7 +5,7 @@ import { FaHeart } from 'react-icons/fa'; // Importando ícone de coração
 const listaDePadrinhos = [
   { nomePadrinho: 'João', nomeMadrinha: 'Cris' },
   { nomePadrinho: 'Amanda', nomeMadrinha: 'Caio' },
-  { nomePadrinho: 'Thamires', nomeMadrinha: 'Juliano' },
+  { nomePadrinho: 'Thamires', nomeMadrinha: 'Henrique' },
   { nomePadrinho: 'Maria Clara', nomeMadrinha: 'Bruno' },
   { nomePadrinho: 'Juliemerson', nomeMadrinha: 'Rafaela' },
   { nomePadrinho: 'Luiz', nomeMadrinha: 'Neide' },
@@ -21,6 +21,7 @@ const listaDePadrinhos = [
   { nomePadrinho: 'Ygor', nomeMadrinha: 'Camila' },
   { nomePadrinho: 'Olavo', nomeMadrinha: 'Gilma' },
   { nomePadrinho: 'Karine', nomeMadrinha: 'Douglas' },
+  { nomePadrinho: 'Juliano', nomeMadrinha: 'Marly' },
   // Adicione mais casais aqui se necessário
 ];
 

@@ -171,6 +171,15 @@ const presentes: Presente[] = [
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B08YHR9C4S?ref=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&ref_=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&language=pt-BR&th=1'
     },
+    {
+        id: '18',
+        imagem: '/images/presentes/organizador.webp',
+        nome: 'Organizador de geladeira',
+        descricao: 'Organizador de geladeira',
+        preco: 'R$ 114,99',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        linkProduto: 'https://www.amazon.com.br/dp/B0CCLM43XP?ref=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&ref_=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&language=pt-BR'
+    },
     // ... seus outros presentes ...
 ];
 

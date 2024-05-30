@@ -149,6 +149,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Mixer 3 em 1, 400W',
       preco: 'R$ 199,90',
     },
+    {
+      id: '18',
+      imagem: '/images/presentes/organizador.webp',
+      nome: 'Organizador de Geladeira',
+      descricao: 'Organizador de Geladeira',
+      preco: 'R$ 114,99',
+    },
     
     // Adicione mais presentes conforme necessário
   ];

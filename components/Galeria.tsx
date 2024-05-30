@@ -4,12 +4,7 @@ import PhotoAlbum, { Photo } from 'react-photo-album';
 
 // Substitua os caminhos das imagens pelos caminhos das suas imagens reais
 const photos: Photo[] = [
-  {
-    src: '/images/capa.webp',
-    width: 4,
-    height: 3,
-    alt: 'Descrição da imagem'
-  },
+
   {
     src: '/images/foto-01.webp',
     width: 3,
@@ -41,12 +36,7 @@ const photos: Photo[] = [
     height: 4,
     alt: 'Descrição da imagem'
   },
-  {
-    src: '/images/capa.webp',
-    width: 4,
-    height: 3,
-    alt: 'Descrição da imagem'
-  },
+
   // Repita este objeto para adicionar mais imagens
 ];
 
