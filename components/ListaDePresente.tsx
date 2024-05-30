@@ -109,15 +109,52 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '12',
-      imagem: '/images/presentes/multiprocessador.webp',
-      nome: 'Multiprocessador',
-      descricao: 'Presenteie com esse Multiprocessador.',
-      preco: 'R$ 145,12',
+      imagem: '/images/presentes/kitpanela.webp',
+      nome: 'Jogo Panelas',
+      descricao: 'Jogo Panelas 5 Peças Sartin Champanhe.',
+      preco: 'R$ 394,20',
     },
+    {
+      id: '13',
+      imagem: '/images/presentes/kitchurrasco.webp',
+      nome: 'Kit Churrasco',
+      descricao: 'Para fazer churrasco para você na nossa casa',
+      preco: 'R$ 193,00',
+    },
+    {
+      id: '14',
+      imagem: '/images/presentes/jogotalheres.webp',
+      nome: 'Jogo de talheres',
+      descricao: 'Jogo Talheres Aço Inox Faqueiro ',
+      preco: 'R$ 284,05',
+    },
+    {
+      id: '15',
+      imagem: '/images/presentes/jantar.webp',
+      nome: 'Aparelho de jantar',
+      descricao: 'Aparelho de jantar 30pcs ',
+      preco: 'R$ 382,90',
+    },
+    {
+      id: '16',
+      imagem: '/images/presentes/batedeira.webp',
+      nome: 'Batedeira',
+      descricao: 'Batedeira Planetária Britânia ',
+      preco: 'R$ 279,00',
+    },
+    {
+      id: '17',
+      imagem: '/images/presentes/mixer.webp',
+      nome: 'Mixer',
+      descricao: 'Mixer 3 em 1, 400W',
+      preco: 'R$ 199,90',
+    },
+    
     // Adicione mais presentes conforme necessário
   ];
 
   return (
+    
     <motion.div
       initial="hidden"
       animate="visible"
