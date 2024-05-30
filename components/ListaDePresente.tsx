@@ -86,6 +86,34 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Presenteie com esse Multiprocessador.',
       preco: 'R$ 145,12',
     },
+    {
+      id: '9',
+      imagem: '/images/presentes/travessa.webp',
+      nome: 'Travessa',
+      descricao: 'Presenteie com essa Travessa refratária.',
+      preco: 'R$ 134,99',
+    },
+    {
+      id: '10',
+      imagem: '/images/presentes/pressao.webp',
+      nome: 'Panela Pressão Eletrica',
+      descricao: 'Presenteie com a Panela de Pressão Elétrica 5 Litros Mondial Master Cooker PE38 Preta com Prata 127V',
+      preco: 'R$ 365,66',
+    },
+    {
+      id: '11',
+      imagem: '/images/presentes/arroz.webp',
+      nome: 'Panela de arroz',
+      descricao: 'Panela Elétrica de Arroz Mondial.',
+      preco: 'R$ 189,90',
+    },
+    {
+      id: '12',
+      imagem: '/images/presentes/multiprocessador.webp',
+      nome: 'Multiprocessador',
+      descricao: 'Presenteie com esse Multiprocessador.',
+      preco: 'R$ 145,12',
+    },
     // Adicione mais presentes conforme necessário
   ];
 

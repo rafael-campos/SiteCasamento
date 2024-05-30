@@ -90,6 +90,24 @@ const presentes: Presente[] = [
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B0876XRYGT?ref=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&ref_=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&language=pt-BR'
     },
+    {
+        id: '9',
+        imagem: '/images/presentes/travessa.webp',
+        nome: 'Travessa',
+        descricao: 'Multiprocessador ',
+        preco: 'R$ 134,99',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        linkProduto: 'https://www.casasbahia.com.br/conjunto-de-travessas-refratarias-marinex-em-vidro---10-pecas-55058982.html'
+    },
+    {
+        id: '10',
+        imagem: '/images/presentes/pressao.webp',
+        nome: 'Panela de Pressão Elétrica 5 Litros',
+        descricao: 'Panela de Pressão Elétrica 5 Litros ',
+        preco: 'R$ 365,66',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        linkProduto: 'https://www.casaevideo.com.br/panela-de-pressao-eletrica-5l-mondial-pe38-preto-com-prata-127v/p'
+    },
     
     // ... seus outros presentes ...
 ];
