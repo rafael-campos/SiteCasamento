@@ -27,7 +27,7 @@ const presentes: Presente[] = [
         preco: 'R$ 172,00',
         codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Frigideira 5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia62090505xpjkq630472B3x',
         linkProduto: 'https://www.magazineluiza.com.br/frigideira-antiaderente-ceramica-cobre-com-tampa-maxchef/p/fdhc2g5406/ud/udfg/?partner_id=64068&utm_source=pdp&utm_medi',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/frigideira' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q0HAK59N' // Adicione o link real de pagamento aqui
     },
     {
         id: '2',
@@ -37,7 +37,7 @@ const presentes: Presente[] = [
         preco: 'R$ 142,49',
         codigoPix: '00020126930014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250231Estou enviado o aspirador dr po5204000053039865406142.495802BR5922Rafael Henrique Campos6008Brasilia62090505m1kef63040A10',
         linkProduto: 'https://www.pontofrio.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-15003643/p/15003651?utm_medium=cpc&utm_source=GP_PLA&IdSku=15003651&idLojista=16&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gclid=CjwKCAjw3NyxBhBmEiwAyofDYS3_j4kyi1CPg6ENCUSRKW4bovK4nlMff1NVOYGGPg_uA6J5w9qkVBoCr5AQAvD_BwE',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/aspirador' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q7I5QSFK' // Adicione o link real de pagamento aqui
     },
     {
         id: '3',
@@ -47,7 +47,7 @@ const presentes: Presente[] = [
         preco: 'R$ 129,00',
         codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219Enviando a misteira5204000053039865406129.005802BR5922Rafael Henrique Campos6008Brasilia62090505siowv63043199',
         linkProduto: 'https://www.amazon.com.br/Brit%C3%A2nia-SANDUICHEIRA-GRILL-PRESS-BGR27I/dp/B09WWY48B7/ref=asc_df_B09WWY48B7/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=5768162328902286780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-1689628867581&psc=1&mcid=6811c2f452653d3781966c110612a833',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/sanduicheira' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q1PZWGPC' // Adicione o link real de pagamento aqui
     },
     {
         id: '4',
@@ -57,7 +57,7 @@ const presentes: Presente[] = [
         preco: 'R$ 269,00',
         codigoPix: '00020126830014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250221Enviando ima airflyer5204000053039865406269.005802BR5922Rafael Henrique Campos6008Brasilia62090505pa23r63045BCA',
         linkProduto: 'https://www.casasbahia.com.br/fritadeira-eletrica-sem-oleo-air-fryer-mondial-af-30-family-inox-iv-35l-preta-55010765/p/55010765?utm_medium=cpc&utm_source=GP_PLA&IdSku=55010765&idLojista=10037&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo_apostas&gad_source=4&gclid=CjwKCAjw3NyxBhBmEiwAyofDYc1oTAYDz3eS5d7OVFvhCrpWdr_cdtn25CTXPmbNMS59WHtI0_L5TxoCUVQQAvD_BwE',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/airflyer' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q8DHEVBO' // Adicione o link real de pagamento aqui
     },
     {
         id: '5',
@@ -67,7 +67,7 @@ const presentes: Presente[] = [
         preco: 'R$ 59,90',
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205copos520400005303986540559.905802BR5922Rafael Henrique Campos6008Brasilia620905052t6nj6304C1BD',
         linkProduto: 'https://www.amazon.com.br/dp/B0CPM571Y5?ref=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&ref_=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&language=pt-BR',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/copo' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q8DHEVBO' // Adicione o link real de pagamento aqui
     },
     {
         id: '6',
@@ -77,7 +77,7 @@ const presentes: Presente[] = [
         preco: 'R$ 172,00',
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205Potes5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905058di5p630494CE',
         linkProduto: 'https://www.amazon.com.br/dp/B07QJXQHQ3?ref=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&ref_=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&language=pt-BR',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/pote' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q0OS3Y94' // Adicione o link real de pagamento aqui
     },
     {
         id: '7',
@@ -87,7 +87,7 @@ const presentes: Presente[] = [
         preco: 'R$ 78,99',
         codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505l3xi96304D457',
         linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/panela' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN2EJU44' // Adicione o link real de pagamento aqui
     },
     {
         id: '8',
@@ -97,7 +97,7 @@ const presentes: Presente[] = [
         preco: 'R$ 145,12',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B0876XRYGT?ref=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&ref_=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&language=pt-BR',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/multiprocessador' // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QIOXQLD7' // Adicione o link real de pagamento aqui
     },
     {
         id: '9',
