@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
       <Header className="flex items-center justify-between px-4 py-3 shadow-md w-full fixed top-0 z-50 bg-white/90 backdrop-blur-md">
         <Link href="/#inicio" scroll={true}>
           <div className="text-2xl font-bold text-blue-400 hover:text-blue-500 transition-all duration-300 cursor-pointer flex items-center">
-            <HeartFilled style={{ color: '#FF0000' }} className="mr-2" /> Rafael & Mirelle
+            <HeartFilled style={{ color: '#91A8D0' }} className="mr-2" /> Rafael & Mirelle
           </div>
         </Link>
         <div className="hidden md:flex space-x-4">
