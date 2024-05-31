@@ -20,7 +20,7 @@ const Informacoes: React.FC = () => {
 
   return (
     <motion.div 
-      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-blue-100 px-6 py-16"
+      className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-[#E2E8F4] px-6 py-16"
       variants={containerVariants}
       initial="hidden"
       animate="visible"

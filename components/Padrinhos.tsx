@@ -32,7 +32,7 @@ const Padrinhos: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-10 text-blue-600">Padrinhos & Madrinhas</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {listaDePadrinhos.map((casal, index) => (
-            <div key={index} className="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
+            <div key={index} className="bg-[#E2E8F4] p-6 rounded-lg shadow-lg text-center">
               <FaHeart className="text-blue-500 mx-auto text-6xl" />
               <h3 className="text-xl font-semibold mt-4">{casal.nomePadrinho}</h3>
               <p className="text-md text-gray-600">&</p>

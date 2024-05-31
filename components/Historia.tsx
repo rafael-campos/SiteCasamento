@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Historia: React.FC = () => {
   return (
-    <div className="bg-gray-100 py-20">
+    <div className="bg-[#E2E8F4] py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-5xl text-center font-dancing font-bold text-blue-900 mb-10">
           Nossa História
