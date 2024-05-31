@@ -22,6 +22,7 @@ const listaDePadrinhos = [
   { nomePadrinho: 'Olavo', nomeMadrinha: 'Gilma' },
   { nomePadrinho: 'Karine', nomeMadrinha: 'Douglas' },
   { nomePadrinho: 'Juliano', nomeMadrinha: 'Marly' },
+  { nomePadrinho: 'Pedro', nomeMadrinha: 'Maria' },
   // Adicione mais casais aqui se necessário
 ];
 
