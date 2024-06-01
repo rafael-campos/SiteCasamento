@@ -27,7 +27,7 @@ const presentes: Presente[] = [
         nome: 'Frigideira antiaderente',
         descricao: 'Pra ajudar agente a nao agarrar comida',
         preco: 'R$ 172,00',
-        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Frigideira 5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia62090505xpjkq630472B3x',
+        codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210frigideira5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905054qnk4630428A4',
         linkProduto: 'https://www.magazineluiza.com.br/frigideira-antiaderente-ceramica-cobre-com-tampa-maxchef/p/fdhc2g5406/ud/udfg/?partner_id=64068&utm_source=pdp&utm_medi',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q0HAK59N',
         enderecoEntrega: 1 // Endereço 1 (Rua Fiscal José Pedro)
@@ -93,7 +93,7 @@ const presentes: Presente[] = [
         nome: 'Panela 3em1',
         descricao: 'Panela',
         preco: 'R$ 78,99',
-        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211Panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505l3xi96304D457',
+        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505pedbc6304DBF7',
         linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN2EJU44',
         enderecoEntrega: 2 
@@ -104,7 +104,7 @@ const presentes: Presente[] = [
         nome: 'Multiprocessador',
         descricao: 'Multiprocessador ',
         preco: 'R$ 145,12',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217multiprocessador 5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505uxx8l630452D7',
         linkProduto: 'https://www.amazon.com.br/dp/B0876XRYGT?ref=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&ref_=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QIOXQLD7',
         enderecoEntrega: 1 
@@ -126,7 +126,7 @@ const presentes: Presente[] = [
         nome: 'Panela de Pressão Elétrica 5 Litros',
         descricao: 'Panela de Pressão Elétrica 5 Litros ',
         preco: 'R$ 365,66',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126890014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250227panela de pressao eletrica 5204000053039865406365.665802BR5922Rafael Henrique Campos6008Brasilia62090505z986763043DC1',
         linkProduto: 'https://www.casaevideo.com.br/panela-de-pressao-eletrica-5l-mondial-pe38-preto-com-prata-127v/p',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q4JGIOPC', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
@@ -137,7 +137,7 @@ const presentes: Presente[] = [
         nome: 'Panela de arroz',
         descricao: 'Panela Elétrica de Arroz Mondial PE-43 6 Xícaras - Preta/Inox ',
         preco: 'R$ 189,90',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216panela de arroz 5204000053039865406189.905802BR5922Rafael Henrique Campos6008Brasilia62090505xuaep63043ED9',
         linkProduto: 'https://www.pontofrio.com.br/panela-eletrica-de-arroz-mondial-pe-43-6-xicaras-preta-inox/p/55011884',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSFEWYPL', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
@@ -148,7 +148,7 @@ const presentes: Presente[] = [
         nome: 'Jogo Panelas 5 Peças',
         descricao: 'Jogo Panelas 5 Peças Sartin Champanhe com Frigideira Antiaderente - Mimo Style ',
         preco: 'R$ 394,20',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126770014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250215jogo de panelas5204000053039865406394.205802BR5922Rafael Henrique Campos6008Brasilia620905059bw42630454E7',
         linkProduto: 'https://www.magazineluiza.com.br/jogo-panelas-5-pecas-sartin-champanhe-com-frigideira-antiaderente-mimo-style/p/jjbk6g7073/ud/cjpn/?partner_id=64068&utm_source=pdp&utm_medium=share',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QMJ75WTM', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
@@ -156,10 +156,10 @@ const presentes: Presente[] = [
     {
         id: '13',
         imagem: '/images/presentes/kitchurrasco.webp',
-        nome: 'Jogo Panelas 5 Peças',
+        nome: 'kit de churrasco',
         descricao: 'Kit Churrasco Ou Cozinha 25 Peças Com Maleta Em Couro ',
         preco: 'R$ 193,00',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217kit de churrasco 5204000053039865406193.005802BR5922Rafael Henrique Campos6008Brasilia62090505exkgm63043892',
         linkProduto: 'https://produto.mercadolivre.com.br/MLB-1251203109-kit-churrasco-ou-cozinha-25-pecas-com-maleta-em-couro-_JM?attributes=COLOR_SECONDARY_COLOR:QmxhY2s=',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QR3BUQP1', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
@@ -167,10 +167,10 @@ const presentes: Presente[] = [
     {
         id: '14',
         imagem: '/images/presentes/jogotalheres.webp',
-        nome: 'Jogo Panelas 5 Peças',
+        nome: 'Jogo de talheres',
         descricao: 'Jogo Talheres Aço Inox Faqueiro Malibu 91 Peças Tramontina ',
         preco: 'R$ 284,05',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126750014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250213jogo talheres5204000053039865406284.055802BR5922Rafael Henrique Campos6008Brasilia62090505dy3i76304865C',
         linkProduto: 'https://produto.mercadolivre.com.br/MLB-3662020297-jogo-talheres-aco-inox-faqueiro-malibu-91-pecas-tramontina-_JM?attributes=COLOR_SECONDARY_COLOR:UHJhdGVhZG8=',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QFDJRQED', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
