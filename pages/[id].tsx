@@ -181,7 +181,7 @@ const presentes: Presente[] = [
         nome: 'Aparelho Jantar',
         descricao: 'Aparelho Jantar e Chá 30 Pçs Biona Donna Cena Inglesa',
         preco: 'R$ 382,90',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219aparelho de jantar 5204000053039865406382.905802BR5922Rafael Henrique Campos6008Brasilia62090505qntrh63048B1E',
         linkProduto: 'https://www.amazon.com.br/dp/B09RGTPPT7?ref=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&ref_=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q161RMJR', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
@@ -192,7 +192,7 @@ const presentes: Presente[] = [
         nome: 'Batedeira',
         descricao: 'Batedeira Planetária Britânia BBPE01 12 Velocidades 4L 500W 110v',
         preco: 'R$ 279,90',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209batedeira5204000053039865406279.905802BR5922Rafael Henrique Campos6008Brasilia620905055jcc663046AE1',
         linkProduto: 'https://www.amazon.com.br/Batedeira-Planet%C3%A1ria-Brit%C3%A2nia-BBPE01-Velocidades/dp/B0CN1PFKTL/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9PYUI8XG8HI7&dib=eyJ2IjoiMSJ9.5rQ1kTa_pTQj8qDG6r8etDrMexbGMHRc615eu2t3QFp7b77u8TR0W9kcs-6-sENsAaB2qFLc-zrVzlLYQn9Z5MtX7rP0QiB17JleYTSK2FSf4lcGY0UrmdD0UMexjwCEXxErFXd4qZxl35jQ_u8uYK1XtkATRIk663EiYYXPX3b8Fcg7yk8FiUVszR678VjSMl9WRIX1UFjuKd_b_GM-aNVgY1LATWedzj3wQ5fXGiw.bLOYfgh_G7p0a4Li2n0-EewEXKQYg9XMefXjOtGYx6M&dib_tag=se&keywords=Batedeira+Planet%C3%A1ria+Brit%C3%A2nia+BBPE01+12+Velocidades+4L+500W+110V&qid=1717087488&s=kitchen&sprefix=batedeira+planet%C3%A1ria+brit%C3%A2nia+bbpe01+12+velocidades+4l+500w+110v%2Ckitchen%2C281&sr=1-3&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QHHDGX4L', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
@@ -203,7 +203,7 @@ const presentes: Presente[] = [
         nome: 'Mixer',
         descricao: 'Mixer 3 em 1, 400W, 2 velocidades, Bmx400, Preto, 110v, Britânia',
         preco: 'R$ 199,00',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205mixer5204000053039865406199.005802BR5922Rafael Henrique Campos6008Brasilia62090505m9mb26304C863',
         linkProduto: 'https://www.amazon.com.br/dp/B08YHR9C4S?ref=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&ref_=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QV1HPUUH', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
@@ -214,7 +214,7 @@ const presentes: Presente[] = [
         nome: 'Organizador de geladeira',
         descricao: 'Organizador de geladeira',
         preco: 'R$ 114,99',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
+        codigoPix: '00020126820014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250220realizador geladeira5204000053039865406114.995802BR5922Rafael Henrique Campos6008Brasilia62090505neqvn63049DEA',
         linkProduto: 'https://www.amazon.com.br/dp/B0CCLM43XP?ref=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&ref_=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QO361MUC', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
