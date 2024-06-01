@@ -117,7 +117,7 @@ const presentes: Presente[] = [
         preco: 'R$ 134,99',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.casasbahia.com.br/conjunto-de-travessas-refratarias-marinex-em-vidro---10-pecas-55058982.html',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/travessa', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q1EG3C9J', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
     {
@@ -128,7 +128,7 @@ const presentes: Presente[] = [
         preco: 'R$ 365,66',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.casaevideo.com.br/panela-de-pressao-eletrica-5l-mondial-pe38-preto-com-prata-127v/p',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/pressao', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q4JGIOPC', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
     },
     {
@@ -139,7 +139,7 @@ const presentes: Presente[] = [
         preco: 'R$ 189,90',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.pontofrio.com.br/panela-eletrica-de-arroz-mondial-pe-43-6-xicaras-preta-inox/p/55011884',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/arroz', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSFEWYPL', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
     {
@@ -150,7 +150,7 @@ const presentes: Presente[] = [
         preco: 'R$ 394,20',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.magazineluiza.com.br/jogo-panelas-5-pecas-sartin-champanhe-com-frigideira-antiaderente-mimo-style/p/jjbk6g7073/ud/cjpn/?partner_id=64068&utm_source=pdp&utm_medium=share',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/kitpanela', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QMJ75WTM', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
     },
     {
@@ -161,7 +161,7 @@ const presentes: Presente[] = [
         preco: 'R$ 193,00',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://produto.mercadolivre.com.br/MLB-1251203109-kit-churrasco-ou-cozinha-25-pecas-com-maleta-em-couro-_JM?attributes=COLOR_SECONDARY_COLOR:QmxhY2s=',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/kitchurrasco', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QR3BUQP1', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
     {
@@ -172,7 +172,7 @@ const presentes: Presente[] = [
         preco: 'R$ 284,05',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://produto.mercadolivre.com.br/MLB-3662020297-jogo-talheres-aco-inox-faqueiro-malibu-91-pecas-tramontina-_JM?attributes=COLOR_SECONDARY_COLOR:UHJhdGVhZG8=',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/jogotalheres', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QFDJRQED', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
     },
     {
@@ -183,7 +183,7 @@ const presentes: Presente[] = [
         preco: 'R$ 382,90',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B09RGTPPT7?ref=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&ref_=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&language=pt-BR',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/jantar', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q161RMJR', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
     {
@@ -194,7 +194,7 @@ const presentes: Presente[] = [
         preco: 'R$ 279,90',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/Batedeira-Planet%C3%A1ria-Brit%C3%A2nia-BBPE01-Velocidades/dp/B0CN1PFKTL/ref=sr_1_3?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=9PYUI8XG8HI7&dib=eyJ2IjoiMSJ9.5rQ1kTa_pTQj8qDG6r8etDrMexbGMHRc615eu2t3QFp7b77u8TR0W9kcs-6-sENsAaB2qFLc-zrVzlLYQn9Z5MtX7rP0QiB17JleYTSK2FSf4lcGY0UrmdD0UMexjwCEXxErFXd4qZxl35jQ_u8uYK1XtkATRIk663EiYYXPX3b8Fcg7yk8FiUVszR678VjSMl9WRIX1UFjuKd_b_GM-aNVgY1LATWedzj3wQ5fXGiw.bLOYfgh_G7p0a4Li2n0-EewEXKQYg9XMefXjOtGYx6M&dib_tag=se&keywords=Batedeira+Planet%C3%A1ria+Brit%C3%A2nia+BBPE01+12+Velocidades+4L+500W+110V&qid=1717087488&s=kitchen&sprefix=batedeira+planet%C3%A1ria+brit%C3%A2nia+bbpe01+12+velocidades+4l+500w+110v%2Ckitchen%2C281&sr=1-3&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/batedeira', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QHHDGX4L', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
     },
     {
@@ -205,7 +205,7 @@ const presentes: Presente[] = [
         preco: 'R$ 199,00',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B08YHR9C4S?ref=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&ref_=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&language=pt-BR&th=1',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/mixer', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QV1HPUUH', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
     {
@@ -216,7 +216,7 @@ const presentes: Presente[] = [
         preco: 'R$ 114,99',
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.amazon.com.br/dp/B0CCLM43XP?ref=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&ref_=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&language=pt-BR',
-        linkPagamentoCartao: 'https://www.exemplo.com/pagamento/organizador', // Adicione o link real de pagamento aqui
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QO361MUC', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
     }
     // ... seus outros presentes ...
