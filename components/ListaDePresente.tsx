@@ -170,6 +170,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para manter a geladeira organizada (e a vida também)!',
       preco: 'R$ 1619,00',
     },
+    {
+      id: '21',
+      imagem: '/images/presentes/dialogo.webp',
+      nome: 'Dialogo',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 100,00',
+    },
   
     // Adicione mais presentes conforme necessário
   ];

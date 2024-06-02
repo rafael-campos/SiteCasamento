@@ -241,6 +241,17 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
+    {
+        id: '21',
+        imagem: '/images/presentes/dialogo.webp',
+        nome: 'Dialogo',
+        descricao: 'Dialogo e a base do relacionamento',
+        preco: 'R$ 100,00',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208lavadora52040000530398654071619.005802BR5922Rafael Henrique Campos6008Brasilia62090505yxksk630458D6',
+        linkProduto: 'https://www.amazon.com.br/dp/B0BTTDB3GF/ref=cm_sw_r_cso_wa_apan_dp_ER9YCTMV98DFTR85NER3?starsLeft=1&skipTwisterOG=2',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB', // Adicione o link real de pagamento aqui
+        enderecoEntrega: 1
+    },
 
     // ... seus outros presentes ...
 ];
