@@ -488,15 +488,9 @@ const PresentePage: React.FC = () => {
                         </p>
                         {/* Área do QR Code Pix Geral */}
                         <div className="mt-4 flex flex-col items-center justify-center">
-                            <QRCode
-                                value="73a88d55-f7ea-4eb1-9b7b-88961e13db96"
-                                size={128}
-                                bgColor="#FFFFFF"
-                                fgColor="#000000"
-                                level="M"
-                                className="mb-2"
-                            />
+                          
                             <p className="text-gray-600 text-sm">Chave PIX: 73a88d55-f7ea-4eb1-9b7b-88961e13db96</p>
+                          
                         </div>
 
                         {/* Botões do WhatsApp */}
