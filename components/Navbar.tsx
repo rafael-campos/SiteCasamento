@@ -5,7 +5,7 @@ import {
   InfoCircleOutlined,
   PictureOutlined,
   GiftOutlined,
-  MailOutlined,
+  UserOutlined, // Ícone para Padrinhos
   MenuOutlined
 } from '@ant-design/icons';
 import { Layout, Menu, Drawer } from 'antd';
@@ -41,6 +41,11 @@ const Navbar: React.FC = () => {
               <InfoCircleOutlined className="mr-2" /> Informações
             </div>
           </Link>
+          <Link href="/#padrinhos" scroll={true}> {/* Novo link para Padrinhos */}
+            <div className="text-gray-600 hover:text-gray-800 transition-all duration-300 cursor-pointer flex items-center">
+              <UserOutlined className="mr-2" /> Padrinhos
+            </div>
+          </Link>
           <Link href="/#galeria" scroll={true}>
             <div className="text-gray-600 hover:text-gray-800 transition-all duration-300 cursor-pointer flex items-center">
               <PictureOutlined className="mr-2" /> Galeria
@@ -51,33 +56,35 @@ const Navbar: React.FC = () => {
               <GiftOutlined className="mr-2" /> Lista de Presentes
             </div>
           </Link>
-    
         </div>
         <MenuOutlined className="md:hidden text-2xl" onClick={showDrawer} />
       </Header>
       <Drawer title="Menu" placement="right" onClose={onClose} visible={visible}>
         <Menu mode="inline" onClick={handleLinkClick}> 
-          {/* Adiciona o onClick aqui para fechar o Drawer ao clicar no link */}
           <Menu.Item key="1">
             <Link href="/#informacoes" scroll={true}>
                Informações 
             </Link>
           </Menu.Item>
-          <Menu.Item key="2">
+          <Menu.Item key="2"> {/* Novo item para Padrinhos */}
+            <Link href="/#padrinhos" scroll={true}>
+              Padrinhos
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="3">
             <Link href="/#galeria" scroll={true}>
               Galeria
             </Link>
           </Menu.Item>
-          <Menu.Item key="3">
+          <Menu.Item key="4">
             <Link href="/#lista-de-presentes" scroll={true}>
               Lista de Presentes
             </Link>
           </Menu.Item>
-  
         </Menu>
       </Drawer>
-    </Layout>
+    </Layout> 
   );
 };
 
-export default Navbar;
+export default Navbar; 
