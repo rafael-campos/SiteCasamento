@@ -41,7 +41,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126930014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250231Estou enviado o aspirador dr po5204000053039865406142.495802BR5922Rafael Henrique Campos6008Brasilia62090505m1kef63040A10',
         linkProduto: 'https://www.pontofrio.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-15003643/p/15003651?utm_medium=cpc&utm_source=GP_PLA&IdSku=15003651&idLojista=16&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gclid=CjwKCAjw3NyxBhBmEiwAyofDYS3_j4kyi1CPg6ENCUSRKW4bovK4nlMff1NVOYGGPg_uA6J5w9qkVBoCr5AQAvD_BwE',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q7I5QSFK',
-        enderecoEntrega: 2 // Endereço 2 (Rua Ernesto Braga) 
+        enderecoEntrega: 1 // Endereço 2 (Rua Ernesto Braga) 
     },
     {
         id: '3',
@@ -84,7 +84,7 @@ const presentes: Presente[] = [
         preco: 'R$ 172,00',
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205Potes5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905058di5p630494CE',
         linkProduto: 'https://www.amazon.com.br/dp/B07QJXQHQ3?ref=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&ref_=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&language=pt-BR',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q0OS3Y94',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSP1RJ1T',
         enderecoEntrega: 1 
     },
     {
@@ -96,7 +96,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505pedbc6304DBF7',
         linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN2EJU44',
-        enderecoEntrega: 2 
+        enderecoEntrega: 1 
     },
     {
         id: '8',
@@ -118,7 +118,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216Multiprocessador5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505zhdqr6304EA04',
         linkProduto: 'https://www.casasbahia.com.br/conjunto-de-travessas-refratarias-marinex-em-vidro---10-pecas-55058982.html',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q1EG3C9J', // Adicione o link real de pagamento aqui
-        enderecoEntrega: 2
+        enderecoEntrega: 1
     },
     {
         id: '10',
@@ -140,7 +140,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216panela de arroz 5204000053039865406189.905802BR5922Rafael Henrique Campos6008Brasilia62090505xuaep63043ED9',
         linkProduto: 'https://www.pontofrio.com.br/panela-eletrica-de-arroz-mondial-pe-43-6-xicaras-preta-inox/p/55011884',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSFEWYPL', // Adicione o link real de pagamento aqui
-        enderecoEntrega: 2
+        enderecoEntrega: 1
     },
     {
         id: '12',
@@ -184,7 +184,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219aparelho de jantar 5204000053039865406382.905802BR5922Rafael Henrique Campos6008Brasilia62090505qntrh63048B1E',
         linkProduto: 'https://www.amazon.com.br/dp/B09RGTPPT7?ref=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&ref_=cm_sw_r_apan_dp_D6A6Z8WH3S9VRBSSAWF7&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q161RMJR', // Adicione o link real de pagamento aqui
-        enderecoEntrega: 2
+        enderecoEntrega: 1
     },
     {
         id: '16',
@@ -206,7 +206,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205mixer5204000053039865406199.005802BR5922Rafael Henrique Campos6008Brasilia62090505m9mb26304C863',
         linkProduto: 'https://www.amazon.com.br/dp/B08YHR9C4S?ref=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&ref_=cm_sw_r_apan_dp_DF9TQMEFGR2PVV7DN8VD&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QV1HPUUH', // Adicione o link real de pagamento aqui
-        enderecoEntrega: 2
+        enderecoEntrega: 1
     },
     {
         id: '18',
@@ -218,7 +218,30 @@ const presentes: Presente[] = [
         linkProduto: 'https://www.amazon.com.br/dp/B0CCLM43XP?ref=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&ref_=cm_sw_r_apan_dp_C7DS3PXQTDA2DTMJFYR2&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QO361MUC', // Adicione o link real de pagamento aqui
         enderecoEntrega: 1
-    }
+    },
+    {
+        id: '19',
+        imagem: '/images/presentes/geladeira.webp',
+        nome: 'Geladeira',
+        descricao: 'Organizador de geladeira',
+        preco: 'R$ 2899,00',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209geladeira52040000530398654072899.005802BR5922Rafael Henrique Campos6008Brasilia62090505mw10z6304AE91',
+        linkProduto: 'https://www.amazon.com.br/dp/B07FY23K8B/ref=cm_sw_r_cso_wa_apan_dp_6F69S45Q5GKVJ0M32GJR?starsLeft=1&skipTwisterOG=2&th=1',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QH70EYAV', // Adicione o link real de pagamento aqui
+        enderecoEntrega: 2
+    },
+    {
+        id: '20',
+        imagem: '/images/presentes/lavadora.webp',
+        nome: 'Lavadora',
+        descricao: 'Organizador de geladeira',
+        preco: 'R$ 1619,00',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208lavadora52040000530398654071619.005802BR5922Rafael Henrique Campos6008Brasilia62090505yxksk630458D6',
+        linkProduto: 'https://www.amazon.com.br/dp/B0BTTDB3GF/ref=cm_sw_r_cso_wa_apan_dp_ER9YCTMV98DFTR85NER3?starsLeft=1&skipTwisterOG=2',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB', // Adicione o link real de pagamento aqui
+        enderecoEntrega: 2
+    },
+    
     // ... seus outros presentes ...
 ];
 

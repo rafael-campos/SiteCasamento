@@ -156,6 +156,20 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para manter a geladeira organizada (e a vida também)!',
       preco: 'R$ 114,99',
     },
+    {
+      id: '19',
+      imagem: '/images/presentes/geladeira.webp',
+      nome: 'Geladeira',
+      descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!', 
+      preco: 'R$ 2899,00',
+    },
+    {
+      id: '20',
+      imagem: '/images/presentes/lavadora.webp',
+      nome: 'Lavadora',
+      descricao: 'Para manter a geladeira organizada (e a vida também)!',
+      preco: 'R$ 1619,00',
+    },
   
     // Adicione mais presentes conforme necessário
   ];
