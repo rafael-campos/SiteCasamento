@@ -17,6 +17,7 @@ const photos: Photo[] = [
     height: 3,
     alt: 'Descrição da imagem'
   },
+
   {
     src: '/images/foto-02.webp',
     width: 3,
@@ -36,6 +37,33 @@ const photos: Photo[] = [
     height: 4,
     alt: 'Descrição da imagem'
   },
+
+
+  {
+    src: '/images/foto-06.webp',
+    width: 3,
+    height: 4,
+    alt: 'Descrição da imagem'
+  },
+  {
+    src: '/images/foto-08.webp',
+    width: 3,
+    height: 4,
+    alt: 'Descrição da imagem'
+  },
+  {
+    src: '/images/foto-07.webp',
+    width: 3,
+    height: 4,
+    alt: 'Descrição da imagem'
+  },
+  {
+    src: '/images/foto-04.webp',
+    width: 4,
+    height: 3,
+    alt: 'Descrição da imagem'
+  },
+  
 
   // Repita este objeto para adicionar mais imagens
 ];
