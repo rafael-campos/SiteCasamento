@@ -198,6 +198,20 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Muito dialogo pra noiva com o noivo',
       preco: 'R$ 177,88',
     },
+    {
+      id: '25',
+      imagem: '/images/presentes/cadeirajantar.webp',
+      nome: 'Cadeiras para mesa de jantar',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 187,11',
+    },
+    {
+      id: '26',
+      imagem: '/images/presentes/lixeira.webp',
+      nome: 'Lixeira inox',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 29,90',
+    },
   
     // Adicione mais presentes conforme necessário
   ];
