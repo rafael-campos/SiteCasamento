@@ -212,6 +212,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Muito dialogo pra noiva com o noivo',
       preco: 'R$ 29,90',
     },
+    {
+      id: '27',
+      imagem: '/images/presentes/rack.webp',
+      nome: 'rack para sala',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 575,37',
+    },
   
     // Adicione mais presentes conforme necessário
   ];
