@@ -454,6 +454,7 @@ const PresentePage: React.FC = () => {
                         </div>
                     </div>
 
+                    {/*
                     <div className="mt-16 bg-white rounded-lg shadow-md p-8 text-center">
                         <h3 className="text-xl font-bold text-gray-800 mb-4">Endereço para Envio de Presentes</h3>
 
@@ -466,7 +467,7 @@ const PresentePage: React.FC = () => {
                             </>
                         )}
 
-                        {/* Exibe o botão "Ver Produto na Loja" apenas para presentes reais */}
+                       
                         {presente.tipo === 'real' && presente.linkProduto && (
                             <>
                                 <FaGift className="text-4xl text-blue-600 mx-auto my-4" />
@@ -476,18 +477,35 @@ const PresentePage: React.FC = () => {
                             </>
                         )}
                     </div>
+                    */}
 
+
+                    {/* Nova área para contatos do WhatsApp */}
                     {/* Nova área para contatos do WhatsApp */}
                     <div className="mt-8 bg-white rounded-lg shadow-md p-8 text-center">
                         <p className="text-gray-800">
-                            Deseja nos presentear com algo diferente ou está com dificuldades para enviar o presente pelo site? Entre em contato conosco!
+                            Deseja nos presentear com algo diferente ou está com dificuldades para enviar o presente pelo site? Entre em contato conosco ou utilize a chave PIX abaixo!
                         </p>
+                        {/* Área do QR Code Pix Geral */}
+                        <div className="mt-4 flex flex-col items-center justify-center">
+                            <QRCode
+                                value="73a88d55-f7ea-4eb1-9b7b-88961e13db96"
+                                size={128}
+                                bgColor="#FFFFFF"
+                                fgColor="#000000"
+                                level="M"
+                                className="mb-2"
+                            />
+                            <p className="text-gray-600 text-sm">Chave PIX: 73a88d55-f7ea-4eb1-9b7b-88961e13db96</p>
+                        </div>
+
+                        {/* Botões do WhatsApp */}
                         <div className="mt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
                             <a
                                 href="https://wa.me/5532999057760"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 flex items-center" // Adicionei flex items-center aqui
+                                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 flex items-center"
                             >
                                 <FaWhatsapp className="mr-2" /> Falar com Rafael
                             </a>
@@ -495,11 +513,11 @@ const PresentePage: React.FC = () => {
                                 href="https://wa.me/5532984387925"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 flex items-center" // Adicionei flex items-center aqui
+                                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 flex items-center"
                             >
                                 <FaWhatsapp className="mr-2" /> Falar com Mirelle
                             </a>
-                        </div>s
+                        </div>
                     </div>
                 </div>
             </div>
