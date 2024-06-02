@@ -177,6 +177,27 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Muito dialogo pra noiva com o noivo',
       preco: 'R$ 100,00',
     },
+    {
+      id: '22',
+      imagem: '/images/presentes/mesacentro.webp',
+      nome: 'Mesa de centro',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 164,36',
+    },
+    {
+      id: '23',
+      imagem: '/images/presentes/mesaapoio.webp',
+      nome: 'Mesa de apoio',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 183,59',
+    },
+    {
+      id: '24',
+      imagem: '/images/presentes/bancada.webp',
+      nome: 'Bancada de cozinha',
+      descricao: 'Muito dialogo pra noiva com o noivo',
+      preco: 'R$ 177,88',
+    },
   
     // Adicione mais presentes conforme necessário
   ];

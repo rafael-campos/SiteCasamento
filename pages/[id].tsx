@@ -272,6 +272,42 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QKQS3A13',
         tipo: 'ficticio',
     },
+    {
+        id: '22',
+        imagem: '/images/presentes/mesacentro.webp',
+        nome: 'Mesa de centro',
+        descricao: 'Mesa de sala de estar',
+        preco: 'R$ 164,36',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208lavadora52040000530398654071619.005802BR5922Rafael Henrique Campos6008Brasilia62090505yxksk630458D6',
+        linkProduto: 'https://www.casasbahia.com.br/mesa-centro-estilo-industrial-berlin-decorativa-moderna-klm-moveis-1558160587.html',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB',
+        enderecoEntrega: 2,
+        tipo: 'real',
+    },
+    {
+        id: '23',
+        imagem: '/images/presentes/mesaapoio.webp',
+        nome: 'Mesa de apoio',
+        descricao: 'Mesa de apoio para sofa',
+        preco: 'R$ 183,59',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208lavadora52040000530398654071619.005802BR5922Rafael Henrique Campos6008Brasilia62090505yxksk630458D6',
+        linkProduto: 'https://www.casasbahia.com.br/mesa-apoio-lateral-sofa-industrial-vintage-metal-e-madeira-1539488465.html',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB',
+        enderecoEntrega: 2,
+        tipo: 'real',
+    },
+    {
+        id: '24',
+        imagem: '/images/presentes/bancada.webp',
+        nome: 'Bancada',
+        descricao: 'Bancada de cozinha',
+        preco: 'R$ 177,88',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208lavadora52040000530398654071619.005802BR5922Rafael Henrique Campos6008Brasilia62090505yxksk630458D6',
+        linkProduto: 'https://www.magazineluiza.com.br/bancada-de-cozinha-2-prateleiras-branco-565-soluzione/p/gjh52074g9/mo/bccz/?partner_id=64068&utm_source=pdp&utm_medium=share',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB',
+        enderecoEntrega: 2,
+        tipo: 'real',
+    },
     // ... seus outros presentes ...
 ];
 
@@ -427,7 +463,7 @@ const PresentePage: React.FC = () => {
                             >
                                 <FaWhatsapp className="mr-2" /> Falar com Mirelle
                             </a>
-                        </div>
+                        </div>s
                     </div>
                 </div>
             </div>
