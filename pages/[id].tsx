@@ -3,7 +3,7 @@ import { FaHeart, FaCopy, FaGift, FaWhatsapp } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import Navbar from '@/components/Navbar';
 import QRCode from 'react-qr-code';
-import { Tooltip } from 'antd'; 
+import { Tooltip } from 'antd';
 import { motion } from 'framer-motion';
 
 // Interface para definir a estrutura de cada presente
@@ -14,8 +14,8 @@ interface Presente {
     descricao: string;
     preco: string;
     codigoPix: string;
-    linkProduto: string; 
-    linkPagamentoCartao: string; 
+    linkProduto: string;
+    linkPagamentoCartao: string;
     enderecoEntrega: number; // 1: Endereço 1, 2: Endereço 2
 }
 
@@ -73,8 +73,8 @@ const presentes: Presente[] = [
         preco: 'R$ 59,90',
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205copos520400005303986540559.905802BR5922Rafael Henrique Campos6008Brasilia620905052t6nj6304C1BD',
         linkProduto: 'https://www.amazon.com.br/dp/B0CPM571Y5?ref=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&ref_=cm_sw_r_apan_dp_F63YR1M1H1DVTKAK01M2&language=pt-BR',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q8DHEVBO', 
-        enderecoEntrega: 1 
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q8DHEVBO',
+        enderecoEntrega: 1
     },
     {
         id: '6',
@@ -85,7 +85,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205Potes5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905058di5p630494CE',
         linkProduto: 'https://www.amazon.com.br/dp/B07QJXQHQ3?ref=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&ref_=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSP1RJ1T',
-        enderecoEntrega: 1 
+        enderecoEntrega: 1
     },
     {
         id: '7',
@@ -96,7 +96,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505pedbc6304DBF7',
         linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN2EJU44',
-        enderecoEntrega: 1 
+        enderecoEntrega: 1
     },
     {
         id: '8',
@@ -107,7 +107,7 @@ const presentes: Presente[] = [
         codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217multiprocessador 5204000053039865406145.125802BR5922Rafael Henrique Campos6008Brasilia62090505uxx8l630452D7',
         linkProduto: 'https://www.amazon.com.br/dp/B0876XRYGT?ref=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&ref_=cm_sw_r_apan_dp_4Y5NADY0Y0TBVF58M3WH&language=pt-BR',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QIOXQLD7',
-        enderecoEntrega: 1 
+        enderecoEntrega: 1
     },
     {
         id: '9',
@@ -241,7 +241,7 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QPUOJKZB', // Adicione o link real de pagamento aqui
         enderecoEntrega: 2
     },
-    
+
     // ... seus outros presentes ...
 ];
 
@@ -269,21 +269,23 @@ const PresentePage: React.FC = () => {
     }
 
     // Lógica para exibir o endereço de entrega correto
-    const enderecoEntrega = presente.enderecoEntrega === 1 
+    const enderecoEntrega = presente.enderecoEntrega === 1
         ? (
             <address className="not-italic mt-4 text-gray-600">
-                Rua Fiscal José Pedro, 426<br />
-                Vila Santa Terezinha<br />
-                São João del Rei, MG
+                Avenida Josue de Queiroz, 681<br />
+                Matozinhos<br />
+                São João del Rei, MG<br />
+                Cep: 36305-144
             </address>
-          )
+        )
         : (
             <address className="not-italic mt-4 text-gray-600">
-                Rua Ernesto Braga, 61<br />
+                Rua Ernesto da Silva Braga, 181<br />
                 Rio das Mortes<br />
-                São João del Rei, MG
+                São João del Rei, MG<br />
+                Cep: 36315-00
             </address>
-          );
+        );
 
     return (
         <motion.div
@@ -342,7 +344,7 @@ const PresentePage: React.FC = () => {
                         <p className="text-gray-600 text-sm">
                             Caso deseje nos presentear pessoalmente, ficaremos honrados em recebê-los na seguinte localização:
                         </p>
-                        {enderecoEntrega} 
+                        {enderecoEntrega}
                         <FaGift className="text-4xl text-blue-600 mx-auto my-4" />
                         <button onClick={() => openLinkInNewTab(presente.linkProduto)} className="inline-block bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-6 rounded-lg font-medium text-lg cursor-                       pointer shadow-md hover:from-blue-700 hover:to-blue-800 transition-colors">
                             Ver Produto na Loja
@@ -355,17 +357,17 @@ const PresentePage: React.FC = () => {
                             Deseja nos presentear com algo diferente ou está com dificuldades para enviar o presente pelo site? Entre em contato conosco!
                         </p>
                         <div className="mt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
-                            <a 
-                                href="https://wa.me/5532999057760" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
+                            <a
+                                href="https://wa.me/5532999057760"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
                             >
                                 <FaWhatsapp className="mr-2 " /> Falar com Rafael
                             </a>
-                            <a 
-                                href="https://wa.me/5532984387925" 
-                                target="_blank" 
+                            <a
+                                href="https://wa.me/5532984387925"
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300"
                             >
