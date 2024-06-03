@@ -4,7 +4,7 @@ import { FaHeart } from 'react-icons/fa'; // Importando ícone de coração
 // Lista de padrinhos e madrinhas
 const listaDePadrinhos = [
   { nomePadrinho: 'João Leno', nomeMadrinha: 'Cristiane Marina' },
-  { nomePadrinho: 'Amanda Magalhães', nomeMadrinha: 'Caio Anndrade' },
+  { nomePadrinho: 'Amanda Magalhães', nomeMadrinha: 'Caio Andrade' },
   { nomePadrinho: 'Thamires Santos', nomeMadrinha: 'Henrique' },
   { nomePadrinho: 'Maria Clara', nomeMadrinha: 'Bruno Coutinho' },
   { nomePadrinho: 'Juliemerson de Paula', nomeMadrinha: 'Rafaela Silveira' },
