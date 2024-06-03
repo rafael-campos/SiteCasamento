@@ -8,7 +8,7 @@ const listaDePadrinhos = [
   { nomePadrinho: 'Thamires Santos', nomeMadrinha: 'Henrique' },
   { nomePadrinho: 'Maria Clara', nomeMadrinha: 'Bruno Coutinho' },
   { nomePadrinho: 'Juliemerson de Paula', nomeMadrinha: 'Rafaela Silveira' },
-  { nomePadrinho: 'Luiz', nomeMadrinha: 'Neide' },
+  { nomePadrinho: 'Luis Xisto', nomeMadrinha: 'Neide Santos' },
   { nomePadrinho: 'Mônica Valéria', nomeMadrinha: 'José Francisco' },
   { nomePadrinho: 'Isabel Costa', nomeMadrinha: 'Antônio Carlos' },
   { nomePadrinho: 'Maydson  Paula', nomeMadrinha: 'Yasmin Carvalho' },
