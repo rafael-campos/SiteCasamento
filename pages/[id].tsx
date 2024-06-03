@@ -354,6 +354,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q9M2WGSZ',
         tipo: 'ficticio',
     },
+    {
+        id: '29',
+        imagem: '/images/presentes/casaljantar.webp',
+        nome: 'Jantar Casal',
+        descricao: 'Primeiro jantar romântico do casal',
+        preco: 'R$ 200,00',
+        codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217jantar romantico 5204000053039865406200.005802BR5922Rafael Henrique Campos6008Brasilia6209050515be863043100',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN66EBRV',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 
