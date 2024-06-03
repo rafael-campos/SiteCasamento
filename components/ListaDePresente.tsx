@@ -219,6 +219,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para sustentar a TV gigante (e a nossa preguiça de domingo)!',
       preco: 'R$ 575,37',
     }, 
+    {
+      id: '28',
+      imagem: '/images/presentes/deus.webp',
+      nome: 'Intervencão',
+      descricao: 'Se por uma intervenção divina vc se sentir tocado.',
+      preco: 'R$ 2000,00',
+    }, 
     // Adicione mais presentes conforme necessário
   ];
 

@@ -344,6 +344,16 @@ const presentes: Presente[] = [
         enderecoEntrega: 2,
         tipo: 'real',
     },
+    {
+        id: '28',
+        imagem: '/images/presentes/deus.webp',
+        nome: 'Intervenção',
+        descricao: 'Se por uma intervenção divina vc se sentir tocado.',
+        preco: 'R$ 2000,00',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219intervencao divina 52040000530398654072000.005802BR5922Rafael Henrique Campos6008Brasilia62090505z4fqh6304BDB4',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q9M2WGSZ',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 
