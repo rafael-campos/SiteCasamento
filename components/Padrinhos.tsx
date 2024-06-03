@@ -21,7 +21,7 @@ const listaDePadrinhos = [
   { nomePadrinho: 'Ygor Magalhães', nomeMadrinha: 'Camila Vieira' },
   { nomePadrinho: 'Olavo Campos', nomeMadrinha: 'Gilma Campos' },
   { nomePadrinho: 'Karine Ferreira ', nomeMadrinha: 'Douglas Paiva' },
-  { nomePadrinho: 'Juliano', nomeMadrinha: 'Marly' },
+  { nomePadrinho: 'Juliano de Paula', nomeMadrinha: 'Marly de Paula' },
   { nomePadrinho: 'Pedro Carvalho', nomeMadrinha: 'Maria Carvalho' },
   // Adicione mais casais aqui se necessário
 ];
