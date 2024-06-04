@@ -374,6 +374,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QWOL0YK1',
         tipo: 'ficticio',
     },
+    {
+        id: '31',
+        imagem: '/images/presentes/louca.webp',
+        nome: 'Escorredor de Louça',
+        descricao: 'Escorredor de Louça',
+        preco: 'R$ 129,90',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219escorregou de louca5204000053039865406129.905802BR5922Rafael Henrique Campos6008Brasilia620905053ocd063043C90',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QEYCVZDS',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 

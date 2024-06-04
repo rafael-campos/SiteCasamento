@@ -247,6 +247,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Ajudinha para a aposentadoria dos noivos ',
       preco: 'R$ 1000,00',
     }, 
+    {
+      id: '31',
+      imagem: '/images/presentes/louca.webp',
+      nome: 'Escorredor de Louça',
+      descricao: 'Escorredor de Louça ',
+      preco: 'R$ 129,90',
+    }, 
     // Adicione mais presentes conforme necessário
   ];
 
