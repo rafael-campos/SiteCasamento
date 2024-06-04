@@ -207,10 +207,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '26',
-      imagem: '/images/presentes/lixeira.webp',
-      nome: 'Lixeira Inox',
-      descricao: 'Para esconder as evidências dos nossos ataques à geladeira de madrugada!', 
-      preco: 'R$ 29,90',
+      imagem: '/images/presentes/pipoca.webp',
+      nome: 'Pipoqquera',
+      descricao: 'Pipoqueira', 
+      preco: 'R$ 189,00',
     },
     {
       id: '27',
