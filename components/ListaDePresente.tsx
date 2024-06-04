@@ -233,6 +233,20 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Primeiro jantar romântico do casal ',
       preco: 'R$ 200,00',
     }, 
+    {
+      id: '30',
+      imagem: '/images/presentes/casaljantar.webp',
+      nome: 'Primeiro jantar romantico',
+      descricao: 'Primeiro jantar romântico do casal ',
+      preco: 'R$ 200,00',
+    }, 
+    {
+      id: '31',
+      imagem: '/images/presentes/idosos.webp',
+      nome: 'Aponsentadoria do casal',
+      descricao: 'Ajudinha para a aposentadoria dos noivos ',
+      preco: 'R$ 1000,00',
+    }, 
     // Adicione mais presentes conforme necessário
   ];
 

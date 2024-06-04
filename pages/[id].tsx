@@ -364,6 +364,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN66EBRV',
         tipo: 'ficticio',
     },
+    {
+        id: '30',
+        imagem: '/images/presentes/idosos.webp',
+        nome: 'Aposentadoria Casal',
+        descricao: 'Ajudinha para a aposentadoria dos noivos',
+        preco: 'R$ 1000,00',
+        codigoPix: '00020126750014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250213aposentadoria52040000530398654071000.005802BR5922Rafael Henrique Campos6008Brasilia620905056s5ru63048077',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QWOL0YK1',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 
