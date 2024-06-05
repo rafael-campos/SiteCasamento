@@ -391,6 +391,7 @@ const presentes: Presente[] = [
         descricao: 'Ventilador',
         preco: 'R$ 199,99',
         codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210ventilador5204000053039865406199.995802BR5922Rafael Henrique Campos6008Brasilia62090505o29m56304B65E',
+        linkProduto: 'https://www.amazon.com.br/Ventilador-Mallory-Coluna-Chronos-Preto/dp/B0BTR4S17X/ref=asc_df_B0BTQY3GMZ/?tag=googleshopp00-20&linkCode=df0&hvadid=647495206723&hvpos=&hvnetw=g&hvrand=9579775561028479258&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-2204609642395&mcid=2f940c302baa39bebfce40e3ec7dbfe4&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q9JFTKC2',
         tipo: 'real',
     },
