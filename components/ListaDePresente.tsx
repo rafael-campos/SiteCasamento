@@ -254,6 +254,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Escorredor de Louça ',
       preco: 'R$ 129,90',
     }, 
+    {
+      id: '32',
+      imagem: '/images/presentes/ventilador.webp',
+      nome: 'Ventilador',
+      descricao: 'Ventilador ',
+      preco: 'R$ 199,99',
+    }, 
     // Adicione mais presentes conforme necessário
   ];
 

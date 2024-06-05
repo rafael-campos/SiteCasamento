@@ -384,6 +384,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QEYCVZDS',
         tipo: 'ficticio',
     },
+    {
+        id: '32',
+        imagem: '/images/presentes/ventilador.webp',
+        nome: 'Ventilador',
+        descricao: 'Ventilador',
+        preco: 'R$ 199,99',
+        codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210ventilador5204000053039865406199.995802BR5922Rafael Henrique Campos6008Brasilia62090505o29m56304B65E',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q9JFTKC2',
+        tipo: 'real',
+    },
     // ... seus outros presentes ...
 ];
 
