@@ -325,7 +325,7 @@ const presentes: Presente[] = [
         imagem: '/images/presentes/pipoca.webp',
         nome: 'Pipoqueira',
         descricao: 'Pipoquera',
-        preco: 'R$ 29,90',
+        preco: 'R$ 189,90',
         codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210pipoqueira5204000053039865406189.005802BR5922Rafael Henrique Campos6008Brasilia62090505ppwbv6304F057',
         linkProduto: 'https://www.amazon.com.br/dp/B07G1HWM9D?ref=cm_sw_r_apan_dp_NSZV46V04R1ZMGNHQ068&ref_=cm_sw_r_apan_dp_NSZV46V04R1ZMGNHQ068&social_share=cm_sw_r_apan_dp_NSZV46V04R1ZMGNHQ068&language=pt-BR&th=1',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QEDSVIWR',
