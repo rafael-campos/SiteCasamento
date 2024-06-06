@@ -427,6 +427,17 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QFXAF9XW',
         tipo: 'ficticio',
     },
+    {
+        id: '36',
+        imagem: '/images/presentes/mop.webp',
+        nome: 'Mop Giratorio',
+        descricao: 'Mop Giratorio',
+        preco: 'R$ 96,00',
+        codigoPix: '00020126760014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250214mop giratorio 520400005303986540596.005802BR5922Rafael Henrique Campos6008Brasilia620905057i127630403E9',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QW06V6IW',
+        tipo: 'ficticio',
+    },
+
 
     // ... seus outros presentes ...
 ];

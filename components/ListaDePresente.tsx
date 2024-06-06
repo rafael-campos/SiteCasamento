@@ -275,6 +275,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Alexa para noiva não mandar so no noivo',
       preco: 'R$ 300,00',
     },
+    {
+      id: '36',
+      imagem: '/images/presentes/mop.webp',
+      nome: 'Mop Giratorio',
+      descricao: 'Mop Giratorio',
+      preco: 'R$ 96,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
