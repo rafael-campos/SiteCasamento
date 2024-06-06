@@ -34,7 +34,7 @@ const ListaDePresentes: React.FC = () => {
       id: '1',
       imagem: '/images/presentes/frigideira.webp',
       nome: 'Frigideira',
-      descricao: 'Para fritar o amor (e os ovos do café da manhã)!', 
+      descricao: 'Para fritar o amor (e os ovos do café da manhã)!',
       preco: 'R$ 172,00',
     },
     {
@@ -77,13 +77,13 @@ const ListaDePresentes: React.FC = () => {
       imagem: '/images/presentes/panela.webp',
       nome: 'Panela 3em1',
       descricao: 'Uma panela para todas as receitas do nosso amor (menos para fazer drama, essa a gente já tem)!',
-      preco: 'R$ 78,99', 
+      preco: 'R$ 78,99',
     },
     {
       id: '8',
       imagem: '/images/presentes/multiprocessador.webp',
       nome: 'Multiprocessador',
-      descricao: 'Para processar a vida a dois com mais praticidade (e menos brigas na cozinha)!', 
+      descricao: 'Para processar a vida a dois com mais praticidade (e menos brigas na cozinha)!',
       preco: 'R$ 145,12',
     },
     {
@@ -104,14 +104,14 @@ const ListaDePresentes: React.FC = () => {
       id: '11',
       imagem: '/images/presentes/arroz.webp',
       nome: 'Panela de Arroz',
-      descricao: 'Para fazer o arroz soltinho da vida a dois (sem grudar, como nosso amor)!', 
+      descricao: 'Para fazer o arroz soltinho da vida a dois (sem grudar, como nosso amor)!',
       preco: 'R$ 189,90',
     },
     {
       id: '12',
       imagem: '/images/presentes/kitpanela.webp',
       nome: 'Jogo de Panelas',
-      descricao: 'Para equipar a nossa cozinha com muito amor (e panelas de qualidade)!', 
+      descricao: 'Para equipar a nossa cozinha com muito amor (e panelas de qualidade)!',
       preco: 'R$ 394,20',
     },
     {
@@ -146,7 +146,7 @@ const ListaDePresentes: React.FC = () => {
       id: '17',
       imagem: '/images/presentes/mixer.webp',
       nome: 'Mixer',
-      descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!', 
+      descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!',
       preco: 'R$ 199,90',
     },
     {
@@ -160,7 +160,7 @@ const ListaDePresentes: React.FC = () => {
       id: '19',
       imagem: '/images/presentes/geladeira.webp',
       nome: 'Geladeira',
-      descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!', 
+      descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!',
       preco: 'R$ 2899,00',
     },
     {
@@ -181,7 +181,7 @@ const ListaDePresentes: React.FC = () => {
       id: '22',
       imagem: '/images/presentes/mesacentro.webp',
       nome: 'Mesa de Centro',
-      descricao: 'Para apoiar os pés enquanto maratonamos Netflix (e pra não derrubar pipoca no chão)!', 
+      descricao: 'Para apoiar os pés enquanto maratonamos Netflix (e pra não derrubar pipoca no chão)!',
       preco: 'R$ 164,36',
     },
     {
@@ -195,21 +195,21 @@ const ListaDePresentes: React.FC = () => {
       id: '24',
       imagem: '/images/presentes/bancada.webp',
       nome: 'Bancada de Cozinha',
-      descricao: 'Onde a mágica da culinária (e da bagunça) acontece! Só falta a pizza!', 
+      descricao: 'Onde a mágica da culinária (e da bagunça) acontece! Só falta a pizza!',
       preco: 'R$ 177,88',
     },
     {
       id: '25',
       imagem: '/images/presentes/cadeirajantar.webp',
       nome: 'Cadeiras para Mesa de Jantar',
-      descricao: 'Para acomodar a galera nos churrascos de domingo (e pra gente fingir que somos adultos)!', 
+      descricao: 'Para acomodar a galera nos churrascos de domingo (e pra gente fingir que somos adultos)!',
       preco: 'R$ 187,11',
     },
     {
       id: '26',
       imagem: '/images/presentes/lixeira.webp',
       nome: 'Lixeira Inox',
-      descricao: 'Para esconder as evidências dos nossos ataques à geladeira de madrugada!', 
+      descricao: 'Para esconder as evidências dos nossos ataques à geladeira de madrugada!',
       preco: 'R$ 29,90',
     },
     {
@@ -218,55 +218,65 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Rack para Sala',
       descricao: 'Para sustentar a TV gigante (e a nossa preguiça de domingo)!',
       preco: 'R$ 575,37',
-    }, 
+    },
     {
       id: '28',
       imagem: '/images/presentes/deus.webp',
       nome: 'Intervencão',
       descricao: 'Se por uma intervenção divina vc se sentir tocado.',
       preco: 'R$ 2000,00',
-    }, 
+    },
     {
       id: '29',
       imagem: '/images/presentes/casaljantar.webp',
       nome: 'Primeiro jantar romantico',
-      descricao: 'Primeiro jantar romântico do casal ',
+      descricao: 'Primeiro jantar romântico do casal',
       preco: 'R$ 200,00',
-    }, 
+    },
     {
       id: '30',
       imagem: '/images/presentes/idosos.webp',
       nome: 'Aposentadoria do casal',
-      descricao: 'Ajudinha para a aposentadoria dos noivos',
+      descricao: 'Ajudinha para a aposentadoria dos noivos',
       preco: 'R$ 1000,00',
-    }, 
+    },
     {
       id: '31',
       imagem: '/images/presentes/louca.webp',
       nome: 'Escorredor de Louça',
       descricao: 'Escorredor de Louça',
       preco: 'R$ 129,00',
-    }, 
-    {
-      id: '31',
-      imagem: '/images/presentes/louca.webp',
-      nome: 'Escorredor de Louça',
-      descricao: 'Escorredor de Louça',
-      preco: 'R$ 129,00',
-    }, 
+    },
     {
       id: '32',
       imagem: '/images/presentes/ventilador.webp',
       nome: 'Ventilador',
       descricao: 'Ventilador',
-      preco: 'R$ 129,00',
-    }, 
-
+      preco: 'R$ 199,99',
+    },
+    {
+      id: '33',
+      imagem: '/images/presentes/cafeteira.webp',
+      nome: 'Cafeteira',
+      descricao: 'Cafeteira',
+      preco: 'R$ 194,90',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
+  // Função para embaralhar a lista de presentes
+  const shuffleArray = (array: Presente[]) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
+
+  // Embaralhar presentes ao carregar a página
+  const [presentesEmbaralhados, setPresentesEmbaralhados] = useState<Presente[]>([]);
+
+  useEffect(() => {
+    setPresentesEmbaralhados(shuffleArray(presentes));
+  }, []);
+
   return (
-    
     <motion.div
       initial="hidden"
       animate="visible"
@@ -276,7 +286,7 @@ const ListaDePresentes: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">Lista de Presentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {presentes.map((presente) => (
+          {presentesEmbaralhados.map((presente) => (
             <motion.div key={presente.id} variants={itemVariants} className="flex flex-col h-full">
               <div className="bg-white rounded-3xl shadow-md overflow-hidden relative flex flex-col justify-between h-full p-4">
                 <img
@@ -296,8 +306,6 @@ const ListaDePresentes: React.FC = () => {
                     </button>
                   </div>
                 </Link>
-
-
               </div>
             </motion.div>
           ))}

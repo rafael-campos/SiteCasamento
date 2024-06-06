@@ -395,6 +395,19 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q9JFTKC2',
         tipo: 'real',
     },
+
+    {
+        id: '33',
+        imagem: '/images/presentes/cafeteira.webp',
+        nome: 'Cafeteira',
+        descricao: 'Cafeteira',
+        preco: 'R$ 194,90',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209cafeteira5204000053039865406194.905802BR5922Rafael Henrique Campos6008Brasilia62090505rkh3i6304095F',
+        linkProduto: 'https://www.amazon.com.br/Cafeteira-Pcf17-53902049-Philco-Vermelho/dp/B07DNKHGTD?tag=unicafe09-20&ref_=as_li_ss_tl&th=1',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QAXGX77W',
+        tipo: 'real',
+    },
+
     // ... seus outros presentes ...
 ];
 
@@ -539,9 +552,9 @@ const PresentePage: React.FC = () => {
                         </p>
                         {/* Área do QR Code Pix Geral */}
                         <div className="mt-4 flex flex-col items-center justify-center">
-                          
+
                             <p className="text-gray-600 text-sm">Chave PIX: 73a88d55-f7ea-4eb1-9b7b-88961e13db96</p>
-                          
+
                         </div>
 
                         {/* Botões do WhatsApp */}
