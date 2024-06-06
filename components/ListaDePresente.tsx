@@ -268,6 +268,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: '1 ano de netflix para os noivos',
       preco: 'R$ 250,80',
     },
+    {
+      id: '35',
+      imagem: '/images/presentes/alexa.webp',
+      nome: 'Alexa',
+      descricao: 'Alexa para noiva não mandar so no noivo',
+      preco: 'R$ 300,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 

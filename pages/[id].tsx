@@ -417,6 +417,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QE9P6V02',
         tipo: 'ficticio',
     },
+    {
+        id: '35',
+        imagem: '/images/presentes/alexa.webp',
+        nome: 'Alexa',
+        descricao: 'Alexa para noiva não mandar so no noivo',
+        preco: 'R$ 300,00',
+        codigoPix: '00020126670014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250205alexa5204000053039865406300.005802BR5922Rafael Henrique Campos6008Brasilia62090505wijz5630486A7',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QFXAF9XW',
+        tipo: 'ficticio',
+    },
 
     // ... seus outros presentes ...
 ];
