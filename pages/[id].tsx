@@ -407,6 +407,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QAXGX77W',
         tipo: 'real',
     },
+    {
+        id: '34',
+        imagem: '/images/presentes/netflix.webp',
+        nome: '1 ano de netflix',
+        descricao: '1 ano de netflix para os noivos',
+        preco: 'R$ 250,80',
+        codigoPix: '00020126750014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae22502131 ano Netflix5204000053039865406250.805802BR5922Rafael Henrique Campos6008Brasilia620905058tr916304FCBF',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QE9P6V02',
+        tipo: 'ficticio',
+    },
 
     // ... seus outros presentes ...
 ];
@@ -544,7 +554,7 @@ const PresentePage: React.FC = () => {
                     */}
 
 
-                    {/* Nova área para contatos do WhatsApp */}
+                
                     {/* Nova área para contatos do WhatsApp */}
                     <div className="mt-8 bg-white rounded-lg shadow-md p-8 text-center">
                         <p className="text-gray-800">

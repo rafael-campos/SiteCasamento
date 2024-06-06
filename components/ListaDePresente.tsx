@@ -261,6 +261,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Cafeteira',
       preco: 'R$ 194,90',
     },
+    {
+      id: '34',
+      imagem: '/images/presentes/netflix.webp',
+      nome: '1 ano de netflix',
+      descricao: '1 ano de netflix para os noivos',
+      preco: 'R$ 250,80',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
