@@ -207,10 +207,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '26',
-      imagem: '/images/presentes/pipoca.webp',
-      nome: 'Pipoqquera',
-      descricao: 'Pipoqueira', 
-      preco: 'R$ 189,00',
+      imagem: '/images/presentes/lixeira.webp',
+      nome: 'Lixeira Inox',
+      descricao: 'Para esconder as evidências dos nossos ataques à geladeira de madrugada!', 
+      preco: 'R$ 29,90',
     },
     {
       id: '27',
@@ -235,53 +235,38 @@ const ListaDePresentes: React.FC = () => {
     }, 
     {
       id: '30',
-      imagem: '/images/presentes/casaljantar.webp',
-      nome: 'Primeiro jantar romantico',
-      descricao: 'Primeiro jantar romântico do casal ',
-      preco: 'R$ 200,00',
-    }, 
-    {
-      id: '31',
       imagem: '/images/presentes/idosos.webp',
-      nome: 'Aponsentadoria do casal',
-      descricao: 'Ajudinha para a aposentadoria dos noivos ',
+      nome: 'Aposentadoria do casal',
+      descricao: 'Ajudinha para a aposentadoria dos noivos',
       preco: 'R$ 1000,00',
     }, 
     {
       id: '31',
       imagem: '/images/presentes/louca.webp',
       nome: 'Escorredor de Louça',
-      descricao: 'Escorredor de Louça ',
-      preco: 'R$ 129,90',
+      descricao: 'Escorredor de Louça',
+      preco: 'R$ 129,00',
+    }, 
+    {
+      id: '31',
+      imagem: '/images/presentes/louca.webp',
+      nome: 'Escorredor de Louça',
+      descricao: 'Escorredor de Louça',
+      preco: 'R$ 129,00',
     }, 
     {
       id: '32',
       imagem: '/images/presentes/ventilador.webp',
       nome: 'Ventilador',
-      descricao: 'Ventilador ',
-      preco: 'R$ 199,99',
+      descricao: 'Ventilador',
+      preco: 'R$ 129,00',
     }, 
+
     // Adicione mais presentes conforme necessário
   ];
 
-
-  const [presentesEmbaralhados, setPresentesEmbaralhados] = useState<Presente[]>([]);
-
-  useEffect(() => {
-    // Função para embaralhar o array de presentes
-    const shuffleArray = (array: any[]) => {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-      return array;
-    };
-
-    // Embaralha os presentes ao carregar a página
-    setPresentesEmbaralhados(shuffleArray([...presentes]));
-  }, []); 
-
   return (
+    
     <motion.div
       initial="hidden"
       animate="visible"
@@ -291,7 +276,7 @@ const ListaDePresentes: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">Lista de Presentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {presentesEmbaralhados.map((presente) => (
+          {presentes.map((presente) => (
             <motion.div key={presente.id} variants={itemVariants} className="flex flex-col h-full">
               <div className="bg-white rounded-3xl shadow-md overflow-hidden relative flex flex-col justify-between h-full p-4">
                 <img
