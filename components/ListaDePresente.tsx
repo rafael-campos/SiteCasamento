@@ -289,6 +289,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'armario de cozinha',
       preco: 'R$ 694,73',
     },
+    {
+      id: '38',
+      imagem: '/images/presentes/nupicias.webp',
+      nome: 'Roupa para noiva na noite de nupicias',
+      descricao: 'Roupa para noiva na noite de nupicias ',
+      preco: 'R$ 120,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 

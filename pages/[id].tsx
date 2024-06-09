@@ -448,6 +448,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QW06V6IW',
         tipo: 'real',
     },
+    {
+        id: '38',
+        imagem: '/images/presentes/nupicias.webp',
+        nome: 'Roupa para noiva na noite de nupicias ',
+        descricao: 'Roupa para noiva na noite de nupicias ',
+        preco: 'R$ 120,00',
+        codigoPix: '00020126900014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250228roupa para noite de nupcias 5204000053039865406120.005802BR5922Rafael Henrique Campos6008Brasilia620905051eshn6304CE73',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q4NOXS5S',
+        tipo: 'ficticio',
+    },
 
 
     // ... seus outros presentes ...
