@@ -303,6 +303,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Despertador para noiva acordar',
       preco: 'R$ 110,00',
     },
+    {
+      id: '40',
+      imagem: '/images/presentes/culinaria.webp',
+      nome: 'Curso culinaria para o noivo',
+      descricao: 'Curso de culinaria para o noivo',
+      preco: 'R$ 220,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
