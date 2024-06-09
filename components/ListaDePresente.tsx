@@ -282,6 +282,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Mop Giratorio',
       preco: 'R$ 96,00',
     },
+    {
+      id: '37',
+      imagem: '/images/presentes/armario.webp',
+      nome: 'armario de cozinha',
+      descricao: 'armario de cozinha',
+      preco: 'R$ 694,73',
+    },
     // Adicione mais presentes conforme necessário
   ];
 

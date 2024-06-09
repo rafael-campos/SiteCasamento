@@ -433,9 +433,20 @@ const presentes: Presente[] = [
         nome: 'Mop Giratorio',
         descricao: 'Mop Giratorio',
         preco: 'R$ 96,00',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219armario de cozinha 5204000053039865406694.765802BR5922Rafael Henrique Campos6008Brasilia62090505msnxw63042555',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QY47BHYX',
+        tipo: 'ficticio',
+    },
+    {
+        id: '37',
+        imagem: '/images/presentes/armario.webp',
+        nome: 'Aarmario',
+        descricao: 'Armario de cozinha',
+        preco: 'R$ 694,76',
+        linkProduto: 'https://www.americanas.com.br/produto/3484486376',
         codigoPix: '00020126760014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250214mop giratorio 520400005303986540596.005802BR5922Rafael Henrique Campos6008Brasilia620905057i127630403E9',
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QW06V6IW',
-        tipo: 'ficticio',
+        tipo: 'real',
     },
 
 
