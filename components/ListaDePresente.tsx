@@ -296,6 +296,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Roupa para noiva na noite de nupicias ',
       preco: 'R$ 120,00',
     },
+    {
+      id: '39',
+      imagem: '/images/presentes/despertador.webp',
+      nome: 'Despertador para noiva',
+      descricao: 'Despertador para noiva acordar',
+      preco: 'R$ 110,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
