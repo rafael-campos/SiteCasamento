@@ -538,6 +538,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QY1V0SPE',
         tipo: 'ficticio',
     },
+    {
+        id: '46',
+        imagem: '/images/presentes/parente.webp',
+        nome: 'Seja nosso parente favorito',
+        descricao: 'Seja nosso parente favorito',
+        preco: 'R$ 1200,00',
+        codigoPix: '00020126840014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250222lanchinho da madrugada520400005303986540590.005802BR5922Rafael Henrique Campos6008Brasilia62090505gfqbp6304E2BE',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QY1V0SPE',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 

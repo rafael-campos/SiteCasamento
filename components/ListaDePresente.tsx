@@ -340,7 +340,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '45',
-      imagem: '/images/presentes/lanchnho.webp',
+      imagem: '/images/presentes/lanchinho.webp',
       nome: 'Lanchinho da madrugada',
       descricao: 'Lanchinho para atacar na geladeira de madrugada',
       preco: 'R$ 90,00'
@@ -351,6 +351,13 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Jogar buquê na sua direção ',
       descricao: 'Jogar buquê na sua direção ',
       preco: 'R$ 240,00'
+    },
+    {
+      id: '47',
+      imagem: '/images/presentes/parente.webp',
+      nome: 'Seja nosso parente favoriito ',
+      descricao: 'Seja nosso parente favoriito ',
+      preco: 'R$ 1200,00'
     },
     
     // Adicione mais presentes conforme necessário
