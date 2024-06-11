@@ -508,6 +508,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
         tipo: 'ficticio',
     },
+    {
+        id: '44',
+        imagem: '/images/presentes/visita.webp',
+        nome: 'Proridade visita',
+        descricao: 'Prioridade visita na casa dos novos',
+        preco: 'R$ 230,00',
+        codigoPix: '00020126910014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250229curso culinaria para o noivo 5204000053039865406220.005802BR5922Rafael Henrique Campos6008Brasilia62090505mcxs8630482D3',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        tipo: 'ficticio',
+    },
 
 
     // ... seus outros presentes ...

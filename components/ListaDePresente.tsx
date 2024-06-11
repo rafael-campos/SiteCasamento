@@ -332,6 +332,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Open engov para festa',
       preco: 'R$ 100,00',
     },
+    {
+      id: '44',
+      imagem: '/images/presentes/visita.webp',
+      nome: 'Prioridade vista',
+      descricao: 'Prioriidade vista na casa dos noivos',
+      preco: 'R$ 230,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
