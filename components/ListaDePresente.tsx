@@ -237,108 +237,108 @@ const ListaDePresentes: React.FC = () => {
       id: '30',
       imagem: '/images/presentes/idosos.webp',
       nome: 'Aposentadoria do casal',
-      descricao: 'Ajudinha para a aposentadoria dos noivos',
-      preco: 'R$ 1000,00',
+      descricao: 'Para que o "felizes para sempre" não dependa da Previdência Social.',
+      preco: 'R$ 1000,00'
     },
     {
       id: '31',
       imagem: '/images/presentes/louca.webp',
       nome: 'Escorredor de Louça',
-      descricao: 'Escorredor de Louça',
-      preco: 'R$ 129,00',
+      descricao: 'Porque até a pia merece um spa day.',
+      preco: 'R$ 129,00'
     },
     {
       id: '32',
       imagem: '/images/presentes/ventilador.webp',
       nome: 'Ventilador',
-      descricao: 'Ventilador',
-      preco: 'R$ 199,99',
+      descricao: 'Para quando o amor esquentar demais.',
+      preco: 'R$ 199,99'
     },
     {
       id: '33',
       imagem: '/images/presentes/cafeteira.webp',
       nome: 'Cafeteira',
-      descricao: 'Cafeteira',
-      preco: 'R$ 194,90',
+      descricao: 'Para manter o romance acordado após as noites de Netflix.',
+      preco: 'R$ 194,90'
     },
     {
       id: '34',
       imagem: '/images/presentes/netflix.webp',
-      nome: '1 ano de netflix',
-      descricao: '1 ano de netflix para os noivos',
-      preco: 'R$ 250,80',
+      nome: '1 ano de Netflix',
+      descricao: 'Para os dias em que "eu te amo" soa como "vamos maratonar uma série".',
+      preco: 'R$ 250,80'
     },
     {
       id: '35',
       imagem: '/images/presentes/alexa.webp',
       nome: 'Alexa',
-      descricao: 'Alexa para noiva não mandar so no noivo',
-      preco: 'R$ 300,00',
+      descricao: 'Para quando a noiva precisar de alguém além do noivo para ouvir suas ordens.',
+      preco: 'R$ 300,00'
     },
     {
       id: '36',
       imagem: '/images/presentes/mop.webp',
-      nome: 'Mop Giratorio',
-      descricao: 'Mop Giratorio',
-      preco: 'R$ 96,00',
+      nome: 'Mop Giratório',
+      descricao: 'Para dançar valsa enquanto limpa a casa.',
+      preco: 'R$ 96,00'
     },
     {
       id: '37',
       imagem: '/images/presentes/armario.webp',
-      nome: 'armario de cozinha',
-      descricao: 'armario de cozinha',
-      preco: 'R$ 694,73',
+      nome: 'Armário de cozinha',
+      descricao: 'Porque o amor vem da barriga, mas a louça suja não se guarda sozinha.',
+      preco: 'R$ 694,73'
     },
     {
       id: '38',
       imagem: '/images/presentes/nupicias.webp',
-      nome: 'Roupa para noiva na noite de nupicias',
-      descricao: 'Roupa para noiva na noite de nupicias ',
-      preco: 'R$ 120,00',
+      nome: 'Roupa para noiva na noite de núpcias',
+      descricao: 'Para noiva arrasar na noite de núpcias',
+      preco: 'R$ 120,00'
     },
     {
       id: '39',
       imagem: '/images/presentes/despertador.webp',
       nome: 'Despertador para noiva',
-      descricao: 'Despertador para noiva acordar',
-      preco: 'R$ 110,00',
+      descricao: 'Para acordar a tempo de dizer "eu te amo" antes do café.',
+      preco: 'R$ 110,00'
     },
     {
       id: '40',
       imagem: '/images/presentes/culinaria.webp',
-      nome: 'Curso culinaria para o noivo',
-      descricao: 'Curso de culinaria para o noivo',
-      preco: 'R$ 220,00',
+      nome: 'Curso de culinária para o noivo',
+      descricao: 'Para que o noivo não confunda sal com açúcar e estrague o doce da vida a dois.',
+      preco: 'R$ 220,00'
     },
     {
       id: '41',
       imagem: '/images/presentes/maracujina.webp',
       nome: 'Maracujina',
-      descricao: 'Maracujina para os  noivos se acalmarem',
-      preco: 'R$ 70,00',
+      descricao: 'Para os momentos em que contar até dez não é suficiente.',
+      preco: 'R$ 70,00'
     },
     {
       id: '42',
       imagem: '/images/presentes/tampao.webp',
-      nome: 'Tampão',
-      descricao: 'Tampão de ouvido para a noiva enquanto noivo ronca',
-      preco: 'R$ 80,00',
+      nome: 'Tampão de ouvido',
+      descricao: 'Para a noiva dormir em paz, mesmo quando o noivo roncar mais alto que um show de rock.',
+      preco: 'R$ 80,00'
     },
-
     {
       id: '43',
       imagem: '/images/presentes/engov.webp',
-      nome: 'Open engov',
-      descricao: 'Open engov para festa',
-      preco: 'R$ 100,00',
+      nome: 'Open Engov',
+      descricao: 'Para curar a ressaca do amor (ou da festa).',
+      preco: 'R$ 100,00'
     },
     {
       id: '44',
       imagem: '/images/presentes/visita.webp',
-      nome: 'Prioridade vista',
-      descricao: 'Prioriidade vista na casa dos noivos',
-      preco: 'R$ 230,00',
-    },
+      nome: 'Prioridade de visita',
+      descricao: 'Para quem quer ser o primeiro a ver o ninho de amor (e ajudar a arrumar).',
+      preco: 'R$ 230,00'
+    }
+    
     // Adicione mais presentes conforme necessário
   ];
 
