@@ -342,79 +342,79 @@ const ListaDePresentes: React.FC = () => {
       id: '45',
       imagem: '/images/presentes/lanchinho.webp',
       nome: 'Lanchinho da madrugada',
-      descricao: 'Lanchinho para atacar na geladeira de madrugada',
+      descricao: 'Para aquelas fomes que só aparecem quando todo mundo já foi dormir.',
       preco: 'R$ 90,00'
     },
     {
       id: '46',
       imagem: '/images/presentes/jogarbuque.webp',
-      nome: 'Jogar buquê na sua direção ',
-      descricao: 'Jogar buquê na sua direção ',
+      nome: 'Jogar buquê na sua direção',
+      descricao: 'Aumente suas chances de ser o próximo a dizer "sim"!',
       preco: 'R$ 240,00'
     },
     {
       id: '47',
       imagem: '/images/presentes/parente.webp',
-      nome: 'Seja nosso parente favoriito ',
-      descricao: 'Seja nosso parente favoriito ',
+      nome: 'Seja nosso parente favorito',
+      descricao: 'Para entrar na disputa pelo título de melhor parente do ano.',
       preco: 'R$ 1200,00'
     },
     {
       id: '48',
       imagem: '/images/presentes/boletoatrasado.webp',
-      nome: 'Boleto atrasado ',
-      descricao: 'Salve um boleto atrasado dos noivos ',
+      nome: 'Boleto atrasado',
+      descricao: 'Ajude os noivos a começar a vida de casados sem dívidas do passado.',
       preco: 'R$ 800,00'
     },
     {
       id: '49',
       imagem: '/images/presentes/pedidocasamento.webp',
-      nome: 'Fazer pedido de casamento  ',
-      descricao: 'Fazer pedido casamento durante a festa',
+      nome: 'Fazer pedido de casamento',
+      descricao: 'Para quem quer roubar a cena e sair noiv@ também!',
       preco: 'R$ 900,00'
     },
     {
       id: '50',
       imagem: '/images/presentes/garantesol.webp',
-      nome: 'Garantindo o sol ',
-      descricao: 'Garantindo o sol na cerimonia',
+      nome: 'Garantindo o sol',
+      descricao: 'Para um dia ensolarado, mesmo que São Pedro não colabore.',
       preco: 'R$ 1100,00'
     },
     {
       id: '51',
       imagem: '/images/presentes/tv43.webp',
-      nome: 'Tv sansung',
-      descricao: 'Smart tv sansumg 43',
+      nome: 'TV Samsung',
+      descricao: 'Para os momentos em que o casal precisa de um tempo... com a Netflix.',
       preco: 'R$ 1763,00'
     },
     {
       id: '52',
       imagem: '/images/presentes/pixdevendo.webp',
       nome: 'Pix devendo',
-      descricao: 'Toma aqu um pix que estou te devendo a muito tempo ',
+      descricao: 'Para quitar aquela dívida eterna do churrasco de 2010.',
       preco: 'R$ 1300,00'
     },
     {
       id: '53',
       imagem: '/images/presentes/luademel.webp',
       nome: 'Lua de mel',
-      descricao: 'De uma viagem para os novos curtirem a lua de mel ',
+      descricao: 'Contribua para que a viagem de lua de mel seja inesquecível (ou pelo menos postável no Instagram).',
       preco: 'R$ 1500,00'
     },
     {
       id: '54',
       imagem: '/images/presentes/massagem.webp',
       nome: 'Massagem para os noivos',
-      descricao: 'De uma massagem ',
+      descricao: 'Para relaxar depois de carregar o peso do grande dia.',
       preco: 'R$ 240,00'
     },
     {
       id: '55',
       imagem: '/images/presentes/hotelfazenda.webp',
-      nome: 'hotel fazenda',
-      descricao: 'Fim de semana no hotel fazenda ',
+      nome: 'Hotel fazenda',
+      descricao: 'Para fugir da rotina e curtir um fim de semana com cheiro de mato e café da manhã de hotel.',
       preco: 'R$ 750,00'
-    },
+    }
     
     // Adicione mais presentes conforme necessário
   ];
