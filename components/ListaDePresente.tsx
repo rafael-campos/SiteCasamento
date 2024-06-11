@@ -401,6 +401,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'De uma viagem para os novos curtirem a lua de mel ',
       preco: 'R$ 1500,00'
     },
+    {
+      id: '54',
+      imagem: '/images/presentes/massagem.webp',
+      nome: 'Massagem para os noivos',
+      descricao: 'De uma massagem ',
+      preco: 'R$ 240,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
