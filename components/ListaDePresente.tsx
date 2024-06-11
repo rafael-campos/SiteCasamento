@@ -366,6 +366,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Salve um boleto atrasado dos noivos ',
       preco: 'R$ 800,00'
     },
+    {
+      id: '49',
+      imagem: '/images/presentes/pedidocasamento.webp',
+      nome: 'Fazer pedido casamento  ',
+      descricao: 'Fazer pedido casamento durante a festa',
+      preco: 'R$ 900,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
