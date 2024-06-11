@@ -345,6 +345,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Lanchinho para atacar na geladeira de madrugada',
       preco: 'R$ 90,00'
     },
+    {
+      id: '46',
+      imagem: '/images/presentes/jogarbuque.webp',
+      nome: 'Jogar buquê na sua direção ',
+      descricao: 'Jogar buquê na sua direção ',
+      preco: 'R$ 240,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
