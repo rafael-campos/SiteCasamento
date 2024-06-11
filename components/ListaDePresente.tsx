@@ -380,6 +380,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Garantindo o sol na cerimonia',
       preco: 'R$ 1100,00'
     },
+    {
+      id: '51',
+      imagem: '/images/presentes/tv43.webp',
+      nome: 'Tv sansung',
+      descricao: 'Smart tv sansumg 43',
+      preco: 'R$ 1763,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
