@@ -478,6 +478,36 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
         tipo: 'ficticio',
     },
+    {
+        id: '41',
+        imagem: '/images/presentes/maracujna.webp',
+        nome: 'Maracujina',
+        descricao: 'Maracujina para os noivos se acalmarem',
+        preco: 'R$ 70,00',
+        codigoPix: '00020126910014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250229curso culinaria para o noivo 5204000053039865406220.005802BR5922Rafael Henrique Campos6008Brasilia62090505mcxs8630482D3',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        tipo: 'ficticio',
+    },
+    {
+        id: '42',
+        imagem: '/images/presentes/tampao.webp',
+        nome: 'Tampão de ouvido',
+        descricao: 'Tampão de ouvido para noiva enquanto noivo ronca',
+        preco: 'R$ 80,00',
+        codigoPix: '00020126910014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250229curso culinaria para o noivo 5204000053039865406220.005802BR5922Rafael Henrique Campos6008Brasilia62090505mcxs8630482D3',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        tipo: 'ficticio',
+    },
+    {
+        id: '43',
+        imagem: '/images/presentes/engov.webp',
+        nome: 'Open engov',
+        descricao: 'Open engov para festa',
+        preco: 'R$ 100,00',
+        codigoPix: '00020126910014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250229curso culinaria para o noivo 5204000053039865406220.005802BR5922Rafael Henrique Campos6008Brasilia62090505mcxs8630482D3',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        tipo: 'ficticio',
+    },
 
 
     // ... seus outros presentes ...

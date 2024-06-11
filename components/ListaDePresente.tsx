@@ -310,6 +310,28 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Curso de culinaria para o noivo',
       preco: 'R$ 220,00',
     },
+    {
+      id: '41',
+      imagem: '/images/presentes/maracujia.webp',
+      nome: 'Maracujina',
+      descricao: 'Maracujina para os  noivos se acalmarem',
+      preco: 'R$ 70,00',
+    },
+    {
+      id: '42',
+      imagem: '/images/presentes/tampao.webp',
+      nome: 'Tampão',
+      descricao: 'Tampão de ouvido para a noiva enquanto noivo ronca',
+      preco: 'R$ 80,00',
+    },
+
+    {
+      id: '43',
+      imagem: '/images/presentes/engov.webp',
+      nome: 'Open engov',
+      descricao: 'Open engov para festa',
+      preco: 'R$ 100,00',
+    },
     // Adicione mais presentes conforme necessário
   ];
 
