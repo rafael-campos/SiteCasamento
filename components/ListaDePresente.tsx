@@ -373,6 +373,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Fazer pedido casamento durante a festa',
       preco: 'R$ 900,00'
     },
+    {
+      id: '50',
+      imagem: '/images/presentes/garantesol.webp',
+      nome: 'Garantindo o sol ',
+      descricao: 'Garantindo o sol na cerimonia',
+      preco: 'R$ 1100,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
