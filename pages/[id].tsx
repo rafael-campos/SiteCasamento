@@ -548,6 +548,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QY1V0SPE',
         tipo: 'ficticio',
     },
+    {
+        id: '47',
+        imagem: '/images/presentes/boletoatrasado.webp',
+        nome: 'Boleto atrasado',
+        descricao: 'Salve um boleto atrasado dos noivos',
+        preco: 'R$ 800,00',
+        codigoPix: '00020126840014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250222lanchinho da madrugada520400005303986540590.005802BR5922Rafael Henrique Campos6008Brasilia62090505gfqbp6304E2BE',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QY1V0SPE',
+        tipo: 'ficticio',
+    },
     // ... seus outros presentes ...
 ];
 

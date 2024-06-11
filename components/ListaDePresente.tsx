@@ -359,6 +359,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Seja nosso parente favoriito ',
       preco: 'R$ 1200,00'
     },
+    {
+      id: '48',
+      imagem: '/images/presentes/boletoatrasado.webp',
+      nome: 'Boleto atrasado ',
+      descricao: 'Salve um boleto atrasado dos noivos ',
+      preco: 'R$ 800,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
