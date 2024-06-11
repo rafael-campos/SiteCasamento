@@ -369,7 +369,7 @@ const ListaDePresentes: React.FC = () => {
     {
       id: '49',
       imagem: '/images/presentes/pedidocasamento.webp',
-      nome: 'Fazer pedido casamento  ',
+      nome: 'Fazer pedido de casamento  ',
       descricao: 'Fazer pedido casamento durante a festa',
       preco: 'R$ 900,00'
     },
@@ -407,6 +407,13 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Massagem para os noivos',
       descricao: 'De uma massagem ',
       preco: 'R$ 240,00'
+    },
+    {
+      id: '55',
+      imagem: '/images/presentes/hotelfazenda.webp',
+      nome: 'hotel fazenda',
+      descricao: 'Fim de semana no hotel fazenda ',
+      preco: 'R$ 750,00'
     },
     
     // Adicione mais presentes conforme necessário
