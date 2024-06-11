@@ -394,6 +394,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Toma aqu um pix que estou te devendo a muito tempo ',
       preco: 'R$ 1300,00'
     },
+    {
+      id: '53',
+      imagem: '/images/presentes/luademel.webp',
+      nome: 'Lua de mel',
+      descricao: 'De uma viagem para os novos curtirem a lua de mel ',
+      preco: 'R$ 1500,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
