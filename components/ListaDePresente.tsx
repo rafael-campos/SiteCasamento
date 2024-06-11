@@ -387,6 +387,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Smart tv sansumg 43',
       preco: 'R$ 1763,00'
     },
+    {
+      id: '52',
+      imagem: '/images/presentes/pixdevendo.webp',
+      nome: 'Pix devendo',
+      descricao: 'Toma aqu um pix que estou te devendo a muito tempo ',
+      preco: 'R$ 1300,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
