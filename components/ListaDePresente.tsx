@@ -337,7 +337,14 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Prioridade de visita',
       descricao: 'Para quem quer ser o primeiro a ver o ninho de amor (e ajudar a arrumar).',
       preco: 'R$ 230,00'
-    }
+    },
+    {
+      id: '45',
+      imagem: '/images/presentes/lanchnho.webp',
+      nome: 'Lanchinho da madrugada',
+      descricao: 'Lanchinho para atacar na geladeira de madrugada',
+      preco: 'R$ 90,00'
+    },
     
     // Adicione mais presentes conforme necessário
   ];
