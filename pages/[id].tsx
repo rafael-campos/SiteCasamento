@@ -485,7 +485,7 @@ const presentes: Presente[] = [
         descricao: 'Maracujina para os noivos se acalmarem',
         preco: 'R$ 70,00',
         codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210maracujina520400005303986540570.005802BR5922Rafael Henrique Campos6008Brasilia62090505wd2pl63042344',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q146FPWI',
         tipo: 'ficticio',
     },
     {
@@ -495,7 +495,7 @@ const presentes: Presente[] = [
         descricao: 'Tampão de ouvido para noiva enquanto noivo ronca',
         preco: 'R$ 80,00',
         codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217tampao de ouvido 520400005303986540580.005802BR5922Rafael Henrique Campos6008Brasilia620905055o5ws6304E2E7',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QR1K1O5E',
         tipo: 'ficticio',
     },
     {
@@ -505,7 +505,7 @@ const presentes: Presente[] = [
         descricao: 'Open engov para festa',
         preco: 'R$ 100,00',
         codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210open engov5204000053039865406100.005802BR5922Rafael Henrique Campos6008Brasilia62090505w79g46304C1DB',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QA8TQIE0',
         tipo: 'ficticio',
     },
     {
@@ -515,7 +515,7 @@ const presentes: Presente[] = [
         descricao: 'Prioridade visita na casa dos novos',
         preco: 'R$ 230,00',
         codigoPix: '00020126830014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250221prioridade de visita 5204000053039865406230.005802BR5922Rafael Henrique Campos6008Brasilia62090505khyk463040C0C',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QXQ4AVRQ',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q61LE5EQ',
         tipo: 'ficticio',
     },
 
