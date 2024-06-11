@@ -312,7 +312,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '41',
-      imagem: '/images/presentes/maracujia.webp',
+      imagem: '/images/presentes/maracujina.webp',
       nome: 'Maracujina',
       descricao: 'Maracujina para os  noivos se acalmarem',
       preco: 'R$ 70,00',

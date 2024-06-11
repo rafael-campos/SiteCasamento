@@ -480,7 +480,7 @@ const presentes: Presente[] = [
     },
     {
         id: '41',
-        imagem: '/images/presentes/maracujna.webp',
+        imagem: '/images/presentes/maracujina.webp',
         nome: 'Maracujina',
         descricao: 'Maracujina para os noivos se acalmarem',
         preco: 'R$ 70,00',
