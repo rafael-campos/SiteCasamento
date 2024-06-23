@@ -48,6 +48,7 @@ export default function Home() {
       </section>
 
       <section id="mensagem">
+        <MandarMensagem/>
       </section>
       <Tooltip title="Dúvidas?">
         <a

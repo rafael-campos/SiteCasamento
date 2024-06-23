@@ -174,3 +174,47 @@
 
   
 }
+
+
+@keyframes blink {
+  0%, 100% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.transition-transform {
+  transition: transform 2s ease-in-out;
+}
+
+.input-custom {
+  border-bottom: 1px solid blue;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.input-custom:focus {
+  outline: none;
+  border-bottom: 1px solid blue;/* Remove a borda ao focar */
+  box-shadow: none;
+}

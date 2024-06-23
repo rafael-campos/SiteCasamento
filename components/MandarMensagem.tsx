@@ -1,104 +1,101 @@
-import React, { useState } from "react";
-import { Form, Input, Button, message } from "antd";
-import { motion, AnimatePresence } from "framer-motion";
-
+import { url } from "@/global/variaveis";
+import { Form, Input } from "antd";
+import axios from "axios";
+import moment from "moment";
+import { useEffect, useState } from "react";
 const { TextArea } = Input;
-
+import 'moment/locale/pt-br'
+import { atom, useAtom } from "jotai";
+import { toast } from "react-toastify";
+import { useForm } from "antd/es/form/Form";
+moment.locale('pt-br')
 interface Mensagem {
-  id: number;
-  nome: string;
-  mensagem: string;
+    id: string;
+    nome: string;
+    recado: string;
+    created_at: Date;
 }
 
+interface MensagemEntrada {
+    recado: string;
+    nome: string;
+}
+const controleAtom = atom(false)
 export default function MandarMensagem() {
-  const [nome, setNome] = useState("");
-  const [email, setEmail] = useState("");
-  const [mensagem, setMensagem] = useState("");
-  const [mensagens, setMensagens] = useState<Mensagem[]>([
-    { id: 1, nome: "Marcela e Rogerio", mensagem: "Que a união de vocês seja repleta de amor e felicidade! Desejamos toda a sorte do mundo nesse novo capítulo." },
-    { id: 2, nome: "Amanda e Caio", mensagem: "Estamos muito felizes em celebrar este dia tão especial com vocês. Que a vida a dois seja um caminho de alegria, cumplicidade e muito amor!" },
-  ]);
+    const [controle, setControle] = useAtom(controleAtom)
+    const [mensagem, setMensagem] = useState<Mensagem[]>([])
+    const [form] = Form.useForm();
+    useEffect(() => {
 
-  const handleSubmit = () => {
-    if (nome && mensagem) {
-      const novaMensagem: Mensagem = {
-        id: mensagens.length + 1,
-        nome,
-        mensagem,
-      };
+        axios.get(url + 'mensagem').then((resposta) => {
+            setMensagem(resposta.data)
+        })
+    }, [controle])
+    const enviar = async (data: MensagemEntrada) => {
+        console.log(data)
+        axios.post(url + 'mensagem', data).then((resposta) => {
+            toast.success("Mensagem enviada!")
+            setControle(!controle)
+            form.setFieldsValue(
+                {
+                    recado: null,
+                    nome: null
+                }
+            )
+        }).catch((err) => { console.log(err) })
+    };
+    return (
+        <div className="w-full">
+            <p className="md:text-5xl text-4xl text-center mt-10 font-dancing font-bold text-blue-600">Deixe o seu recado de carinho!</p>
+            <div className="md:w-[30%] mx-auto pt-10 pb-10 md:px-0 px-6">
+                <Form form={form} onFinish={enviar} layout="vertical" >
+                    <div className="bg-[#f6d598] px-6 py-8 ">
+                        <p className="font-dancing text-2xl">Rafael e Mirelle,</p>
+                        <Form.Item name={'recado'} className="mt-4" label={<p className=" text-black text-lg ">Recado</p>} rules={[{ required: true, message: 'Por favor insira o recado!' }]}>
+                            <TextArea className="font-dancing text-md" rows={4} />
+                        </Form.Item>
+                        <Form.Item name={'nome'} label={<p className=" text-black text-lg ">Nome</p>} rules={[{ required: true, message: 'Por favor insira seu nome!' }]}>
+                            <Input className="font-dancing text-md" />
+                        </Form.Item>
+                    </div>
 
-      setMensagens([...mensagens, novaMensagem]);
-      setNome("");
-      setEmail("");
-      setMensagem("");
-      message.success("Mensagem enviada com sucesso!");
-    } else {
-      message.error("Por favor, preencha o nome e a mensagem!");
-    }
-  };
 
-  return (
-    <div className="bg-gray-100 py-20 min-h-screen flex flex-col justify-center">
-      <div className="container mx-auto px-4">
-        <h2 className="text-5xl text-center font-dancing font-bold text-blue-900 mb-10">
-          Deixe seu Recado de Carinho!
-        </h2>
+                    <div className="flex justify-center mt-6">
+                        <button className="bg-blue-600 px-6 py-2 text-2xl font-dancing text-white font-bold rounded-lg">
+                            Enviar Recado
+                        </button>
+                    </div>
 
-        <div className="w-full md:w-2/3 mx-auto bg-white p-8 rounded-lg shadow-lg">
-          <Form layout="vertical" onFinish={handleSubmit}>
-            <Form.Item
-              label={<p className="font-dancing text-blue-900 text-2xl font-bold">Nome</p>}
-              name="nome"
-              rules={[{ required: true, message: "Por favor, digite seu nome!" }]}
-            >
-              <Input value={nome} onChange={(e) => setNome(e.target.value)} className="h-12" />
-            </Form.Item>
-
-            <Form.Item
-              label={<p className="font-dancing text-blue-900 text-2xl font-bold">Email (opcional)</p>}
-              name="email"
-            >
-              <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="h-12" />
-            </Form.Item>
-
-            <Form.Item
-              label={<p className="font-dancing text-blue-900 text-2xl font-bold">Recado</p>}
-              name="mensagem"
-              rules={[{ required: true, message: "Por favor, escreva seu recado!" }]}
-            >
-              <TextArea rows={4} value={mensagem} onChange={(e) => setMensagem(e.target.value)} />
-            </Form.Item>
-
-            <div className="flex justify-center mt-6">
-              <Button
-                type="primary"
-                htmlType="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-dancing text-xl font-bold py-4 px-5 rounded-lg my-auto"
-              >
-                Enviar Recado
-              </Button>
+                </Form>
             </div>
-          </Form>
-        </div>
 
-        <div className="flex flex-wrap justify-center gap-6 mt-12">
-          <AnimatePresence>
-            {mensagens.map((mensagem) => (
-              <motion.div
-                key={mensagem.id}
-                className="bg-yellow-100 p-6 rounded-lg shadow-md w-full sm:w-96 relative border-l-4 border-blue-500"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.8 }}
-                transition={{ duration: 0.5 }}
-              >
-                <p className="font-dancing text-lg text-gray-800">{mensagem.mensagem}</p>
-                <p className="text-right mt-3 font-dancing text-lg font-bold text-blue-900">{mensagem.nome}</p>
-              </motion.div>
-            ))}
-          </AnimatePresence>
+            <div className="flex flex-wrap justify-center gap-6 md:px-[10%] px-6 pb-6">
+                {mensagem.map((mensagem_single) => (
+                    <div key={mensagem_single.id} className="bg-[#f6d598] px-8 py-8 shadow-2xl w-[350px] ">
+                        <p className="font-dancing text-2xl">Rafael e Mirelle</p>
+                        <div className="flex flex-col justify-between h-full pb-8">
+                            <p className="font-dancing  text-md text-justify mt-4">{mensagem_single.recado.split('\n').map((str, index) => (
+                                <span key={index}>
+                                    {str}
+                                    <br />
+                                </span>
+                            ))}</p>
+                            <div>
+                                <p className="text-end mt-2 font-dancing text-md font-bold">{mensagem_single.nome}</p>
+                                <p className="text-end mt-1  text-sm font-dancing ">{moment(mensagem_single.created_at).format('LLL')}</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                ))}
+
+
+
+
+
+            </div>
+
         </div>
-      </div>
-    </div>
-  );
+    )
 }
