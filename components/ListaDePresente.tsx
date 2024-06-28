@@ -431,6 +431,28 @@ const ListaDePresentes: React.FC = () => {
     setPresentesEmbaralhados(shuffleArray(presentes));
   }, []);
 
+  // Paginação
+  const [paginaAtual, setPaginaAtual] = useState(1);
+  const presentesPorPagina = 12;
+
+  const ultimoPresente = paginaAtual * presentesPorPagina;
+  const primeiroPresente = ultimoPresente - presentesPorPagina;
+  const presentesAtuais = presentesEmbaralhados.slice(primeiroPresente, ultimoPresente);
+
+  const numeroDePaginas = Math.ceil(presentesEmbaralhados.length / presentesPorPagina);
+
+  const proximaPagina = () => {
+    if (paginaAtual < numeroDePaginas) {
+      setPaginaAtual(paginaAtual + 1);
+    }
+  };
+
+  const paginaAnterior = () => {
+    if (paginaAtual > 1) {
+      setPaginaAtual(paginaAtual - 1);
+    }
+  };
+
   return (
     <motion.div
       initial="hidden"
@@ -441,7 +463,7 @@ const ListaDePresentes: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-10">Lista de Presentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {presentesEmbaralhados.map((presente) => (
+          {presentesAtuais.map((presente) => (
             <motion.div key={presente.id} variants={itemVariants} className="flex flex-col h-full">
               <div className="bg-white rounded-3xl shadow-md overflow-hidden relative flex flex-col justify-between h-full p-4">
                 <img
@@ -464,6 +486,34 @@ const ListaDePresentes: React.FC = () => {
               </div>
             </motion.div>
           ))}
+        </div>
+        {/* Paginação */}
+        <div className="flex justify-center mt-10">
+          <button
+            onClick={paginaAnterior}
+            disabled={paginaAtual === 1}
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l disabled:opacity-50"
+          >
+            Anterior
+          </button>
+          {Array.from({ length: numeroDePaginas }, (_, i) => (
+            <button
+              key={i + 1}
+              onClick={() => setPaginaAtual(i + 1)}
+              className={`bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 ${
+                paginaAtual === i + 1 ? 'bg-blue-500 text-white' : ''
+              }`}
+            >
+              {i + 1}
+            </button>
+          ))}
+          <button
+            onClick={proximaPagina}
+            disabled={paginaAtual === numeroDePaginas}
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r disabled:opacity-50"
+          >
+            Próxima
+          </button>
         </div>
       </div>
     </motion.div>
