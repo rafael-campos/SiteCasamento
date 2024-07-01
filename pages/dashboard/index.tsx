@@ -115,7 +115,7 @@ export default function Dashboard() {
                     </div>
                     <div className="flex gap-4">
                         <div className="gap-1 flex items-center">
-                            <div className="w-4 h-4 bg-green-500 rounded-full"></div>
+                            <div className="w-4 h-4 bg-blue rounded-full"></div>
                             <p className="text-green-500">Confirmado: {filteredData.filter((valor) => valor.status === 'CONFIRMADO').length}</p>
                         </div>
                         <div className="gap-1 flex items-center">
