@@ -434,7 +434,7 @@ const ListaDePresentes: React.FC = () => {
       imagem: '/images/presentes/purificador.webp',
       nome: 'Purificador',
       descricao: 'Purificador de agua',
-      preco: 'R$ 139,00'
+      preco: 'R$ 145,00'
     }
     
     
