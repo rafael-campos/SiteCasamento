@@ -483,7 +483,7 @@ const ListaDePresentes: React.FC = () => {
                 <img
                   src={presente.imagem}
                   alt={presente.nome}
-                  className="w-full h-56 p-2 object-cover"
+                  className="w-full h-56 p-2 object-contain" 
                 />
                 <div className="p-4 flex-grow">
                   <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
