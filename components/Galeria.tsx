@@ -1,4 +1,3 @@
-// components/Galeria.tsx
 import React from 'react';
 import PhotoAlbum, { Photo } from 'react-photo-album';
 
@@ -70,9 +69,19 @@ const photos: Photo[] = [
 
 const Galeria: React.FC = () => {
   return (
-    <div style={{ padding: '50px' }}>
-      <h2 style={{ textAlign: 'center', marginBottom: '20px', fontFamily: 'Elegant Script, cursive', fontSize: '3rem' }}>Nossa Galeria</h2>
-      <PhotoAlbum layout="masonry" columns={4} photos={photos} />
+    <div className="container mx-auto px-4 py-10"> 
+      <h2 className="text-center text-3xl font-cursive mb-8">Nossa Galeria</h2>
+
+      <PhotoAlbum
+        layout="masonry"
+        photos={photos}
+        columns={(containerWidth) => {
+          if (containerWidth < 640) return 1; // 1 coluna em telas pequenas
+          if (containerWidth < 768) return 2; // 2 colunas em telas médias
+          if (containerWidth < 1024) return 3; // 3 colunas em telas grandes
+          return 4; // 4 colunas em telas extra grandes
+        }}
+      />
     </div>
   );
 };
