@@ -629,6 +629,26 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q1JDCYS2',
         tipo: 'ficticio',
     },
+    {
+        id: '56',
+        imagem: '/images/presentes/ferro.webp',
+        nome: 'Ferro de passar roupa',
+        descricao: 'Ferro de passar roupa',
+        preco: 'R$ 59,90',
+        codigoPix: '00020126770014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250215ferro de passar520400005303986540559.905802BR5922Rafael Henrique Campos6008Brasilia620905059icmv6304DCCA',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q3PS2JW4',
+        tipo: 'real',
+    },
+    {
+        id: '57',
+        imagem: '/images/presentes/passadeira.webp',
+        nome: 'Passadeira de roupa a vapor ',
+        descricao: 'Passadeira de roupa a vapor',
+        preco: 'R$ 145,00',
+        codigoPix: '00020126810014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250219Passadeira a vapor 5204000053039865406145.005802BR5922Rafael Henrique Campos6008Brasilia62090505ib2qe6304989B',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QQ6Z3TL7',
+        tipo: 'real',
+    },
     // ... seus outros presentes ...
 ];
 

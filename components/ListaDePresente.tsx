@@ -414,6 +414,20 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Hotel fazenda',
       descricao: 'Para fugir da rotina e curtir um fim de semana com cheiro de mato e café da manhã de hotel.',
       preco: 'R$ 750,00'
+    },
+    {
+      id: '56',
+      imagem: '/images/presentes/ferro.webp',
+      nome: 'Ferro',
+      descricao: 'Ferro de passar',
+      preco: 'R$ 59,90'
+    },
+      {
+      id: '57',
+      imagem: '/images/presentes/passadeira.webp',
+      nome: 'Passadeira',
+      descricao: 'Passadeira a vapor',
+      preco: 'R$ 145,00'
     }
     
     // Adicione mais presentes conforme necessário
