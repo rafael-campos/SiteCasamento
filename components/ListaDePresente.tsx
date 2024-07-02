@@ -428,7 +428,15 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Passadeira',
       descricao: 'Passadeira a vapor',
       preco: 'R$ 145,00'
+    },
+      {
+      id: '58',
+      imagem: '/images/presentes/purificador.webp',
+      nome: 'Purificador',
+      descricao: 'Purificador de agua',
+      preco: 'R$ 139,00'
     }
+    
     
     // Adicione mais presentes conforme necessário
   ];

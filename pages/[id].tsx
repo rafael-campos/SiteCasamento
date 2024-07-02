@@ -649,6 +649,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QQ6Z3TL7',
         tipo: 'real',
     },
+    {
+        id: '58',
+        imagem: '/images/presentes/purificador.webp',
+        nome: 'Purificador de agua ',
+        descricao: 'Purificador de agua',
+        preco: 'R$ 139,00',
+        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211purificador5204000053039865406139.005802BR5922Rafael Henrique Campos6008Brasilia62090505eepnd6304A60B',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QVPIMZR7',
+        tipo: 'real',
+    },
     // ... seus outros presentes ...
 ];
 
