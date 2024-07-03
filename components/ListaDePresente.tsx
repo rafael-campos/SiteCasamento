@@ -419,24 +419,23 @@ const ListaDePresentes: React.FC = () => {
       id: '56',
       imagem: '/images/presentes/ferro.webp',
       nome: 'Ferro',
-      descricao: 'Ferro de passar',
+      descricao: 'Para passar os dias depois do casamento com muito amor (e sem nenhuma ruga)!',
       preco: 'R$ 59,90'
     },
-      {
+    {
       id: '57',
       imagem: '/images/presentes/passadeira.webp',
       nome: 'Passadeira',
-      descricao: 'Passadeira a vapor',
+      descricao: 'Para desamassar qualquer problema (e deixar a vida a dois impecável)!',
       preco: 'R$ 145,00'
     },
-      {
+    {
       id: '58',
       imagem: '/images/presentes/purificador.webp',
       nome: 'Purificador',
-      descricao: 'Purificador de agua',
+      descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
       preco: 'R$ 145,00'
     }
-    
     
     // Adicione mais presentes conforme necessário
   ];
