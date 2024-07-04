@@ -77,10 +77,12 @@ export default function Dashboard() {
   function onChange(id: string, valor: string) {
     console.log(id, valor);
 
-    api.patch('confirmacao/' + id, { status: valor }).then((resposta) => {
-      setAtualizar(!atualizar);
-      toast.success('Alterado Status com sucesso!');
-    });
+    api
+      .patch('confirmacao/' + id, { status: valor })
+      .then((resposta) => {
+        setAtualizar(!atualizar);
+        toast.success('Alterado Status com sucesso!');
+      });
 
     setConfirmacao((prevConfirmado) =>
       prevConfirmado.map((confirmado) => {
@@ -160,8 +162,12 @@ export default function Dashboard() {
               <tbody>
                 {filteredData.map((confirmacao) => (
                   <tr key={confirmacao.id} className="border-t hover:bg-gray-100 transition duration-200">
-                    <td className="py-2 px-4">{confirmacao.nome}</td>
-                    <td className="py-2 px-4">{confirmacao.telefone}</td>
+                    <td className="py-2 px-4 font-bold">{confirmacao.nome}</td>
+                    <td className="py-2 px-4 font-bold">
+                      <a href={`https://wa.me/55${confirmacao.telefone.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">
+                        {confirmacao.telefone}
+                      </a>
+                    </td>
                     <td className="py-2 px-4">{moment(confirmacao.created_at).format('DD-MM-YYYY HH:mm')}</td>
                     <td className="py-2 px-4">
                       <select
