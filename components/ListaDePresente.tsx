@@ -435,7 +435,36 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Purificador',
       descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
       preco: 'R$ 145,00'
-    }
+    },
+    {
+      id: '59',
+      imagem: '/images/presentes/kitpia.webp',
+      nome: 'Kit Banheiro Crippa Cristal',
+      descricao: 'Kit Banheiro Crippa Cristal',
+      preco: 'R$ 75,00'
+    },
+    {
+      id: '60',
+      imagem: '/images/presentes/kitbanheiro.webp',
+      nome: 'Kit Acessórios Para Banheiro',
+      descricao: 'Kit Acessórios Para Banheiro Cromado 6 Peças Quadrado',
+      preco: 'R$ 80,00'
+    },
+    {
+      id: '61',
+      imagem: '/images/presentes/toalhas.webp',
+      nome: 'Toalhas',
+      descricao: 'Jogo de toalhas',
+      preco: 'R$ 180,00'
+    },
+    {
+      id: '62',
+      imagem: '/images/presentes/cabeceira.webp',
+      nome: 'Mesa de Cabeceira',
+      descricao: 'Mesa de Cabeceira Paris ',
+      preco: 'R$ 170,00'
+    },
+    
     
     // Adicione mais presentes conforme necessário
   ];
