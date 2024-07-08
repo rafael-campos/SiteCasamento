@@ -699,6 +699,18 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QHKZ4B3N',
         tipo: 'real',
     },
+    {
+        id: '10',
+        imagem: '/images/presentes/suporte.webp',
+        nome: 'Estante de parede',
+        descricao: 'Estante de parede',
+        preco: 'R$ 230,00',
+        codigoPix: '00020126890014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250227panela de pressao eletrica 5204000053039865406365.665802BR5922Rafael Henrique Campos6008Brasilia62090505z986763043DC1',
+        linkProduto: 'https://www.casaevideo.com.br/panela-de-pressao-eletrica-5l-mondial-pe38-preto-com-prata-127v/p',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q4JGIOPC',
+        enderecoEntrega: 1,
+        tipo: 'real',
+    },
     // ... seus outros presentes ...
 ];
 

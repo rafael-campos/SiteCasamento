@@ -465,6 +465,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Mesa de Cabeceira Paris ',
       preco: 'R$ 170,00'
     },
+    {
+      id: '63',
+      imagem: '/images/presentes/suporte.webp',
+      nome: 'Estante de parede',
+      descricao: 'Esatante de parede ',
+      preco: 'R$ 230,00'
+    },
     
     
     // Adicione mais presentes conforme necessário
