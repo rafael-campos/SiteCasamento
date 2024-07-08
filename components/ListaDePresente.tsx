@@ -134,8 +134,8 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Jogo de lençol',
       descricao: 'Jogo De Cama Lençol Premium Casal ',
       preco: 'R$ 206,99',
-    },    
-   
+    },
+
     {
       id: '16',
       imagem: '/images/presentes/batedeira.webp',
@@ -479,8 +479,8 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Fim de semana na pousada ',
       preco: 'R$ 400,00'
     },
-    
-    
+
+
     // Adicione mais presentes conforme necessário
   ];
 
@@ -534,7 +534,7 @@ const ListaDePresentes: React.FC = () => {
                 <img
                   src={presente.imagem}
                   alt={presente.nome}
-                  className="w-full h-56 p-2 object-contain" 
+                  className="w-full h-56 p-2 object-contain"
                 />
                 <div className="p-4 flex-grow">
                   <h3 className="text-lg font-semibold mb-2 text-gray-800">{presente.nome}</h3>
@@ -553,33 +553,57 @@ const ListaDePresentes: React.FC = () => {
           ))}
         </div>
         {/* Paginação */}
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center items-center mt-10 space-x-2">
           <button
             onClick={paginaAnterior}
             disabled={paginaAtual === 1}
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l disabled:opacity-50"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-2 rounded-full disabled:opacity-50 flex items-center justify-center"
           >
-            Anterior
-          </button>
-          {Array.from({ length: numeroDePaginas }, (_, i) => (
-            <button
-              key={i + 1}
-              onClick={() => setPaginaAtual(i + 1)}
-              className={`bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 ${
-                paginaAtual === i + 1 ? 'bg-blue-500 text-white' : ''
-              }`}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
             >
-              {i + 1}
-            </button>
-          ))}
+              <path
+                fillRule="evenodd"
+                d="M7.707 3.707a1 1 0 010 1.414L4.414 8H16a1 1 0 110 2H4.414l3.293 3.293a1 1 0 11-1.414 1.414l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </button>
+          <div className="flex flex-wrap justify-center space-x-1">
+            {Array.from({ length: numeroDePaginas }, (_, i) => (
+              <button
+                key={i + 1}
+                onClick={() => setPaginaAtual(i + 1)}
+                className={`bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-1 px-2 rounded-lg ${paginaAtual === i + 1 ? 'bg-blue-500 text-white' : ''
+                  }`}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
           <button
             onClick={proximaPagina}
             disabled={paginaAtual === numeroDePaginas}
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r disabled:opacity-50"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-2 rounded-full disabled:opacity-50 flex items-center justify-center"
           >
-            Próxima
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12.293 16.293a1 1 0 010-1.414L15.586 11H4a1 1 0 110-2h11.586l-3.293-3.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
           </button>
         </div>
+
       </div>
     </motion.div>
   );

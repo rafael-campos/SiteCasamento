@@ -97,31 +97,52 @@ const Padrinhos: React.FC = () => {
               className="bg-[#E2E8F4] p-6 rounded-lg shadow-lg text-center"
             >
               <FaHeart className="text-blue-500 mx-auto text-6xl" />
-              <h3 className="text-xl font-semibold mt-4">
-                {casal.nomePadrinho}
-              </h3>
+              <h3 className="text-xl font-semibold mt-4">{casal.nomePadrinho}</h3>
               <p className="text-md text-gray-600">&</p>
               <h3 className="text-xl font-semibold">{casal.nomeMadrinha}</h3>
             </div>
           ))}
         </div>
 
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center items-center mt-8 space-x-2">
           <button
             onClick={paginaAnterior}
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 p-2 rounded-l disabled:opacity-50 mr-2"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 p-2 rounded-full disabled:opacity-50 flex items-center justify-center"
           >
-            <IoIosArrowBack />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M7.707 3.707a1 1 0 010 1.414L4.414 8H16a1 1 0 110 2H4.414l3.293 3.293a1 1 0 11-1.414 1.414l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
           </button>
           <button
             onClick={proximaPagina}
-            className="bg-gray-300 hover:bg-gray-400 text-gray-800 p-2 rounded-r disabled:opacity-50 ml-2"
+            className="bg-gray-300 hover:bg-gray-400 text-gray-800 p-2 rounded-full disabled:opacity-50 flex items-center justify-center"
           >
-            <IoIosArrowForward />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fillRule="evenodd"
+                d="M12.293 16.293a1 1 0 010-1.414L15.586 11H4a1 1 0 110-2h11.586l-3.293-3.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z"
+                clipRule="evenodd"
+              />
+            </svg>
           </button>
         </div>
       </div>
     </section>
+
   );
 };
 
