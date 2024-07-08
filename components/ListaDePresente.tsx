@@ -472,6 +472,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Esatante de parede ',
       preco: 'R$ 230,00'
     },
+    {
+      id: '64',
+      imagem: '/images/presentes/pousada.webp',
+      nome: 'Fim de semana na pousada',
+      descricao: 'Fim de semana na pousada ',
+      preco: 'R$ 400,00'
+    },
     
     
     // Adicione mais presentes conforme necessário

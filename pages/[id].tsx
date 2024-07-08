@@ -700,7 +700,7 @@ const presentes: Presente[] = [
         tipo: 'real',
     },
     {
-        id: '10',
+        id: '63',
         imagem: '/images/presentes/suporte.webp',
         nome: 'Estante de parede',
         descricao: 'Estante de parede',
@@ -711,6 +711,17 @@ const presentes: Presente[] = [
         enderecoEntrega: 1,
         tipo: 'real',
     },
+    {
+        id: '64',
+        imagem: '/images/presentes/pousada.webp',
+        nome: 'Fim de semana na pousada',
+        descricao: 'Fim de semana na pousada',
+        preco: 'R$ 400,00',
+        codigoPix: '00020126750014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250213kit banheiro 520400005303986540580.005802BR5922Rafael Henrique Campos6008Brasilia62090505u84k263041C9F',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QLKSHS5U',
+        tipo: 'ficticio',
+    },
+    
     // ... seus outros presentes ...
 ];
 
