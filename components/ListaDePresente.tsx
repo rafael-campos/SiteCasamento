@@ -95,10 +95,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '10',
-      imagem: '/images/presentes/pressao.webp',
-      nome: 'Panela de Pressão Elétrica',
-      descricao: 'Para cozinhar o feijão da felicidade em tempo recorde (porque a gente não vê a hora de casar)!',
-      preco: 'R$ 365,66',
+      imagem: '/images/presentes/quadro.webp',
+      nome: 'Quadro decorativo ',
+      descricao: 'Para decorar a casa ',
+      preco: 'R$ 215,00',
     },
     {
       id: '11',
@@ -128,7 +128,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para saborear cada momento juntos (com talheres que combinam com a gente)!',
       preco: 'R$ 284,05',
     },
-    
+    {
+      id: '15',
+      imagem: '/images/presentes/jogocama.webp',
+      nome: 'Jogo de lençol',
+      descricao: 'Jogo De Cama Lençol Premium Casal ',
+      preco: 'R$ 206,99',
+    },    
    
     {
       id: '16',
