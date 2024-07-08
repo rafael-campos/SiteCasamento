@@ -109,10 +109,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '12',
-      imagem: '/images/presentes/kitpanela.webp',
-      nome: 'Jogo de Panelas',
-      descricao: 'Para equipar a nossa cozinha com muito amor (e panelas de qualidade)!',
-      preco: 'R$ 394,20',
+      imagem: '/images/presentes/aparador.webp',
+      nome: 'Aparador Balcão/Buffet',
+      descricao: 'Para equipar a nossa cozinha com muito amor (e um Aparador Balcão/Buffet)!',
+      preco: 'R$ 363,90',
     },
     {
       id: '13',
@@ -128,13 +128,8 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para saborear cada momento juntos (com talheres que combinam com a gente)!',
       preco: 'R$ 284,05',
     },
-    {
-      id: '15',
-      imagem: '/images/presentes/jantar.webp',
-      nome: 'Aparelho de Jantar',
-      descricao: 'Para receber a família e os amigos com elegância (e servir jantares inesquecíveis)!',
-      preco: 'R$ 382,90',
-    },
+    
+   
     {
       id: '16',
       imagem: '/images/presentes/batedeira.webp',
