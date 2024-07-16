@@ -34,18 +34,7 @@ const presentes: Presente[] = [
         enderecoEntrega: 1, // Endereço 1 (Rua Fiscal José Pedro)
         tipo: 'real',
     },
-    {
-        id: '2',
-        imagem: '/images/presentes/aspirador.webp',
-        nome: 'Aspirador de Pó',
-        descricao: 'Presenteie com esse aspirador de pó',
-        preco: 'R$ 142,49',
-        codigoPix: '00020126930014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250231Estou enviado o aspirador dr po5204000053039865406142.495802BR5922Rafael Henrique Campos6008Brasilia62090505m1kef63040A10',
-        linkProduto: 'https://www.pontofrio.com.br/aspirador-de-po-vertical-2-em-1-mondial-turbo-cycle-ap36-1100w-vermelho-15003643/p/15003651?utm_medium=cpc&utm_source=GP_PLA&IdSku=15003651&idLojista=16&tipoLojista=1P&gclsrc=aw.ds&&utm_campaign=gg_pmax_core_elpo&gad_source=1&gclid=CjwKCAjw3NyxBhBmEiwAyofDYS3_j4kyi1CPg6ENCUSRKW4bovK4nlMff1NVOYGGPg_uA6J5w9qkVBoCr5AQAvD_BwE',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q7I5QSFK',
-        enderecoEntrega: 1, // Endereço 2 (Rua Ernesto Braga)
-        tipo: 'real',
-    },
+
     {
         id: '3',
         imagem: '/images/presentes/sanduicheira.webp',
@@ -94,18 +83,7 @@ const presentes: Presente[] = [
         enderecoEntrega: 1,
         tipo: 'real',
     },
-    {
-        id: '7',
-        imagem: '/images/presentes/panela.webp',
-        nome: 'Panela 3em1',
-        descricao: 'Panela',
-        preco: 'R$ 78,99',
-        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211panela 3em1520400005303986540578.995802BR5922Rafael Henrique Campos6008Brasilia62090505pedbc6304DBF7',
-        linkProduto: 'https://www.amazon.com.br/dp/B0BZ1RJNJ2?ref=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&ref_=cm_sw_r_apan_dp_WQJRGKDFE9Y0GDWMKYEG&language=pt-BR&th=1',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QN2EJU44',
-        enderecoEntrega: 1,
-        tipo: 'real',
-    },
+   
     {
         id: '8',
         imagem: '/images/presentes/multiprocessador.webp',
@@ -142,18 +120,7 @@ const presentes: Presente[] = [
         enderecoEntrega: 1,
         tipo: 'real',
     },
-    {
-        id: '11',
-        imagem: '/images/presentes/arroz.webp',
-        nome: 'Panela de arroz',
-        descricao: 'Panela Elétrica de Arroz Mondial PE-43 6 Xícaras - Preta/Inox ',
-        preco: 'R$ 189,90',
-        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216panela de arroz 5204000053039865406189.905802BR5922Rafael Henrique Campos6008Brasilia62090505xuaep63043ED9',
-        linkProduto: 'https://www.pontofrio.com.br/panela-eletrica-de-arroz-mondial-pe-43-6-xicaras-preta-inox/p/55011884',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSFEWYPL',
-        enderecoEntrega: 1,
-        tipo: 'real',
-    },
+  
     {
         id: '12',
         imagem: '/images/presentes/aparador.webp',
