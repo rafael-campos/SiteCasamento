@@ -30,20 +30,8 @@ const ListaDePresentes: React.FC = () => {
 
   // Exemplos de presentes fictícios com preços e IDs
   const presentes: Presente[] = [
-    {
-      id: '1',
-      imagem: '/images/presentes/frigideira.webp',
-      nome: 'Frigideira',
-      descricao: 'Para fritar o amor (e os ovos do café da manhã)!',
-      preco: 'R$ 172,00',
-    },
-    {
-      id: '2',
-      imagem: '/images/presentes/aspirador.webp',
-      nome: 'Aspirador de pó',
-      descricao: 'Para sugar toda a poeira da felicidade (e os pelos do gato)!',
-      preco: 'R$ 142,49',
-    },
+
+
     {
       id: '3',
       imagem: '/images/presentes/sanduicheira.webp',
@@ -72,13 +60,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para guardar as sobras do jantar romântico (ou as lembranças do casamento)!',
       preco: 'R$ 172,00',
     },
-    {
-      id: '7',
-      imagem: '/images/presentes/panela.webp',
-      nome: 'Panela 3em1',
-      descricao: 'Uma panela para todas as receitas do nosso amor (menos para fazer drama, essa a gente já tem)!',
-      preco: 'R$ 78,99',
-    },
+
     {
       id: '8',
       imagem: '/images/presentes/multiprocessador.webp',
@@ -95,18 +77,12 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '10',
-      imagem: '/images/presentes/quadro.webp',
+      imagem: '/images/presentes/quadro.jpg',
       nome: 'Quadro decorativo ',
       descricao: 'Para decorar a casa ',
       preco: 'R$ 215,00',
     },
-    {
-      id: '11',
-      imagem: '/images/presentes/arroz.webp',
-      nome: 'Panela de Arroz',
-      descricao: 'Para fazer o arroz soltinho da vida a dois (sem grudar, como nosso amor)!',
-      preco: 'R$ 189,90',
-    },
+
     {
       id: '12',
       imagem: '/images/presentes/aparador.webp',
@@ -467,7 +443,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '63',
-      imagem: '/images/presentes/suporte.webp',
+      imagem: '/images/presentes/suporte.jpg',
       nome: 'Estante de parede',
       descricao: 'Esatante de parede ',
       preco: 'R$ 230,00'
