@@ -34,6 +34,18 @@ const presentes: Presente[] = [
         enderecoEntrega: 1,
         tipo: 'real',
     },
+    {
+        id: '2',
+        imagem: '/images/presentes/chaleira.webp',
+        nome: 'Chaleira Eletrica',
+        descricao: 'Esquentar agua pro cafe',
+        preco: 'R$ 89,90',
+        codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217chaleira eletrica520400005303986540589.905802BR5922Rafael Henrique Campos6008Brasilia62090505vlqey63041894',
+        linkProduto: 'https://www.amazon.com.br/Brit%C3%A2nia-SANDUICHEIRA-GRILL-PRESS-BGR27I/dp/B09WWY48B7/ref=asc_df_B09WWY48B7/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=5768162328902286780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-1689628867581&psc=1&mcid=6811c2f452653d3781966c110612a833',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QRSI0NHZ',
+        enderecoEntrega: 1,
+        tipo: 'real',
+    },
 
     {
         id: '3',

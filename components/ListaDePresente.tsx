@@ -39,6 +39,13 @@ const ListaDePresentes: React.FC = () => {
       preco: 'R$ 95,50',
     },
     {
+      id: '2',
+      imagem: '/images/presentes/chaleira.webp',
+      nome: 'Chaleira Eletrica',
+      descricao: 'Para colocar plantinhas',
+      preco: 'R$ 89,90',
+    },
+    {
       id: '3',
       imagem: '/images/presentes/sanduicheira.webp',
       nome: 'Misteira',
