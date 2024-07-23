@@ -98,6 +98,14 @@ const ListaDePresentes: React.FC = () => {
     },
 
     {
+      id: '11',
+      imagem: '/images/presentes/compra.webp',
+      nome: 'Primeira compra  ',
+      descricao: 'Primeira compra no mercado do casal ',
+      preco: 'R$ 600,00',
+    },
+
+    {
       id: '12',
       imagem: '/images/presentes/aparador.webp',
       nome: 'Aparador Balcão/Buffet',
