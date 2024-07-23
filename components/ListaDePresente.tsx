@@ -46,13 +46,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para fritar os petiscos da festa (sem óleo e sem culpa)!',
       preco: 'R$ 269,00',
     },
-    {
-      id: '5',
-      imagem: '/images/presentes/copo.webp',
-      nome: 'Copos',
-      descricao: 'Para brindar ao nosso "felizes para sempre"! (e pra tomar água também)',
-      preco: 'R$ 59,90',
-    },
+
     {
       id: '6',
       imagem: '/images/presentes/potes.webp',
@@ -413,13 +407,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
       preco: 'R$ 145,00'
     },
-    {
-      id: '59',
-      imagem: '/images/presentes/kitpia.webp',
-      nome: 'Kit Banheiro Crippa Cristal',
-      descricao: 'Kit Banheiro Crippa Cristal',
-      preco: 'R$ 75,00'
-    },
+
     {
       id: '60',
       imagem: '/images/presentes/kitbanheiro.webp',

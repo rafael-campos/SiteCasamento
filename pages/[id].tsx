@@ -22,18 +22,7 @@ interface Presente {
 
 // Dados fictícios dos presentes (Agora com o link de pagamento)
 const presentes: Presente[] = [
-    {
-        id: '1',
-        imagem: '/images/presentes/frigideira.webp',
-        nome: 'Frigideira antiaderente',
-        descricao: 'Pra ajudar agente a nao agarrar comida',
-        preco: 'R$ 172,00',
-        codigoPix: '00020126720014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250210frigideira5204000053039865406172.005802BR5922Rafael Henrique Campos6008Brasilia620905054qnk4630428A4',
-        linkProduto: 'https://www.magazineluiza.com.br/frigideira-antiaderente-ceramica-cobre-com-tampa-maxchef/p/fdhc2g5406/ud/udfg/?partner_id=64068&utm_source=pdp&utm_medi',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q0HAK59N',
-        enderecoEntrega: 1, // Endereço 1 (Rua Fiscal José Pedro)
-        tipo: 'real',
-    },
+
 
     {
         id: '3',
