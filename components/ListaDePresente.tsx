@@ -31,7 +31,13 @@ const ListaDePresentes: React.FC = () => {
   // Exemplos de presentes fictícios com preços e IDs
   const presentes: Presente[] = [
 
-
+    {
+      id: '1',
+      imagem: '/images/presentes/jardim.webp',
+      nome: 'Jardim Vertical',
+      descricao: 'Para colocar plantinhas',
+      preco: 'R$ 95,50',
+    },
     {
       id: '3',
       imagem: '/images/presentes/sanduicheira.webp',

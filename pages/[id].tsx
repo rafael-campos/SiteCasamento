@@ -22,7 +22,18 @@ interface Presente {
 
 // Dados fictícios dos presentes (Agora com o link de pagamento)
 const presentes: Presente[] = [
-
+    {
+        id: '1',
+        imagem: '/images/presentes/jardim.webp',
+        nome: 'Jardim Vertical',
+        descricao: 'Para colocar plantinhas',
+        preco: 'R$ 95,50',
+        codigoPix: '00020126780014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250216jardim vertical 520400005303986540595.505802BR5922Rafael Henrique Campos6008Brasilia62090505a942063041F87',
+        linkProduto: 'https://www.amazon.com.br/Brit%C3%A2nia-SANDUICHEIRA-GRILL-PRESS-BGR27I/dp/B09WWY48B7/ref=asc_df_B09WWY48B7/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=5768162328902286780&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001585&hvtargid=pla-1689628867581&psc=1&mcid=6811c2f452653d3781966c110612a833',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSL8FG3G',
+        enderecoEntrega: 1,
+        tipo: 'real',
+    },
 
     {
         id: '3',
