@@ -95,6 +95,18 @@ const presentes: Presente[] = [
         enderecoEntrega: 1,
         tipo: 'real',
     },
+    {
+        id: '7',
+        imagem: '/images/presentes/chocolate.webp',
+        nome: 'Chocolate',
+        descricao: 'Chocolate para adocar os noivos',
+        preco: 'R$ 85,00',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209chocolate520400005303986540585.005802BR5922Rafael Henrique Campos6008Brasilia62090505gcq866304D7EC',
+        linkProduto: 'https://www.amazon.com.br/dp/B07QJXQHQ3?ref=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&ref_=cm_sw_r_apan_dp_PZ7BZ7Y28B4ZD37W0TV6&language=pt-BR',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QSBS0AWX',
+        enderecoEntrega: 1,
+        tipo: 'real',
+    },
    
     {
         id: '8',

@@ -67,6 +67,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para guardar as sobras do jantar romântico (ou as lembranças do casamento)!',
       preco: 'R$ 172,00',
     },
+    {
+      id: '7',
+      imagem: '/images/presentes/chocolate.webp',
+      nome: 'Chocolate',
+      descricao: 'Para alegrar os noivos',
+      preco: 'R$ 85,00',
+    },
 
     {
       id: '8',
