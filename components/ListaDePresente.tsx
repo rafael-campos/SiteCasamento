@@ -435,6 +435,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
       preco: 'R$ 145,00'
     },
+    {
+      id: '59',
+      imagem: '/images/presentes/mangueira.webp',
+      nome: 'Mangueira de led',
+      descricao: 'Mangueira de led para decorar ',
+      preco: 'R$ 180,00'
+    },
 
     {
       id: '60',

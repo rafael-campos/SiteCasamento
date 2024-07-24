@@ -665,12 +665,12 @@ const presentes: Presente[] = [
     },
     {
         id: '59',
-        imagem: '/images/presentes/kitpia.webp',
-        nome: 'Kit Banheiro Crippa Cristal',
-        descricao: 'Kit Banheiro Crippa Cristal',
-        preco: 'R$ 75,00',
-        codigoPix: '00020126760014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250214acessorios pia520400005303986540575.005802BR5922Rafael Henrique Campos6008Brasilia62090505igwfy6304B6CA',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QQADHZX2',
+        imagem: '/images/presentes/mangueira.webp',
+        nome: 'Mangueira de led',
+        descricao: 'Mangueira de led para decorar o quarto de pole da noiva',
+        preco: 'R$ 180,00',
+        codigoPix: '00020126750014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250213mangueira led5204000053039865406180.005802BR5922Rafael Henrique Campos6008Brasilia62090505ymkc96304EC1B',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q3BC0EMD',
         tipo: 'real',
     },
     {
