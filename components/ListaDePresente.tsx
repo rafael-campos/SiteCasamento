@@ -478,6 +478,48 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Fim de semana na pousada ',
       preco: 'R$ 400,00'
     },
+    {
+      id: '65',
+      imagem: '/images/presentes/cadeira.webp',
+      nome: 'Cadeira ',
+      descricao: 'Cadeira escritorio',
+      preco: 'R$ 220,00'
+    },
+    {
+      id: '66',
+      imagem: '/images/presentes/mantimentos.webp',
+      nome: 'Potes de mantiemtnos',
+      descricao: 'Potes de mantiemtnos ',
+      preco: 'R$ 116,00'
+    },
+    {
+      id: '67',
+      imagem: '/images/presentes/jarra.webp',
+      nome: 'Jarra de vidro',
+      descricao: 'Jarra de vidro ',
+      preco: 'R$ 96,90'
+    },
+    {
+      id: '68',
+      imagem: '/images/presentes/suco.webp',
+      nome: 'Espremedor de Frutas',
+      descricao: 'Espremedor de Frutas ',
+      preco: 'R$ 77,50'
+    },
+    {
+      id: '69',
+      imagem: '/images/presentes/cochao.webp',
+      nome: 'Colchao para visita',
+      descricao: 'Colchao para visita ',
+      preco: 'R$ 400,00'
+    },
+    {
+      id: '70',
+      imagem: '/images/presentes/base.webp',
+      nome: 'Base da cama',
+      descricao: 'Base da cama ',
+      preco: 'R$ 357,00'
+    },
 
 
     // Adicione mais presentes conforme necessário
