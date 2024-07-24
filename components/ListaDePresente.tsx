@@ -283,10 +283,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '37',
-      imagem: '/images/presentes/armario.webp',
+      imagem: '/images/presentes/cozinha.webp',
       nome: 'Armário de cozinha',
       descricao: 'Porque o amor vem da barriga, mas a louça suja não se guarda sozinha.',
-      preco: 'R$ 694,73'
+      preco: 'R$ 949,99'
     },
     {
       id: '38',
