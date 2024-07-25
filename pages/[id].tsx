@@ -638,9 +638,9 @@ const presentes: Presente[] = [
         imagem: '/images/presentes/ferro.webp',
         nome: 'Ferro de passar roupa',
         descricao: 'Ferro de passar roupa',
-        preco: 'R$ 59,90',
-        codigoPix: '00020126770014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250215ferro de passar520400005303986540559.905802BR5922Rafael Henrique Campos6008Brasilia620905059icmv6304DCCA',
-        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q3PS2JW4',
+        preco: 'R$ 69,90',
+        codigoPix: '00020126770014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250215ferro de passar520400005303986540569.905802BR5922Rafael Henrique Campos6008Brasilia620905058kxjx63041653',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q74HNMJN',
         tipo: 'real',
     },
     {

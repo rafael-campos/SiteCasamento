@@ -419,7 +419,7 @@ const ListaDePresentes: React.FC = () => {
       imagem: '/images/presentes/ferro.webp',
       nome: 'Ferro',
       descricao: 'Para passar os dias depois do casamento com muito amor (e sem nenhuma ruga)!',
-      preco: 'R$ 59,90'
+      preco: 'R$ 69,90'
     },
     {
       id: '57',
