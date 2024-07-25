@@ -157,10 +157,10 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '19',
-      imagem: '/images/presentes/geladeira.webp',
-      nome: 'Geladeira',
+      imagem: '/images/presentes/barro.webp',
+      nome: 'Filtro de barro',
       descricao: 'Para preparar sucos e vitaminas cheios de amor (e saúde)!',
-      preco: 'R$ 2899,00',
+      preco: 'R$ 110,00',
     },
     {
       id: '20',
@@ -519,6 +519,13 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Base da cama',
       descricao: 'Base da cama ',
       preco: 'R$ 357,00'
+    },
+    {
+      id: '71',
+      imagem: '/images/presentes/fruteira.webp',
+      nome: 'Fruteira multiuso',
+      descricao: 'Fruteira multiuso pratileira',
+      preco: 'R$ 380,00'
     },
 
 
