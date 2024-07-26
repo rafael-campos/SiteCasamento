@@ -48,7 +48,7 @@ const Historia: React.FC = () => {
             className="relative rounded-lg overflow-hidden  sm:order-2 flex items-center"
           >
             <Image
-              src="/images/capa.webp"
+              src="/images/foto-4.webp"
               alt="Rafael & Mirelle"
               width={500} // Largura da imagem
               height={300} // Altura da imagem

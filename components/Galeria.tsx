@@ -5,33 +5,33 @@ import PhotoAlbum, { Photo } from 'react-photo-album';
 const photos: Photo[] = [
 
   {
-    src: '/images/foto-01.webp',
+    src: '/images/foto-1.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/capa.webp',
+    src: '/images/foto-7.webp',
     width: 4,
     height: 3,
     alt: 'Descrição da imagem'
   },
 
   {
-    src: '/images/foto-02.webp',
+    src: '/images/foto-2.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
   },
 
   {
-    src: '/images/foto-03.webp',
+    src: '/images/foto-3.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/foto-11.webp',
+    src: '/images/foto-5.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
@@ -39,13 +39,13 @@ const photos: Photo[] = [
 
 
   {
-    src: '/images/foto-06.webp',
+    src: '/images/foto-6.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/foto-08.webp',
+    src: '/images/foto-8.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
@@ -57,7 +57,7 @@ const photos: Photo[] = [
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/foto-04.webp',
+    src: '/images/foto-4.webp',
     width: 4,
     height: 3,
     alt: 'Descrição da imagem'
