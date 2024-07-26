@@ -45,13 +45,13 @@ const photos: Photo[] = [
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/foto-8.webp',
+    src: '/images/foto-01.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
   },
   {
-    src: '/images/foto-07.webp',
+    src: '/images/foto-8.webp',
     width: 3,
     height: 4,
     alt: 'Descrição da imagem'
