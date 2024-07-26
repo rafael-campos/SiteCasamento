@@ -527,6 +527,28 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Fruteira multiuso pratileira',
       preco: 'R$ 380,00'
     },
+    {
+      id: '72',
+      imagem: '/images/presentes/cabeceira.webp',
+      nome: 'Cabeceira',
+      descricao: 'Cabeceira para cama de casal',
+      preco: 'R$ 137,75'
+    },
+    {
+      id: '73',
+      imagem: '/images/presentes/ferramentas.webp',
+      nome: 'Ferramentas',
+      descricao: 'Kit ferramentas basico',
+      preco: 'R$ 88,00'
+    },
+    {
+      id: '74',
+      imagem: '/images/presentes/furadeira.webp',
+      nome: 'Furadeira',
+      descricao: 'Furadeira',
+      preco: 'R$ 162,00'
+    },
+    
 
 
     // Adicione mais presentes conforme necessário

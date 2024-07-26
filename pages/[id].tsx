@@ -796,6 +796,36 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QC76J7SP',
         tipo: 'ficticio',
     },
+    {
+        id: '72',
+        imagem: '/images/presentes/cabeceira.webp',
+        nome: 'Cabeceira',
+        descricao: 'Cabeceira para cama de casal',
+        preco: 'R$ 137,75',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209cabeceira5204000053039865406137.755802BR5922Rafael Henrique Campos6008Brasilia62090505q1dfx63049D51',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q4BMKXLG',
+        tipo: 'ficticio',
+    },
+    {
+        id: '73',
+        imagem: '/images/presentes/ferramenta.webp',
+        nome: 'Ferramenta',
+        descricao: 'Kit ferramenta',
+        preco: 'R$ 88,00',
+        codigoPix: '00020126730014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250211ferramentas520400005303986540588.005802BR5922Rafael Henrique Campos6008Brasilia62090505dgwk963049FC4',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q7EXTAB6',
+        tipo: 'ficticio',
+    },
+    {
+        id: '74',
+        imagem: '/images/presentes/furadeira.webp',
+        nome: 'Furadeira',
+        descricao: 'Furadeira',
+        preco: 'R$ 162,00',
+        codigoPix: '00020126710014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250209furadeira5204000053039865406162.005802BR5922Rafael Henrique Campos6008Brasilia62090505525jk6304D958',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q7G56EZ2',
+        tipo: 'ficticio',
+    },
     
     // ... seus outros presentes ...
 ];
