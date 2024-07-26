@@ -536,7 +536,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '73',
-      imagem: '/images/presentes/ferramentas.webp',
+      imagem: '/images/presentes/ferramenta.webp',
       nome: 'Ferramentas',
       descricao: 'Kit ferramentas basico',
       preco: 'R$ 88,00'
