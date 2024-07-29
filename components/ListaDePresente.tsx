@@ -547,6 +547,34 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para os projetos e reparos mais elaborados.',
       preco: 'R$ 162,00'
     },
+    {
+      id: '75',
+      imagem: '/images/presentes/tabua.webp',
+      nome: 'Tabua giratoria',
+      descricao: 'Tabua giratoria de mesa.',
+      preco: 'R$ 73,00'
+    },
+    {
+      id: '76',
+      imagem: '/images/presentes/extrator.webp',
+      nome: 'Extratpr de suco',
+      descricao: 'Tabua giratoria de mesa.',
+      preco: 'R$ 150,00'
+    },
+    {
+      id: '77',
+      imagem: '/images/presentes/bowl.webp',
+      nome: 'bowl inox',
+      descricao: 'bowl inox.',
+      preco: 'R$ 129,00'
+    },
+    {
+      id: '78',
+      imagem: '/images/presentes/aquecedor.webp',
+      nome: 'Aquecedor de ar',
+      descricao: 'Aquecedor de ar.',
+      preco: 'R$ 98,00'
+    },
     
 
 
