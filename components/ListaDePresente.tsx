@@ -549,7 +549,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '75',
-      imagem: '/images/presentes/tabua.webp',
+      imagem: '/images/presentes/tabua.jpg',
       nome: 'Tabua giratoria',
       descricao: 'Tabua giratoria de mesa.',
       preco: 'R$ 73,00'
