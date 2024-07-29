@@ -439,113 +439,112 @@ const ListaDePresentes: React.FC = () => {
       id: '59',
       imagem: '/images/presentes/mangueira.webp',
       nome: 'Mangueira de led',
-      descricao: 'Mangueira de led para decorar ',
+      descricao: 'Para iluminar os melhores momentos do casal com um toque mágico!',
       preco: 'R$ 180,00'
     },
-
     {
       id: '60',
       imagem: '/images/presentes/kitbanheiro.webp',
       nome: 'Kit Acessórios Para Banheiro',
-      descricao: 'Kit Acessórios Para Banheiro Cromado 6 Peças Quadrado',
+      descricao: 'Organização e estilo para o banheiro do casal.',
       preco: 'R$ 80,00'
     },
     {
       id: '61',
       imagem: '/images/presentes/toalhas.webp',
       nome: 'Toalhas',
-      descricao: 'Jogo de toalhas',
+      descricao: 'Maciez e conforto para o dia a dia do casal.',
       preco: 'R$ 180,00'
     },
     {
       id: '62',
       imagem: '/images/presentes/cabeceira.webp',
       nome: 'Mesa de Cabeceira',
-      descricao: 'Mesa de Cabeceira Paris ',
+      descricao: 'Praticidade e elegância para o quarto.',
       preco: 'R$ 170,00'
     },
     {
       id: '63',
       imagem: '/images/presentes/suporte.jpg',
       nome: 'Estante de parede',
-      descricao: 'Esatante de parede ',
+      descricao: 'Para os livros e objetos decorativos do casal.',
       preco: 'R$ 230,00'
     },
     {
       id: '64',
       imagem: '/images/presentes/pousada.webp',
       nome: 'Fim de semana na pousada',
-      descricao: 'Fim de semana na pousada ',
+      descricao: 'Uma escapada romântica para relaxar e curtir a natureza.',
       preco: 'R$ 400,00'
     },
     {
       id: '65',
       imagem: '/images/presentes/cadeira.webp',
-      nome: 'Cadeira ',
-      descricao: 'Cadeira escritorio',
+      nome: 'Cadeira',
+      descricao: 'Conforto e ergonomia para o home office.',
       preco: 'R$ 220,00'
     },
     {
       id: '66',
       imagem: '/images/presentes/mantimentos.webp',
-      nome: 'Potes de mantiemtnos',
-      descricao: 'Potes de mantiemtnos ',
+      nome: 'Potes de mantimentos',
+      descricao: 'Para manter a cozinha organizada e os alimentos frescos por mais tempo.',
       preco: 'R$ 116,00'
     },
     {
       id: '67',
       imagem: '/images/presentes/jarra.webp',
       nome: 'Jarra de vidro',
-      descricao: 'Jarra de vidro ',
+      descricao: 'Elegância para servir sucos e água fresca.',
       preco: 'R$ 96,90'
     },
     {
       id: '68',
       imagem: '/images/presentes/suco.webp',
       nome: 'Espremedor de Frutas',
-      descricao: 'Espremedor de Frutas ',
+      descricao: 'Sucos naturais e saudáveis a qualquer hora.',
       preco: 'R$ 77,50'
     },
     {
       id: '69',
       imagem: '/images/presentes/cochao.webp',
-      nome: 'Colchao para visita',
-      descricao: 'Colchao para visita ',
+      nome: 'Colchão para visita',
+      descricao: 'Para receber amigos e familiares com conforto.',
       preco: 'R$ 400,00'
     },
     {
       id: '70',
       imagem: '/images/presentes/base.webp',
       nome: 'Base da cama',
-      descricao: 'Base da cama ',
+      descricao: 'Modernidade e sofisticação para o quarto do casal.',
       preco: 'R$ 357,00'
     },
     {
       id: '71',
       imagem: '/images/presentes/fruteira.webp',
       nome: 'Fruteira multiuso',
-      descricao: 'Fruteira multiuso pratileira',
+      descricao: 'Organização e praticidade para a cozinha.',
       preco: 'R$ 380,00'
     },
     {
       id: '72',
       imagem: '/images/presentes/cabeceira.webp',
       nome: 'Cabeceira',
-      descricao: 'Cabeceira para cama de casal',
+      descricao: 'Um toque de charme e elegância para o quarto.',
       preco: 'R$ 137,75'
     },
     {
       id: '73',
       imagem: '/images/presentes/ferramenta.webp',
       nome: 'Ferramentas',
-      descricao: 'Kit ferramentas basico',
+      descricao: 'Para os pequenos reparos do dia a dia.',
       preco: 'R$ 88,00'
     },
     {
       id: '74',
       imagem: '/images/presentes/furadeira.webp',
       nome: 'Furadeira',
-      descricao: 'Furadeira',
+      descricao: 'Para os projetos e reparos mais elaborados.',
       preco: 'R$ 162,00'
     },
     
