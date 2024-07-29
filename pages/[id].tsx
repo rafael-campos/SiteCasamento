@@ -828,7 +828,7 @@ const presentes: Presente[] = [
     },
     {
         id: '75',
-        imagem: '/images/presentes/tabua.webp',
+        imagem: '/images/presentes/tabua.jpg',
         nome: 'Tabua giratoria',
         descricao: 'Tabua giratoria',
         preco: 'R$ 73,00',
