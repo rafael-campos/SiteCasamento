@@ -858,7 +858,7 @@ const presentes: Presente[] = [
     },
     {
         id: '78',
-        imagem: '/images/presentes/aquecedor.webp',
+        imagem: '/images/presentes/aquecedor.jpg',
         nome: 'Aquecedor de ar',
         descricao: 'Aquecedor de ar',
         preco: 'R$ 98,00',
