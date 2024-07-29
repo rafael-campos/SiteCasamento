@@ -848,7 +848,7 @@ const presentes: Presente[] = [
     },
     {
         id: '77',
-        imagem: '/images/presentes/bowl.webp',
+        imagem: '/images/presentes/bowl.jpg',
         nome: 'bowl inox',
         descricao: 'bowl inox',
         preco: 'R$ 129,00',
