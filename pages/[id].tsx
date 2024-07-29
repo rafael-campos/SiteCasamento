@@ -838,8 +838,8 @@ const presentes: Presente[] = [
     },
     {
         id: '76',
-        imagem: '/images/presentes/extrator.webp',
-        nome: 'Extratpr de suco',
+        imagem: '/images/presentes/extrator.jpg',
+        nome: 'Extrator de suco',
         descricao: 'Extratpr de suco',
         preco: 'R$ 150,00',
         codigoPix: '00020126790014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250217extrator de suco 5204000053039865406150.005802BR5922Rafael Henrique Campos6008Brasilia62090505zzcir63040411',

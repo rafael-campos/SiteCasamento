@@ -556,14 +556,14 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '76',
-      imagem: '/images/presentes/extrator.webp',
-      nome: 'Extratpr de suco',
-      descricao: 'Tabua giratoria de mesa.',
+      imagem: '/images/presentes/extrator.jpg',
+      nome: 'Extrator de suco',
+      descricao: 'Extrator de suco',
       preco: 'R$ 150,00'
     },
     {
       id: '77',
-      imagem: '/images/presentes/bowl.webp',
+      imagem: '/images/presentes/bowl.jpg',
       nome: 'bowl inox',
       descricao: 'bowl inox.',
       preco: 'R$ 129,00'
