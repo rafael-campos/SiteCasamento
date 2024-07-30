@@ -109,10 +109,27 @@ export default function Dashboard() {
     setFilteredData(dados);
   }, [searchTerm]);
 
+  const handleSortAlphabetically = () => {
+    const sortedData = [...filteredData].sort((a, b) =>
+      a.nome.localeCompare(b.nome)
+    );
+    setFilteredData(sortedData);
+  };
+
+  const handlePrint = () => {
+    const printContents = filteredData.map((confirmacao, index) => `${index + 1}. ${confirmacao.nome}`).join('\n');
+    const printWindow = window.open('', '', 'height=400,width=800');
+    if (printWindow) {
+      printWindow.document.write('<pre>' + printContents + '</pre>');
+      printWindow.document.close();
+      printWindow.print();
+    }
+  };
+
   return (
     <SideBarPainelAdministrativo>
-      <div className="overflow-y-auto h-[100vh] bg-gray-100">
-        <div className="w-[90%] mx-auto flex justify-between items-center mt-10 ">
+      <div className="overflow-y-auto h-[100vh] bg-gray-100 flex flex-col items-center">
+        <div className="w-[90%] flex justify-between items-center mt-10">
           <p className="text-3xl font-bold">Lista de Confirmação</p>
           <div className="flex justify-center items-center bg-white px-2 border-2 rounded-lg focus-within:border-blue-500">
             <input
@@ -148,55 +165,67 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-6 pb-6">
-          <div className="w-[90%]">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-green-700 text-white">
-                <tr>
-                  <th className="py-4 px-4 text-left">Nome</th>
-                  <th className="py-4 px-4 text-left">Telefone</th>
-                  <th className="py-4 px-4 text-left">Data</th>
-                  <th className="py-4 px-4 text-left">Status</th>
+        <div className="w-[90%] flex justify-end mt-6">
+          <button
+            onClick={handleSortAlphabetically}
+            className="mr-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200"
+          >
+            Ordenar Alfabeticamente
+          </button>
+          <button
+            onClick={handlePrint}
+            className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-200"
+          >
+            Imprimir Lista
+          </button>
+        </div>
+        <div className="w-[90%] flex justify-center mt-6 pb-6">
+          <table className="w-full bg-white rounded-lg shadow-md">
+            <thead className="bg-green-700 text-white">
+              <tr>
+                <th className="py-4 px-4 text-left">Nome</th>
+                <th className="py-4 px-4 text-left">Telefone</th>
+                <th className="py-4 px-4 text-left">Data</th>
+                <th className="py-4 px-4 text-left">Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filteredData.map((confirmacao) => (
+                <tr key={confirmacao.id} className="border-t hover:bg-gray-100 transition duration-200">
+                  <td className="py-2 px-4 font-bold">{confirmacao.nome}</td>
+                  <td className="py-2 px-4 font-bold">
+                    <a href={`https://wa.me/55${confirmacao.telefone.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">
+                      {confirmacao.telefone}
+                    </a>
+                  </td>
+                  <td className="py-2 px-4">{moment(confirmacao.created_at).format('DD-MM-YYYY HH:mm')}</td>
+                  <td className="py-2 px-4">
+                    <select
+                      value={confirmacao.status}
+                      onChange={(e) => onChange(confirmacao.id, e.target.value)}
+                      className={`w-full h-8 rounded-lg px-2 ${
+                        confirmacao.status === 'PENDENTE'
+                          ? 'text-orange-500 bg-orange-100'
+                          : confirmacao.status === 'CONFIRMADO'
+                          ? 'text-green-500 bg-green-100'
+                          : 'text-red-500 bg-red-100'
+                      }`}
+                    >
+                      <option value="PENDENTE" className="text-orange-500 bg-orange-100">
+                        Pendente
+                      </option>
+                      <option value="CONFIRMADO" className="text-green-500 bg-green-100">
+                        Confirmado
+                      </option>
+                      <option value="DESCONHECIDO" className="text-red-500 bg-red-100">
+                        Desconhecido
+                      </option>
+                    </select>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
-                {filteredData.map((confirmacao) => (
-                  <tr key={confirmacao.id} className="border-t hover:bg-gray-100 transition duration-200">
-                    <td className="py-2 px-4 font-bold">{confirmacao.nome}</td>
-                    <td className="py-2 px-4 font-bold">
-                      <a href={`https://wa.me/55${confirmacao.telefone.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">
-                        {confirmacao.telefone}
-                      </a>
-                    </td>
-                    <td className="py-2 px-4">{moment(confirmacao.created_at).format('DD-MM-YYYY HH:mm')}</td>
-                    <td className="py-2 px-4">
-                      <select
-                        value={confirmacao.status}
-                        onChange={(e) => onChange(confirmacao.id, e.target.value)}
-                        className={`w-full h-8 rounded-lg px-2 ${
-                          confirmacao.status === 'PENDENTE'
-                            ? 'text-orange-500 bg-orange-100'
-                            : confirmacao.status === 'CONFIRMADO'
-                            ? 'text-green-500 bg-green-100'
-                            : 'text-red-500 bg-red-100'
-                        }`}
-                      >
-                        <option value="PENDENTE" className="text-orange-500 bg-orange-100">
-                          Pendente
-                        </option>
-                        <option value="CONFIRMADO" className="text-green-500 bg-green-100">
-                          Confirmado
-                        </option>
-                        <option value="DESCONHECIDO" className="text-red-500 bg-red-100">
-                          Desconhecido
-                        </option>
-                      </select>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
     </SideBarPainelAdministrativo>
