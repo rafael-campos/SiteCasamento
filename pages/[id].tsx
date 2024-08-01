@@ -866,6 +866,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/QI849VQW',
         tipo: 'ficticio',
     },
+    {
+        id: '79',
+        imagem: '/images/presentes/passar.jpg',
+        nome: 'Tabua de passar',
+        descricao: 'Tabua de passar',
+        preco: 'R$ 76,00',
+        codigoPix: '00020126770014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250215tabua de passar520400005303986540576.005802BR5922Rafael Henrique Campos6008Brasilia62090505roynr6304631E',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q010ZXGE',
+        tipo: 'ficticio',
+    },
     
     // ... seus outros presentes ...
 ];
