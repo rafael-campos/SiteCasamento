@@ -876,6 +876,16 @@ const presentes: Presente[] = [
         linkPagamentoCartao: 'https://pay.sumup.com/b2c/Q010ZXGE',
         tipo: 'ficticio',
     },
+    {
+        id: '80',
+        imagem: '/images/presentes/tomada.jpg',
+        nome: 'Extensão eletrica',
+        descricao: 'Extensão eletrica',
+        preco: 'R$ 67,00',
+        codigoPix: '00020126700014br.gov.bcb.pix013692fb26d6-62d7-40fc-a775-c6ba8f2ae2250208extensao520400005303986540567.005802BR5922Rafael Henrique Campos6008Brasilia62090505e1ky263047304',
+        linkPagamentoCartao: 'https://pay.sumup.com/b2c/QDG7N32M',
+        tipo: 'ficticio',
+    },
     
     // ... seus outros presentes ...
 ];

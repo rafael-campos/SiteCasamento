@@ -582,6 +582,13 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Tabua de passar',
       preco: 'R$ 76,00'
     },
+    {
+      id: '80',
+      imagem: '/images/presentes/tomada.jpg',
+      nome: 'Extensão eletrica',
+      descricao: 'Extensão eletrica',
+      preco: 'R$ 67,00'
+    },
     
 
 
