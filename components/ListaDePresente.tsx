@@ -428,13 +428,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para desamassar qualquer problema (e deixar a vida a dois impecável)!',
       preco: 'R$ 145,00'
     },
-    {
-      id: '58',
-      imagem: '/images/presentes/purificador.webp',
-      nome: 'Purificador',
-      descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
-      preco: 'R$ 145,00'
-    },
+   
     {
       id: '59',
       imagem: '/images/presentes/mangueira.webp',
