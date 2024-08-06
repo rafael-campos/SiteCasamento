@@ -11,6 +11,8 @@ interface Confirmacao {
   nome: string;
   telefone: string;
   status: string;
+  tipo: string | null;
+  idade: string;
   created_at: Date;
   updated_at: Date;
 }
@@ -23,6 +25,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     api.get('confirmacao').then((resposta) => {
+      console.log(resposta.data);
       setConfirmacao(resposta.data);
       setFilteredData(resposta.data);
     });
@@ -88,6 +91,47 @@ export default function Dashboard() {
       prevConfirmado.map((confirmado) => {
         if (confirmado.id === id) {
           return { ...confirmado, status: valor };
+        } else {
+          return confirmado;
+        }
+      })
+    );
+  }
+
+  function onChangeTipo(id: string, valor: string) {
+    console.log(id, valor);
+
+    api
+      .patch('confirmacao/' + id, { tipo: valor })
+      .then((resposta) => {
+        setAtualizar(!atualizar);
+        toast.success('Alterado Convidado com sucesso!');
+      });
+
+    setConfirmacao((prevConfirmado) =>
+      prevConfirmado.map((confirmado) => {
+        if (confirmado.id === id) {
+          return { ...confirmado, tipo: valor };
+        } else {
+          return confirmado;
+        }
+      })
+    );
+  }
+  function onChangeIdade(id: string, valor: string) {
+    console.log(id, valor);
+
+    api
+      .patch('confirmacao/' + id, { idade: valor })
+      .then((resposta) => {
+        setAtualizar(!atualizar);
+        toast.success('Alterado Idade com sucesso!');
+      });
+
+    setConfirmacao((prevConfirmado) =>
+      prevConfirmado.map((confirmado) => {
+        if (confirmado.id === id) {
+          return { ...confirmado, idade: valor };
         } else {
           return confirmado;
         }
@@ -187,6 +231,8 @@ export default function Dashboard() {
                 <th className="py-4 px-4 text-left">Telefone</th>
                 <th className="py-4 px-4 text-left">Data</th>
                 <th className="py-4 px-4 text-left">Status</th>
+                <th className="py-4 px-4 text-left">Convidado</th>
+                <th className="py-4 px-4 text-left">Idade</th>
               </tr>
             </thead>
             <tbody>
@@ -221,6 +267,54 @@ export default function Dashboard() {
                         Desconhecido
                       </option>
                     </select>
+                    
+                  </td>
+                  <td className="py-2 px-4">
+                    <select
+                      value={confirmacao.tipo  === null || confirmacao.tipo === undefined ? undefined : confirmacao.tipo}
+                      onChange={(e) => onChangeTipo(confirmacao.id, e.target.value)}
+                      className={`w-full h-8 rounded-lg px-2 ${
+                        confirmacao.tipo === null || confirmacao.tipo === 'NENHUM' ? 'text-black bg-white' : confirmacao.tipo ==='NOIVA'
+                          ? 'text-white bg-blue-900'
+                          : 'text-black bg-blue-300'
+                      }`}
+                    >
+                      <option value='NENHUM' className="text-black  bg-white">
+                        Nenhum
+                      </option>
+                      <option value="NOIVO" className="text-black  bg-blue-300">
+                        Noivo
+                      </option>
+                      <option value="NOIVA" className="text-white  bg-blue-900">
+                        Noiva
+                      </option>
+                    
+                    </select>
+                    
+                  </td>
+                  <td className="py-2 px-4">
+                    <select
+                      value={confirmacao.idade}
+                      onChange={(e) => onChangeIdade(confirmacao.id, e.target.value)}
+                      className={`w-full h-8 rounded-lg px-2 ${
+                        confirmacao.idade === 'ADULTO' || confirmacao.idade === null
+                          ? 'text-black bg-gray-300'
+                          : confirmacao.idade === 'BEBE'
+                          ? 'text-white bg-orange-400'
+                          : 'text-black bg-yellow-300'
+                      }`}
+                    >
+                      <option value="ADULTO" className="text-black bg-gray-300">
+                        Adulto
+                      </option>
+                      <option value="BEBE" className="text-white bg-orange-400">
+                        0 a 4 anos
+                      </option>
+                      <option value="CRIANCA" className="text-black bg-yellow-300">
+                        5 a 9 anos
+                      </option>
+                    </select>
+                    
                   </td>
                 </tr>
               ))}
