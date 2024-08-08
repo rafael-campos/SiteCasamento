@@ -91,7 +91,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '10',
-      imagem: '/images/presentes/quadro.jpg',
+      imagem: '/images/presentes/quadro.webp',
       nome: 'Quadro decorativo ',
       descricao: 'Para decorar a casa ',
       preco: 'R$ 215,00',
@@ -459,7 +459,7 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '63',
-      imagem: '/images/presentes/suporte.jpg',
+      imagem: '/images/presentes/suporte.webp',
       nome: 'Estante de parede',
       descricao: 'Para os livros e objetos decorativos do casal.',
       preco: 'R$ 230,00'
@@ -543,42 +543,42 @@ const ListaDePresentes: React.FC = () => {
     },
     {
       id: '75',
-      imagem: '/images/presentes/tabua.jpg',
+      imagem: '/images/presentes/tabua.webp',
       nome: 'Tabua giratoria',
       descricao: 'Tabua giratoria de mesa.',
       preco: 'R$ 73,00'
     },
     {
       id: '76',
-      imagem: '/images/presentes/extrator.jpg',
+      imagem: '/images/presentes/extrator.webp',
       nome: 'Extrator de suco',
       descricao: 'Extrator de suco',
       preco: 'R$ 150,00'
     },
     {
       id: '77',
-      imagem: '/images/presentes/bowl.jpg',
+      imagem: '/images/presentes/bowl.webp',
       nome: 'bowl inox',
       descricao: 'bowl inox.',
       preco: 'R$ 129,00'
     },
     {
       id: '78',
-      imagem: '/images/presentes/aquecedor.jpg',
+      imagem: '/images/presentes/aquecedor.webp',
       nome: 'Aquecedor de ar',
       descricao: 'Aquecedor de ar.',
       preco: 'R$ 98,00'
     },
     {
       id: '79',
-      imagem: '/images/presentes/passar.jpg',
+      imagem: '/images/presentes/passar.webp',
       nome: 'Tabua de passar',
       descricao: 'Tabua de passar',
       preco: 'R$ 76,00'
     },
     {
       id: '80',
-      imagem: '/images/presentes/tomada.jpg',
+      imagem: '/images/presentes/tomada.webp',
       nome: 'Extensão eletrica',
       descricao: 'Extensão eletrica',
       preco: 'R$ 67,00'

@@ -828,7 +828,7 @@ const presentes: Presente[] = [
     },
     {
         id: '75',
-        imagem: '/images/presentes/tabua.jpg',
+        imagem: '/images/presentes/tabua.webp',
         nome: 'Tabua giratoria',
         descricao: 'Tabua giratoria',
         preco: 'R$ 73,00',
@@ -838,7 +838,7 @@ const presentes: Presente[] = [
     },
     {
         id: '76',
-        imagem: '/images/presentes/extrator.jpg',
+        imagem: '/images/presentes/extrator.webp',
         nome: 'Extrator de suco',
         descricao: 'Extratpr de suco',
         preco: 'R$ 150,00',
@@ -848,7 +848,7 @@ const presentes: Presente[] = [
     },
     {
         id: '77',
-        imagem: '/images/presentes/bowl.jpg',
+        imagem: '/images/presentes/bowl.webp',
         nome: 'bowl inox',
         descricao: 'bowl inox',
         preco: 'R$ 129,00',
@@ -858,7 +858,7 @@ const presentes: Presente[] = [
     },
     {
         id: '78',
-        imagem: '/images/presentes/aquecedor.jpg',
+        imagem: '/images/presentes/aquecedor.webp',
         nome: 'Aquecedor de ar',
         descricao: 'Aquecedor de ar',
         preco: 'R$ 98,00',
@@ -868,7 +868,7 @@ const presentes: Presente[] = [
     },
     {
         id: '79',
-        imagem: '/images/presentes/passar.jpg',
+        imagem: '/images/presentes/passar.webp',
         nome: 'Tabua de passar',
         descricao: 'Tabua de passar',
         preco: 'R$ 76,00',
@@ -878,7 +878,7 @@ const presentes: Presente[] = [
     },
     {
         id: '80',
-        imagem: '/images/presentes/tomada.jpg',
+        imagem: '/images/presentes/tomada.webp',
         nome: 'Extensão eletrica',
         descricao: 'Extensão eletrica',
         preco: 'R$ 67,00',
