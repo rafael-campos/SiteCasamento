@@ -32,7 +32,7 @@ const NotificationBanner = () => {
             exit="exit"
             variants={containerVariants}
           >
-            <p className="text-3xl font-bold text-gray-700 mb-4">Aviso Importante</p>
+            <p className="text-3xl font-bold text-red-600 mb-4">Aviso Importante</p>
             <p className="text-xl text-gray-500 mb-4 text-start">
               Infelizmente, todas as vagas para o evento foram esgotadas. Caso você tenha sido convidado mas esqueceu de confirmar a sua presença, por favor entre em contato com os noivos.
             </p>
