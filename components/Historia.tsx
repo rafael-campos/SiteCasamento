@@ -45,15 +45,15 @@ const Historia: React.FC = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative rounded-lg overflow-hidden  sm:order-2 flex items-center"
+            className="relative rounded-lg overflow-hidden sm:order-2"
           >
             <Image
               src="/images/foto-4.webp"
               alt="Rafael & Mirelle"
-              width={500} // Largura da imagem
-              height={300} // Altura da imagem
-              objectFit="cover"
-              className="w-full h-auto"
+              width={500} 
+              height={300}
+              layout="responsive"
+              loading="lazy"
             />
           </motion.div>
         </div>
