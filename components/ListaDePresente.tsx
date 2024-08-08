@@ -428,13 +428,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para desamassar qualquer problema (e deixar a vida a dois impecável)!',
       preco: 'R$ 145,00'
     },
-    {
-      id: '58',
-      imagem: '/images/presentes/purificador.webp',
-      nome: 'Purificador',
-      descricao: 'Para purificar o amor (e a água que a gente bebe)! Porque um brinde à felicidade pede um líquido especial!',
-      preco: 'R$ 145,00'
-    },
+   
     {
       id: '59',
       imagem: '/images/presentes/mangueira.webp',
@@ -574,6 +568,20 @@ const ListaDePresentes: React.FC = () => {
       nome: 'Aquecedor de ar',
       descricao: 'Aquecedor de ar.',
       preco: 'R$ 98,00'
+    },
+    {
+      id: '79',
+      imagem: '/images/presentes/passar.jpg',
+      nome: 'Tabua de passar',
+      descricao: 'Tabua de passar',
+      preco: 'R$ 76,00'
+    },
+    {
+      id: '80',
+      imagem: '/images/presentes/tomada.jpg',
+      nome: 'Extensão eletrica',
+      descricao: 'Extensão eletrica',
+      preco: 'R$ 67,00'
     },
     
 
