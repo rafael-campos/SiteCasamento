@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import { NextSeo } from 'next-seo';
 import { FaWhatsapp } from 'react-icons/fa';
-import { Tooltip } from 'antd'; // Removi FloatButton, pois parece não estar sendo usado
+import { Tooltip } from 'antd'; 
 
 import Navbar from '@/components/Navbar';
 import Banner from '@/components/Banner';
@@ -10,43 +10,43 @@ import Informacoes from '@/components/Informacoes';
 import Rsvp from '@/components/Rsvp';
 import Padrinhos from '@/components/Padrinhos';
 import Footer from '@/components/Footer';
-import ListaDePresentes from '@/components/ListaDePresente';
+
 import Galeria from '@/components/Galeria';
 import Historia from '@/components/Historia';
 import MandarMensagem from '@/components/MandarMensagem';
+import ListaDePresentes from '@/components/ListaDePresente';
 
 export default function Home() {
   return (
     <>
       <Head>
-        {/* Aqui estão as informações adicionais meta para SEO */}
         <meta
           name="keywords"
-          content="Casamento, Rafael e Mirelle, São João del Rei, Minas Gerais, 24 de agosto de 2024, 15h30"
+          content="Casamento, Rafael e Mirelle, São João del Rei, Rio Das Mortes, Minas Gerais, 24 de agosto de 2024, 15h30, Bem-Aventurada Nhá Chica, Igreja Velha, Ruínas de Santo Antônio"
         />
         <meta
           name="description"
-          content="Celebre o amor conosco no casamento de Rafael e Mirelle em São João del Rei, Minas Gerais, no dia 24 de agosto de 2024, às 15h30! Sua presença é muito especial para nós."
-        /> 
+          content="Celebre o amor conosco no casamento de Rafael e Mirelle na Igreja Bem-Aventurada Nhá Chica (Igreja Velha - Ruínas da antiga igreja de Santo Antônio), em Rio Das Mortes, Minas Gerais, no dia 24 de agosto de 2024, às 15h30! Sua presença é muito especial para nós."
+        />
         <meta
           property="og:image"
-          content="/images/foto-4.webp" // Substitua pela URL da sua imagem principal
+          content="/images/foto-casamento.jpg" 
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
       </Head>
       <NextSeo
         title="Casamento Rafael e Mirelle"
-        description="Celebre o amor conosco no nosso casamento em São João del Rei, Minas Gerais! Junte-se a nós, Rafael e Mirelle, neste dia especial."
-        canonical="https://www.seusitedecasamento.com" // Substitua pelo seu domínio
+        description="Celebre o amor conosco no nosso casamento na Igreja Bem-Aventurada Nhá Chica em Rio Das Mortes, Minas Gerais! Junte-se a nós, Rafael e Mirelle, neste dia especial."
+        canonical="https://www.seusitedecasamento.com" 
         openGraph={{
-          url: 'https://www.seusitedecasamento.com', // Substitua pelo seu domínio
+          url: 'https://www.seusitedecasamento.com', 
           title: 'Casamento Rafael e Mirelle',
           description:
-            'Celebre o amor conosco no nosso casamento em São João del Rei, Minas Gerais! Junte-se a nós, Rafael e Mirelle, neste dia especial.',
+            'Celebre o amor conosco no nosso casamento na Igreja Bem-Aventurada Nhá Chica em Rio Das Mortes, Minas Gerais! Junte-se a nós, Rafael e Mirelle, neste dia especial.',
           images: [
             {
-              url: '/images/foto-casamento.jpg', // Substitua pela URL da sua imagem principal
+              url: '/images/foto-casamento.jpg', 
               width: 800,
               height: 600,
               alt: 'Foto do Casamento de Rafael e Mirelle',
@@ -55,8 +55,8 @@ export default function Home() {
           site_name: 'Casamento Rafael e Mirelle',
         }}
         twitter={{
-          handle: '@seutwitter', // Substitua pelo seu Twitter
-          site: '@seutwitter', // Substitua pelo seu Twitter
+          handle: '@seutwitter', 
+          site: '@seutwitter', 
           cardType: 'summary_large_image',
         }}
       />
