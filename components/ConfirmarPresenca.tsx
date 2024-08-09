@@ -66,8 +66,8 @@ export default function ConfirmarPresenca() {
   };
 
   return (
-    <div className="overflow-y-hidden h-[120vh] sm:h-[100vh] mx-[20%]">
-      <p className="md:text-5xl text-4xl text-center sm:mt-20 font-dancing font-bold text-blue-600">
+    <div className="overflow-y-hidden h-[135vh] sm:h-[100vh] mx-[20%]">
+      <p className="md:text-5xl text-4xl text-center mt-20 font-dancing font-bold text-blue-600">
         Confirme sua presença
       </p>
       <p className="text-center text-gray-400 text-2xl mt-2">
