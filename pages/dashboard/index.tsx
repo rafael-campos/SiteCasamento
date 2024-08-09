@@ -118,6 +118,7 @@ export default function Dashboard() {
       })
     );
   }
+
   function onChangeIdade(id: string, valor: string) {
     console.log(id, valor);
 
@@ -162,13 +163,10 @@ export default function Dashboard() {
 
   const handlePrint = () => {
     const confirmados = filteredData.filter(
-      (confirmacao) => confirmacao.status === 'CONFIRMADO' || confirmacao.status === 'RECONFIRMADO'
+      (confirmacao) => confirmacao.status === 'CONFIRMADO'
     ).length;
-    const convidadosNoivo = filteredData.filter(
-      (confirmacao) => confirmacao.tipo === 'NOIVO'
-    ).length;
-    const convidadosNoiva = filteredData.filter(
-      (confirmacao) => confirmacao.tipo === 'NOIVA'
+    const reconfirmados = filteredData.filter(
+      (confirmacao) => confirmacao.status === 'RECONFIRMADO'
     ).length;
     const convidadosBebe = filteredData.filter(
       (confirmacao) => confirmacao.idade === 'BEBE'
@@ -176,20 +174,26 @@ export default function Dashboard() {
     const convidadosCrianca = filteredData.filter(
       (confirmacao) => confirmacao.idade === 'CRIANCA'
     ).length;
-    
+
     const printContents = `
       Total Confirmados: ${confirmados}\n
-      Total Convidados Noivo: ${convidadosNoivo}\n
-      Total Convidados Noiva: ${convidadosNoiva}\n
+      Total Reconfirmados: ${reconfirmados}\n
+      Soma Total: ${confirmados + reconfirmados}\n
       Total Convidados 0 a 4 anos: ${convidadosBebe}\n
       Total Convidados 5 a 9 anos: ${convidadosCrianca}\n\n
       ${filteredData
-        .filter((confirmacao) => confirmacao.status !== 'PENDENTE' && confirmacao.status !== 'DESCONHECIDO')
+        .filter(
+          (confirmacao) => confirmacao.status === 'CONFIRMADO' || confirmacao.status === 'RECONFIRMADO'
+        )
         .map(
-          (confirmacao, index) => `${index + 1}. ${confirmacao.nome}${confirmacao.idade === 'BEBE' ? ' - 0 a 4 anos' : confirmacao.idade === 'CRIANCA' ? ' - 5 a 9 anos' : ''}`
+          (confirmacao, index) =>
+            `${index + 1}. ${confirmacao.status === 'RECONFIRMADO' ? '<b>' : ''}${
+              confirmacao.nome
+            }${confirmacao.status === 'RECONFIRMADO' ? '</b>' : ''}`
         )
         .join('\n')}
     `;
+
     const printWindow = window.open('', '', 'height=400,width=800');
     if (printWindow) {
       printWindow.document.write('<pre>' + printContents + '</pre>');
@@ -238,20 +242,6 @@ export default function Dashboard() {
               </p>
             </div>
             <div className="gap-1 flex items-center">
-              <div className="w-4 h-4 bg-blue-900 rounded-full"></div>
-              <p className="text-blue-900">
-                Convidados Noiva: {' '}
-                {filteredData.filter((valor) => valor.tipo === 'NOIVA').length}
-              </p>
-            </div>
-            <div className="gap-1 flex items-center">
-              <div className="w-4 h-4 bg-blue-300 rounded-full"></div>
-              <p className="text-blue-300">
-                Convidados Noivo:{' '}
-                {filteredData.filter((valor) => valor.tipo === 'NOIVO').length}
-              </p>
-            </div>
-            <div className="gap-1 flex items-center">
               <div className="w-4 h-4 bg-orange-400 rounded-full"></div>
               <p className="text-orange-400">
                 0 a 4 anos: {' '}
@@ -281,14 +271,14 @@ export default function Dashboard() {
           </button>
           <button
             onClick={handlePrint}
-            className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-200"
+            className="bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-700 transition duration-200"
           >
             Imprimir Lista
           </button>
         </div>
         <div className="w-[90%] flex justify-center mt-6 pb-6">
           <table className="w-full bg-white rounded-lg shadow-md">
-            <thead className="bg-green-700 text-white">
+            <thead className="bg-orange-400 text-white">
               <tr>
                 <th className="py-4 px-4 text-left">Nome</th>
                 <th className="py-4 px-4 text-left">Telefone</th>
@@ -301,7 +291,9 @@ export default function Dashboard() {
             <tbody>
               {filteredData.map((confirmacao) => (
                 <tr key={confirmacao.id} className="border-t hover:bg-gray-100 transition duration-200">
-                  <td className="py-2 px-4 font-bold">{highlightSearchTerm(confirmacao.nome, searchTerm)}</td>
+                  <td className={`py-2 px-4 font-bold ${confirmacao.status === 'RECONFIRMADO' ? 'font-bold' : ''}`}>
+                    {highlightSearchTerm(confirmacao.nome, searchTerm)}
+                  </td>
                   <td className="py-2 px-4 font-bold">
                     <a
                       href={`https://wa.me/55${confirmacao.telefone.replace(/\D/g, '')}`}
