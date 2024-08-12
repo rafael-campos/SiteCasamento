@@ -52,13 +52,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para preparar sanduíches dignos de um final feliz!',
       preco: 'R$ 129,00',
     },
-    {
-      id: '4',
-      imagem: '/images/presentes/airflyer.webp',
-      nome: 'Airflyer',
-      descricao: 'Para fritar os petiscos da festa (sem óleo e sem culpa)!',
-      preco: 'R$ 269,00',
-    },
+
 
     {
       id: '6',
