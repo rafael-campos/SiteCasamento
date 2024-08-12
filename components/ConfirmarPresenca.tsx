@@ -66,7 +66,7 @@ export default function ConfirmarPresenca() {
   };
 
   return (
-    <div className="overflow-y-hidden h-[100vh]">
+    <div className="overflow-y-hidden h-[135vh] sm:h-[100vh] mx-[20%]">
       <p className="md:text-5xl text-4xl text-center mt-20 font-dancing font-bold text-blue-600">
         Confirme sua presença
       </p>
@@ -78,7 +78,7 @@ export default function ConfirmarPresenca() {
       </p>
       <div
         onClick={() => setOpen(true)}
-        className="container flex justify-center items-end h-[50vh] md:mt-32 mt-20"
+        className="container flex justify-center items-end h-[50vh] md:mt-32 mt-10"
       >
         <div
           className={`${open === false
