@@ -41,8 +41,8 @@ const Festa: React.FC = () => {
             </h3>
             <p className="text-lg text-gray-800 leading-relaxed">
               Após a cerimônia na encantadora Igreja Nossa Senhora da Conceição
-              - Nhá Chica, convidamos vocês para celebrar conosco em uma festa
-              repleta de alegria, música e boa companhia!
+              - Nhá Chica, venha para celebrar conosco em uma festa
+              repleta de alegria, música , comida ,bebida e boa companhia!
             </p>
             <p className="text-lg text-gray-800 leading-relaxed mt-4">
               O Espaço Colina dos Ventos, em São João del Rei, será palco de
