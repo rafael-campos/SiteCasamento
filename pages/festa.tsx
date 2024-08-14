@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ListaDePresentes from '@/components/ListaDePresente';
+import Reconfirmados from '@/components/Reconfirmado.';
 
 const Festa: React.FC = () => {
   const containerVariants = {
@@ -80,6 +81,7 @@ const Festa: React.FC = () => {
 
         {/* Lista de Presentes */}
         <ListaDePresentes />
+        <Reconfirmados />
       </motion.div>
       <Footer />
     </div>
