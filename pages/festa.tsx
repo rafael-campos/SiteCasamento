@@ -36,7 +36,7 @@ const Festa: React.FC = () => {
           variants={itemVariants}
         >
           {/* Coluna da Esquerda - Descrição */}
-          <div className="bg-white p-8 rounded-lg shadow-lg h-full flex flex-col"> 
+          <div className="bg-white p-8 rounded-lg shadow-lg h-full flex flex-col">
             <h3 className="text-3xl font-semibold text-blue-800 mb-4">
               Um Sonho a Celebrar
             </h3>
@@ -77,6 +77,30 @@ const Festa: React.FC = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </motion.div>
+        </motion.div>
+
+        {/* Videos */}
+        <motion.div
+          className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16"
+          variants={itemVariants}
+        >
+          <div className="e p-4 flex flex-col items-center justify-center">
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 text-center">Caminho da Igreja</h3> 
+            <video 
+              src="/videos/rotac.mp4" 
+              controls
+              autoPlay
+              className="w-full sm:w-1/2 aspect-[9/16] object-cover" 
+            />
+          </div>
+          <div className="p-4 flex flex-col items-center justify-center"> 
+            <h3 className="text-2xl font-semibold text-blue-800 mb-4 text-center">Caminho da Festa</h3> 
+            <video 
+              src="/videos/rotac.mp4" 
+              controls 
+              className="w-full sm:w-1/2 aspect-[9/16] object-cover" 
+            />
+          </div>
         </motion.div>
 
         {/* Lista de Presentes */}
