@@ -32,23 +32,17 @@ export default function Dashboard() {
   }, [atualizar]);
 
   function removeAccentsAndLowercase(str: string): string {
-    if (!str) {
-      return '';
-    }
+    if (!str) return '';
     return diacritics.remove(str.toLowerCase());
   }
 
   function removeAccents(str: string): string {
-    if (!str) {
-      return '';
-    }
+    if (!str) return '';
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   function highlightSearchTerm(text: string, searchTerm: string): React.ReactNode {
-    if (!text || !searchTerm || typeof text !== 'string' || typeof searchTerm !== 'string') {
-      return text;
-    }
+    if (!text || !searchTerm) return text;
 
     const normalizedText = removeAccentsAndLowercase(text);
     const normalizedSearchTerm = removeAccentsAndLowercase(searchTerm);
@@ -155,36 +149,26 @@ export default function Dashboard() {
   }, [searchTerm]);
 
   const handleSortAlphabetically = () => {
-    const sortedData = [...filteredData].sort((a, b) =>
-      a.nome.localeCompare(b.nome)
-    );
+    const sortedData = [...filteredData].sort((a, b) => a.nome.localeCompare(b.nome));
     setFilteredData(sortedData);
   };
 
   const handlePrint = () => {
-    const confirmados = filteredData.filter(
-      (confirmacao) => confirmacao.status === 'CONFIRMADO'
-    ).length;
-    const reconfirmados = filteredData.filter(
-      (confirmacao) => confirmacao.status === 'RECONFIRMADO'
-    ).length;
-    const convidadosBebe = filteredData.filter(
-      (confirmacao) => confirmacao.idade === 'BEBE'
-    ).length;
-    const convidadosCrianca = filteredData.filter(
-      (confirmacao) => confirmacao.idade === 'CRIANCA'
-    ).length;
+    const confirmados = filteredData.filter((confirmacao) => confirmacao.status === 'CONFIRMADO').length;
+    const reconfirmados = filteredData.filter((confirmacao) => confirmacao.status === 'RECONFIRMADO').length;
+    const convidadosBebe = filteredData.filter((confirmacao) => confirmacao.idade === 'BEBE').length;
+    const convidadosCrianca = filteredData.filter((confirmacao) => confirmacao.idade === 'CRIANCA').length;
+
+    const somaTotal = confirmados + reconfirmados + Math.floor(convidadosCrianca / 2);
 
     const printContents = `
-      Total Confirmados: ${confirmados}\n
+      Soma Total: ${somaTotal}\n
       Total Reconfirmados: ${reconfirmados}\n
-      Soma Total: ${confirmados + reconfirmados}\n
-      Total Convidados 0 a 4 anos: ${convidadosBebe}\n
-      Total Convidados 5 a 9 anos: ${convidadosCrianca}\n\n
+      Total Confirmados: ${confirmados}\n
+      Total Convidados 5 a 9 anos: ${convidadosCrianca}\n
+      Total Convidados 0 a 4 anos: ${convidadosBebe}\n\n
       ${filteredData
-        .filter(
-          (confirmacao) => confirmacao.status === 'CONFIRMADO' || confirmacao.status === 'RECONFIRMADO'
-        )
+        .filter((confirmacao) => confirmacao.status === 'CONFIRMADO' || confirmacao.status === 'RECONFIRMADO')
         .map(
           (confirmacao, index) =>
             `${index + 1}. ${confirmacao.status === 'RECONFIRMADO' ? '<b>' : ''}${
@@ -219,8 +203,7 @@ export default function Dashboard() {
             <div className="gap-1 flex items-center">
               <div className="w-4 h-4 bg-green-900 rounded-full"></div>
               <p className="text-green-900">
-                Reconfirmado: {' '}
-                {filteredData.filter((valor) => valor.status === 'RECONFIRMADO').length}
+                Reconfirmado: {filteredData.filter((valor) => valor.status === 'RECONFIRMADO').length}
               </p>
             </div>
             <div className="gap-1 flex items-center">
@@ -244,15 +227,13 @@ export default function Dashboard() {
             <div className="gap-1 flex items-center">
               <div className="w-4 h-4 bg-orange-400 rounded-full"></div>
               <p className="text-orange-400">
-                0 a 4 anos: {' '}
-                {filteredData.filter((valor) => valor.idade === 'BEBE').length}
+                0 a 4 anos: {filteredData.filter((valor) => valor.idade === 'BEBE').length}
               </p>
             </div>
             <div className="gap-1 flex items-center">
               <div className="w-4 h-4 bg-yellow-300 rounded-full"></div>
               <p className="text-yellow-300">
-                5 a 9 anos: {' '}
-                {filteredData.filter((valor) => valor.idade === 'CRIANCA').length}
+                5 a 9 anos: {filteredData.filter((valor) => valor.idade === 'CRIANCA').length}
               </p>
             </div>
             <div>
@@ -291,7 +272,7 @@ export default function Dashboard() {
             <tbody>
               {filteredData.map((confirmacao) => (
                 <tr key={confirmacao.id} className="border-t hover:bg-gray-100 transition duration-200">
-                  <td className={`py-2 px-4 font-bold ${confirmacao.status === 'RECONFIRMADO' ? 'font-bold' : ''}`}>
+                  <td className={`py-2 px-4 ${confirmacao.status === 'RECONFIRMADO' ? 'font-bold' : ''}`}>
                     {highlightSearchTerm(confirmacao.nome, searchTerm)}
                   </td>
                   <td className="py-2 px-4 font-bold">
