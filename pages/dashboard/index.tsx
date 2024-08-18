@@ -153,6 +153,20 @@ export default function Dashboard() {
     setFilteredData(sortedData);
   };
 
+  const handleSortByStatus = () => {
+    const sortedData = [...filteredData].sort((a, b) => a.status.localeCompare(b.status));
+    setFilteredData(sortedData);
+  };
+
+  const handleSortByType = () => {
+    const sortedData = [...filteredData].sort((a, b) => {
+      const tipoA = a.tipo || ''; 
+      const tipoB = b.tipo || ''; 
+      return tipoA.localeCompare(tipoB);
+    });
+    setFilteredData(sortedData);
+  };
+
   const handlePrint = () => {
     const confirmados = filteredData.filter((confirmacao) => confirmacao.status === 'CONFIRMADO').length;
     const reconfirmados = filteredData.filter((confirmacao) => confirmacao.status === 'RECONFIRMADO').length;
@@ -249,6 +263,18 @@ export default function Dashboard() {
             className="mr-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200"
           >
             Ordenar Alfabeticamente
+          </button>
+          <button
+            onClick={handleSortByStatus}
+            className="mr-4 bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition duration-200"
+          >
+            Ordenar por Status
+          </button>
+          <button
+            onClick={handleSortByType}
+            className="mr-4 bg-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition duration-200"
+          >
+            Ordenar por Convidado
           </button>
           <button
             onClick={handlePrint}
