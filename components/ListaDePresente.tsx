@@ -233,13 +233,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para que o "felizes para sempre" não dependa da Previdência Social.',
       preco: 'R$ 1000,00'
     },
-    {
-      id: '31',
-      imagem: '/images/presentes/louca.webp',
-      nome: 'Escorredor de Louça',
-      descricao: 'Porque até a pia merece um spa day.',
-      preco: 'R$ 129,00'
-    },
+
     {
       id: '32',
       imagem: '/images/presentes/ventilador.webp',
@@ -268,13 +262,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para quando a noiva precisar de alguém além do noivo para ouvir suas ordens.',
       preco: 'R$ 300,00'
     },
-    {
-      id: '36',
-      imagem: '/images/presentes/mop.webp',
-      nome: 'Mop Giratório',
-      descricao: 'Para dançar valsa enquanto limpa a casa.',
-      preco: 'R$ 96,00'
-    },
+
     {
       id: '37',
       imagem: '/images/presentes/cozinha.webp',
@@ -408,13 +396,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para fugir da rotina e curtir um fim de semana com cheiro de mato e café da manhã de hotel.',
       preco: 'R$ 750,00'
     },
-    {
-      id: '56',
-      imagem: '/images/presentes/ferro.webp',
-      nome: 'Ferro',
-      descricao: 'Para passar os dias depois do casamento com muito amor (e sem nenhuma ruga)!',
-      preco: 'R$ 69,90'
-    },
+
     {
       id: '57',
       imagem: '/images/presentes/passadeira.webp',
@@ -479,13 +461,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para manter a cozinha organizada e os alimentos frescos por mais tempo.',
       preco: 'R$ 116,00'
     },
-    {
-      id: '67',
-      imagem: '/images/presentes/jarra.webp',
-      nome: 'Jarra de vidro',
-      descricao: 'Elegância para servir sucos e água fresca.',
-      preco: 'R$ 96,90'
-    },
+
     {
       id: '68',
       imagem: '/images/presentes/suco.webp',
