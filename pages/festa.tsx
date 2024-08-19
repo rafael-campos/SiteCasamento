@@ -96,7 +96,7 @@ const Festa: React.FC = () => {
           <div className="p-4 flex flex-col items-center justify-center"> 
             <h3 className="text-2xl font-semibold text-blue-800 mb-4 text-center">Caminho da Festa</h3> 
             <video 
-              src="/videos/rotac.mp4" 
+              src="/videos/rotaf.mp4" 
               controls 
               className="w-full sm:w-1/2 aspect-[9/16] object-cover" 
             />
@@ -105,7 +105,7 @@ const Festa: React.FC = () => {
 
         {/* Lista de Presentes */}
         <ListaDePresentes />
-        <Reconfirmados />
+       
       </motion.div>
       <Footer />
     </div>
