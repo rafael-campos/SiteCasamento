@@ -45,13 +45,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para colocar plantinhas',
       preco: 'R$ 89,90',
     },
-    {
-      id: '3',
-      imagem: '/images/presentes/sanduicheira.webp',
-      nome: 'Misteira',
-      descricao: 'Para preparar sanduíches dignos de um final feliz!',
-      preco: 'R$ 129,00',
-    },
+
 
 
     {
