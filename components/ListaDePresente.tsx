@@ -70,13 +70,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'Para processar a vida a dois com mais praticidade (e menos brigas na cozinha)!',
       preco: 'R$ 145,12',
     },
-    {
-      id: '9',
-      imagem: '/images/presentes/travessa.webp',
-      nome: 'Travessa',
-      descricao: 'Para servir aquele banquete de amor (e impressionar os convidados)!',
-      preco: 'R$ 134,99',
-    },
+ 
     {
       id: '10',
       imagem: '/images/presentes/quadro.webp',
