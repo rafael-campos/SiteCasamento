@@ -520,13 +520,7 @@ const ListaDePresentes: React.FC = () => {
       descricao: 'bowl inox.',
       preco: 'R$ 129,00'
     },
-    {
-      id: '78',
-      imagem: '/images/presentes/aquecedor.webp',
-      nome: 'Aquecedor de ar',
-      descricao: 'Aquecedor de ar.',
-      preco: 'R$ 98,00'
-    },
+
     {
       id: '79',
       imagem: '/images/presentes/passar.webp',
