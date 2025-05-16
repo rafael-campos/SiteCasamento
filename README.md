@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+SiteCasamento
 
-## Getting Started
+Este é um projeto desenvolvido em Next.js, destinado a criar um site para casamentos. O site proporciona uma experiência interativa para os convidados, permitindo que eles visualizem informações sobre o casamento, confirmem presença e deixem depoimentos virtuais.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
+- **Exibição de Informações do Casamento**: Detalhes sobre o evento, como data, local e horário.
+- **Galeria de Fotos**: Visualização de fotos do casal e do evento.
+- **Vídeos**: Inclusão de vídeos relacionados ao casamento.
+- **Lista de Presentes**: Gerenciamento e visualização de presentes que os convidados podem escolher.
+- **Confirmação de Presença**: Os convidados podem confirmar sua presença no evento (atualmente, o backend está desativado).
+- **Depoimentos Virtuais**: Os convidados podem deixar mensagens e depoimentos sobre o casal (atualmente, o backend está desativado).
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework para React que permite a criação de aplicações web.
+- **TypeScript**: Linguagem de programação que adiciona tipagem estática ao JavaScript.
+- **CSS**: Para estilização do site.
+- **Vercel**: Plataforma de hospedagem utilizada para implantar o site.
+
+## Como Executar o Projeto
+
+Para executar o projeto localmente, siga os passos abaixo:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/rafael-campos/SiteCasamento.git
+Navegue até o diretório do projeto:
+
+Copiar
+cd SiteCasamento
+Instale as dependências:
+
+Copiar
+npm install
+Inicie o servidor de desenvolvimento:
+
+Copiar
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse o site em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Licença
+Este projeto não possui uma licença especificada. Sinta-se livre para usar e modificar conforme necessário.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contato
+Para mais informações, entre em contato com Rafael Campos.
