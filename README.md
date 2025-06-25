@@ -46,4 +46,4 @@ Licença
 Este projeto não possui uma licença especificada. Sinta-se livre para usar e modificar conforme necessário.
 
 Contato
-Para mais informações, entre em contato com Rafael Campos. 
+Para mais informações, entre em contato com Rafael Campos
